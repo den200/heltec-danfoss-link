@@ -1,0 +1,100 @@
+{
+  "checks": {
+    "boot_shadow": true,
+    "radio_receives_node_8": true,
+    "target_learned_from_cc": true,
+    "all_control_disabled": true,
+    "no_bridge_replies": true,
+    "queued_status_round_trip": true
+  },
+  "latest_status": {
+    "t": "status",
+    "ms": 30048,
+    "heads": [
+      {
+        "node": 2,
+        "enabled": false,
+        "known": false,
+        "pending": false,
+        "target": 0,
+        "mode": 3,
+        "reports": 0,
+        "dup": 0,
+        "replies": 0,
+        "cc": 0,
+        "reply_acks": 0,
+        "last_seen": 0
+      },
+      {
+        "node": 5,
+        "enabled": false,
+        "known": false,
+        "pending": false,
+        "target": 0,
+        "mode": 3,
+        "reports": 0,
+        "dup": 0,
+        "replies": 0,
+        "cc": 0,
+        "reply_acks": 0,
+        "last_seen": 0
+      },
+      {
+        "node": 6,
+        "enabled": false,
+        "known": false,
+        "pending": false,
+        "target": 0,
+        "mode": 3,
+        "reports": 0,
+        "dup": 0,
+        "replies": 0,
+        "cc": 0,
+        "reply_acks": 0,
+        "last_seen": 0
+      },
+      {
+        "node": 8,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1850,
+        "mode": 1,
+        "reports": 1,
+        "dup": 0,
+        "replies": 0,
+        "cc": 1,
+        "reply_acks": 0,
+        "last_seen": 7449
+      },
+      {
+        "node": 12,
+        "enabled": false,
+        "known": false,
+        "pending": false,
+        "target": 0,
+        "mode": 3,
+        "reports": 0,
+        "dup": 0,
+        "replies": 0,
+        "cc": 0,
+        "reply_acks": 0,
+        "last_seen": 0
+      },
+      {
+        "node": 16,
+        "enabled": false,
+        "known": false,
+        "pending": false,
+        "target": 0,
+        "mode": 3,
+        "reports": 0,
+        "dup": 0,
+        "replies": 0,
+        "cc": 0,
+        "reply_acks": 0,
+        "last_seen": 0
+      }
+    ]
+  }
+}

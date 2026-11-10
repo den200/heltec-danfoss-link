@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "('0x10', 'replies')": 436,
+    "('0x50', 'replies')": 33,
+    "('0x50', 'followed_by_43_within2s')": 32
+  },
+  "exceptions": [
+    {
+      "ts": "2026-10-21T11:12:59.655000+02:00",
+      "node": 13,
+      "hex": "ffd2bb2d0141081b0d910002500a0b0d000000010640b753ff4dc4"
+    }
+  ],
+  "strict_reply_shape": true,
+  "caveat": "Correlation only; protocol bit semantics unproved"
+}

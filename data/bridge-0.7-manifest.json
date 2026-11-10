@@ -1,0 +1,39 @@
+{
+  "firmware": "bridge-0.7",
+  "state": "archived after active spare-only trial; 9/9 matching ACKs, real broker outage passed; physical display/pending-local gate unresolved",
+  "sha256": "5e2cbaf7b03c68afc3216ecbfe88a9a9a8a3094ce1373be7b989f16b3f72588d",
+  "changes": [
+    "Standalone Wi-Fi/ESP MQTT client with bounded queues; initial node 15 only",
+    "HA discovery, availability, accepted/pending target state and command receipts",
+    "Reject retained/duplicate/fragmented/stale commands; no MQTT ownership control",
+    "Newer local buttons cancel pending requests; delayed older MQTT request cannot override local action"
+  ],
+  "checks": [
+    "PlatformIO private build passes",
+    "113-frame protocol regression passes",
+    "ASan/UBSan persistence/local precedence suite passes",
+    "ASan/UBSan MQTT parsing/replay guards pass",
+    "Python authentication suite: 3 tests pass",
+    "Dedicated broker login authenticates",
+    "ESP32 Wi-Fi/MQTT connected; retained discovery and accepted target published",
+    "HA UI shows Danfoss Heltec / Spare node 15, unavailable as required in SHADOW",
+    "Three live SHADOW commands rejected; no pending target or bridge radio TX",
+    "Forced MQTT session reconnection ignored retained 24 C; test retained command cleared",
+    "Synthetic HA birth republished live discovery; no MCU reboot during passive tests",
+    "Active 0.7 trial: 9 replies with matching ACKs, 18 independent MAC checks; no MCU reboot or TX errors",
+    "Radio ACK during actual Mosquitto outage; reconnect retained accepted 17.5 C"
+  ],
+  "hardware_pending": [
+    "CC-off spare remote/local/outage tests with Wi-Fi enabled",
+    "Actual broker/Wi-Fi outage recovery and RF/write timing",
+    "Electrical interruption during an actual NVS write"
+  ],
+  "running_firmware": "bridge-0.8 SHADOW",
+  "rollback": "data/bridge-0.6-verified.bin",
+  "evidence": [
+    "mqtt07-passive-result.json",
+    "mqtt07-shadow-command.json",
+    "mqtt07-reconnect-birth.json",
+    "ha-heltec07-shadow.png"
+  ]
+}

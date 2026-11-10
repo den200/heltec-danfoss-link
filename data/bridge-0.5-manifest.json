@@ -1,0 +1,44 @@
+{
+  "firmware": "bridge-0.5",
+  "state": "normal recovery bench complete; user confirms CC operation normal; bridge SHADOW with all control disabled",
+  "sha256": "0f18701bc5db4ae3ef143fcffd1c1dd027e89df2ec7a49fd4ae30416905061c3",
+  "changes": [
+    "Versioned network-bound CRC32 storage codec",
+    "A/B NVS checkpoints with readback validation and prior-record fallback",
+    "Accepted-target recovery; pending commands/sequences excluded",
+    "Explicit AUTOSTART ON; fresh default SHADOW; durable ownership release",
+    "Coalesced writes outside radio task; RF-write timing needs hardware testing"
+  ],
+  "checks": [
+    "Persistence codec/store fault tests pass with ASan/UBSan",
+    "Existing C++ bridge test passes 113 MAC fixtures",
+    "Python suite passes 3 tests",
+    "PlatformIO heltec_v3 build passes",
+    "Actual flash partition table confirmed; NVS/OTA metadata backed up before first 0.5 write",
+    "Flash digest verified; real NVS write/readback generation 2",
+    "SHADOW durably saved and retained through ESP32 hardware reset",
+    "Node 12 accepted target 1800 restored before a new CC reply; every head remains disabled",
+    "Accepted 17 C target checkpointed at generation 7; AUTOSTART ON durably saved at generation 8",
+    "Queued 18 C command verified pending with zero transmissions; SAVE left generation 8 unchanged",
+    "After ESP32 hardware reset: recovered=true, AUTOSTART ON, only node 15 enabled at 17 C, pending=false",
+    "User-confirmed physical five-second power disconnect restores local 18 C, generation 9, only node 15 enabled; resumed reply ACK received",
+    "Final SHADOW durably saves generation 10; hardware reset confirms AUTOSTART OFF, all heads disabled, no bridge TX",
+    "Short recovery bench has 9/9 matching reply ACKs, zero TX API failures; includes deliberate resets"
+  ],
+  "hardware_pending": [
+    "Interrupted flash save and RF timing stress"
+  ],
+  "flashed_at": "2026-10-21T14:44:48+02:00",
+  "data_backup": {
+    "remote_path": "~/danfoss-captures-tools/bridge-before-0.5-data-20261021.bin",
+    "offset": "0x8000",
+    "length": "0x8000",
+    "sha256": "9b3c8b573f2da34b6179dbf2c9a146f13d426c1f3e962f8c590241e9852154d8",
+    "contents": "actual partition table, NVS and OTA data; private backup"
+  },
+  "cc_restoration": {
+    "user_confirmed_household_normal": true,
+    "authenticated_cc_packets_observed": 40,
+    "evidence": "persistence05-cc-restored.json"
+  }
+}

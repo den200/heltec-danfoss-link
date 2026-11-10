@@ -1,0 +1,16 @@
+{
+  "version": "bridge-0.15.0",
+  "status": "Active controller; USB flash 22 Oct 2026 22:01 (app0), then first OTA 22:13 (same image, now app1), ota_confirmed",
+  "sha256": "96076b73e01c41e7adaf487b30de6244fe52b7784bccb35c5aa5a573620827e4",
+  "nvs_backup_before_flash": "rpi5:~/listening-post/fw/nvs-before-0.15.0-20261022-220128.bin sha256 7a1aecf060e4e6bf36c5b8735a7198e1f6244d937b048a04a6699933bce9dc55",
+  "rollback": "OTA fallback slot app0 holds the same image; rpi5 fw/bridge-0.14.1.bin for USB",
+  "storage_version": 3,
+  "changes": [
+    "ArduinoOTA with password and trial/fallback (5 min to MQTT, 3 boots)",
+    "Radio noise floor and IP address in HA",
+    "OTA password field in private network config"
+  ],
+  "observations": [
+    "Noise floor -109 dBm at install position; node 5 uplink ~-108 dBm (at the floor)"
+  ]
+}

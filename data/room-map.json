@@ -1,0 +1,59 @@
+{
+  "source": "User Danfoss app screenshot09:00,22 October2026; authenticated radio samples09:01\u201309:02",
+  "rooms": {
+    "2": {
+      "room": "Living room",
+      "basis": "matched",
+      "app_temperature_c": 19.2,
+      "app_setpoint_c": 16,
+      "radio_temperature_c": 19.37
+    },
+    "6": {
+      "room": "Living room",
+      "basis": "matched",
+      "app_temperature_c": 19.2,
+      "app_setpoint_c": 16,
+      "radio_temperature_c": 19.07
+    },
+    "5": {
+      "room": "Small bedroom",
+      "basis": "inferred by exclusion; no radio room sample",
+      "app_temperature_c": 16.7,
+      "app_setpoint_c": 16,
+      "radio_temperature_c": null,
+      "user_observation": "22 October ~09:15: physical Small bedroom head16C, low-battery and connection/bell alarms; wake not yet captured, so node identity still inferred."
+    },
+    "8": {
+      "room": "Bedroom 3",
+      "basis": "matched temperature and18.5C target",
+      "app_temperature_c": 16.8,
+      "app_setpoint_c": 18.5,
+      "radio_temperature_c": 16.75
+    },
+    "12": {
+      "room": "Master bedroom",
+      "basis": "matched18.0C temperature/target",
+      "app_temperature_c": 18,
+      "app_setpoint_c": 18,
+      "radio_temperature_c": 18.01
+    },
+    "13": {
+      "room": "Guest room",
+      "basis": "matched17.0C temperature/16C target",
+      "app_temperature_c": 17,
+      "app_setpoint_c": 16,
+      "radio_temperature_c": 16.98
+    },
+    "16": {
+      "room": "A",
+      "basis": "confirmed by bidirectional spare tests",
+      "app_temperature_c": 22.7,
+      "app_setpoint_c": 17,
+      "radio_temperature_c": 21.45
+    }
+  },
+  "office": "No active device shown; do not invent a mapping",
+  "living_room_mean_c": 19.22,
+  "node5_limitation": "Rare weak22-byte polls, no temperature sample; room identity inferred",
+  "a_temperature_note": "Identity confirmed by prior controls, not by this temperature: app22.7 differs from the09:02 radio21.45; cause not established."
+}

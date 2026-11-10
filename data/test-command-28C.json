@@ -1,0 +1,14 @@
+{
+  "home_id": "ffd2bb2d",
+  "source": 1,
+  "destination": 16,
+  "setpoint_c": 28,
+  "radio_sequence": 5,
+  "application_sequence_byte": 15,
+  "frame": "ffd2bb2d0141051b10910002100a0f0d000000000af02cbd511da6",
+  "status": "transmitted once; independent receiver decoded identical frame; head acceptance not yet established",
+  "basis": "Last captured node-16 short command; sequence advanced by one. Acceptance not established.",
+  "transmission_epoch": 1792533664.9664292,
+  "radio_status": 0,
+  "result": "No captured head ACK; user reports head remains at 19 C. Control not achieved."
+}

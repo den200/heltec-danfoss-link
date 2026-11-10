@@ -1,0 +1,283 @@
+{
+  "status": "Authenticated observations only; word semantics unresolved",
+  "word_offsets": [
+    20,
+    22,
+    24,
+    26,
+    28,
+    30
+  ],
+  "variants": [
+    {
+      "node": 15,
+      "op": 80,
+      "mode_raw": 2,
+      "words_c100_or_raw": [
+        2100,
+        1700,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/auth-validation-raw.jsonl",
+      "row": 481,
+      "timestamp": 1792531704.096681,
+      "hex": "ffd2bb2d01410d250f91000250140c0d00000002083406a402580af000000af0b59e405f07"
+    },
+    {
+      "node": 15,
+      "op": 16,
+      "mode_raw": 1,
+      "words_c100_or_raw": [
+        1700,
+        1700,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/auth-validation-raw.jsonl",
+      "row": 626,
+      "timestamp": 1792532775.0368633,
+      "hex": "ffd2bb2d014103250f91000210140a0d0000000106a406a402580af000000af09eb4957920"
+    },
+    {
+      "node": 16,
+      "op": 80,
+      "mode_raw": 0,
+      "words_c100_or_raw": [
+        2100,
+        1700,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/auth-validation-raw.jsonl",
+      "row": 711,
+      "timestamp": 1792532907.7290738,
+      "hex": "ffd2bb2d01410d251091000250140b0d00000000083406a402580af000000af0ebed6aa2e7"
+    },
+    {
+      "node": 16,
+      "op": 16,
+      "mode_raw": 0,
+      "words_c100_or_raw": [
+        1700,
+        1700,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/auth-validation-raw.jsonl",
+      "row": 738,
+      "timestamp": 1792532992.7252643,
+      "hex": "ffd2bb2d014102251091000210140c0d0000000006a406a402580af000000af0e07c994fb5"
+    },
+    {
+      "node": 16,
+      "op": 16,
+      "mode_raw": 2,
+      "words_c100_or_raw": [
+        1900,
+        1900,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/db-export-20261021-0100.jsonl",
+      "row": 953,
+      "timestamp": 1792533616.3475657,
+      "hex": "ffd2bb2d01410f251091000210140f0d00000002076c076c02580af000000af00fe5cf75a3"
+    },
+    {
+      "node": 16,
+      "op": 16,
+      "mode_raw": 3,
+      "words_c100_or_raw": [
+        2800,
+        2800,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/db-export-20261021-0100.jsonl",
+      "row": 1402,
+      "timestamp": 1792534753.2310512,
+      "hex": "ffd2bb2d01410a251091000210140b0d000000030af00af002580af000000af06062887f06"
+    },
+    {
+      "node": 6,
+      "op": 16,
+      "mode_raw": 1,
+      "words_c100_or_raw": [
+        2100,
+        1600,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/lock-investigation-raw.jsonl",
+      "row": 55,
+      "timestamp": "2026-10-21T10:12:41.695",
+      "hex": "ffd2bb2d01410a250691000210140a0d000000010834064002580af000000af03907f7bce9"
+    },
+    {
+      "node": 2,
+      "op": 16,
+      "mode_raw": 1,
+      "words_c100_or_raw": [
+        2100,
+        1600,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/lock-investigation-raw.jsonl",
+      "row": 156,
+      "timestamp": "2026-10-21T10:59:39.436",
+      "hex": "ffd2bb2d014109250291000210140c0d000000010834064002580af000000af0805ae72585"
+    },
+    {
+      "node": 2,
+      "op": 16,
+      "mode_raw": 2,
+      "words_c100_or_raw": [
+        2100,
+        1700,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/lock-investigation-raw.jsonl",
+      "row": 176,
+      "timestamp": "2026-10-21T11:03:03.768",
+      "hex": "ffd2bb2d014101250291000210140a0d00000002083406a402580af000000af01323b97984"
+    },
+    {
+      "node": 6,
+      "op": 16,
+      "mode_raw": 2,
+      "words_c100_or_raw": [
+        2100,
+        1700,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/lock-investigation-raw.jsonl",
+      "row": 191,
+      "timestamp": "2026-10-21T11:07:40.128",
+      "hex": "ffd2bb2d014109250691000210140a0d00000002083406a402580af000000af01323b97988"
+    },
+    {
+      "node": 13,
+      "op": 80,
+      "mode_raw": 1,
+      "words_c100_or_raw": [
+        1600,
+        1600,
+        600,
+        2800,
+        0,
+        2800
+      ],
+      "bridge_tx": false,
+      "source": "data/lock-investigation-raw.jsonl",
+      "row": 212,
+      "timestamp": "2026-10-21T11:12:02.254",
+      "hex": "ffd2bb2d014105250d91000250140a0d000000010640064002580af000000af0933a39794b"
+    },
+    {
+      "node": 15,
+      "op": 16,
+      "mode_raw": 3,
+      "words_c100_or_raw": [
+        1700,
+        1700,
+        600,
+        1700,
+        0,
+        1700
+      ],
+      "bridge_tx": true,
+      "source": "data/lock-investigation-raw.jsonl",
+      "row": 314,
+      "timestamp": "2026-10-21T11:31:19.697+02:00",
+      "hex": "ffd2bb2d014100250f9100021014080d0000000306a406a4025806a4000006a48c983de32f"
+    },
+    {
+      "node": 15,
+      "op": 16,
+      "mode_raw": 3,
+      "words_c100_or_raw": [
+        1800,
+        1800,
+        600,
+        1800,
+        0,
+        1800
+      ],
+      "bridge_tx": true,
+      "source": "data/lock-investigation-raw.jsonl",
+      "row": 377,
+      "timestamp": "2026-10-21T11:37:01.963+02:00",
+      "hex": "ffd2bb2d014101250f91000210140f0d00000003070807080258070800000708f7cf19c80a"
+    },
+    {
+      "node": 15,
+      "op": 16,
+      "mode_raw": 3,
+      "words_c100_or_raw": [
+        1750,
+        1750,
+        600,
+        1750,
+        0,
+        1750
+      ],
+      "bridge_tx": true,
+      "source": "data/lock-investigation-raw.jsonl",
+      "row": 2626,
+      "timestamp": "2026-10-21T17:23:47.144+02:00",
+      "hex": "ffd2bb2d014100250f91000210140a0d0000000306d606d6025806d6000006d663c637ff8a"
+    },
+    {
+      "node": 15,
+      "op": 16,
+      "mode_raw": 3,
+      "words_c100_or_raw": [
+        1600,
+        1600,
+        600,
+        1600,
+        0,
+        1600
+      ],
+      "bridge_tx": true,
+      "source": "data/lock-investigation-raw.jsonl",
+      "row": 2803,
+      "timestamp": "2026-10-21T17:39:17.216+02:00",
+      "hex": "ffd2bb2d014108250f91000210140a0d00000003064006400258064000000640c751c3b208"
+    }
+  ]
+}

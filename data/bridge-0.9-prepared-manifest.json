@@ -1,0 +1,24 @@
+{
+  "version": "bridge-0.9",
+  "status": "built, host tested, NOT flashed; runtime0.8 SHADOW",
+  "binary": "data/bridge-0.9-prepared.bin",
+  "sha256": "6f1ef4bcecb80c105193078cb796bbfa3a4aa9256d25196aefbd7bd9ea9cee8e",
+  "source_sha256": {
+    "firmware-bridge/src/main.cpp": "9c0ac40c44d152cacacab4a595148fcf9227daa1fdf57c0af4c14898fec26de7",
+    "firmware-bridge/src/danfoss_protocol.h": "ecde00897d26a23d28ca8bf43f5f7e270e1d211d43f5ed4096c8222be4ddc4f3",
+    "firmware-bridge/src/registry.h": "a4de7ddf16821294e9d4a57d569466d1e469e47742faad15bbd4eb0efc113776",
+    "firmware-bridge/src/network.h": "ddc2e6a7e4351144c8f5fd76d3d6dc51f6529cf253ce8e8b4e9b43a12dcb6151"
+  },
+  "tests": [
+    "ASan/UBSan protocol:113 captured MAC fixtures, genuine CC extended reproduction, configuration preservation, missing-template/range refusal",
+    "ASan/UBSan persistence recovery/torn write/pending exclusion",
+    "ASan/UBSan MQTT parsing/local precedence",
+    "PlatformIO heltec_v3 build passed"
+  ],
+  "limits": [
+    "Radio application of primary-target-only extended reply untested",
+    "Opaque CC configuration learned per head in RAM this boot; new serial/MQTT targets refused until learned; configuration not yet persisted",
+    "MQTT bench routing remains15; must retarget separately for usable spare16",
+    "No live node enabled; no flash performed"
+  ]
+}

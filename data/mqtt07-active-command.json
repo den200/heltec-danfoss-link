@@ -1,0 +1,113 @@
+[
+  {
+    "time": "2026-10-21T17:22:55.905565+02:00",
+    "topic": "danfoss/ffd2bb2d/head/15/set",
+    "retained": false,
+    "payload": 17.5
+  },
+  {
+    "time": "2026-10-21T17:22:55.918118+02:00",
+    "topic": "danfoss/ffd2bb2d/availability",
+    "retained": true,
+    "payload": "online"
+  },
+  {
+    "time": "2026-10-21T17:22:55.918265+02:00",
+    "topic": "danfoss/ffd2bb2d/head/15/state",
+    "retained": true,
+    "payload": {
+      "accepted_target": 18.0,
+      "requested_target": 18.0,
+      "pending": false,
+      "pending_age_s": null,
+      "last_seen_age_s": 235,
+      "control_enabled": false,
+      "reply_acks": 0,
+      "hvac_mode": "heat"
+    }
+  },
+  {
+    "time": "2026-10-21T17:22:55.918320+02:00",
+    "topic": "danfoss/ffd2bb2d/head/15/availability",
+    "retained": true,
+    "payload": "offline"
+  },
+  {
+    "time": "2026-10-21T17:22:55.918401+02:00",
+    "topic": "homeassistant/climate/danfoss_ffd2bb2d/15/config",
+    "retained": true,
+    "payload": {
+      "name": "Spare node 15",
+      "unique_id": "danfoss_ffd2bb2d_15",
+      "device": {
+        "identifiers": [
+          "danfoss_ffd2bb2d"
+        ],
+        "name": "Danfoss Heltec",
+        "model": "Heltec V3"
+      },
+      "availability": [
+        {
+          "topic": "danfoss/ffd2bb2d/availability"
+        },
+        {
+          "topic": "danfoss/ffd2bb2d/head/15/availability"
+        }
+      ],
+      "availability_mode": "all",
+      "modes": [
+        "heat"
+      ],
+      "mode_state_topic": "danfoss/ffd2bb2d/head/15/state",
+      "mode_state_template": "{{ value_json.hvac_mode }}",
+      "temperature_command_topic": "danfoss/ffd2bb2d/head/15/set",
+      "temperature_state_topic": "danfoss/ffd2bb2d/head/15/state",
+      "temperature_state_template": "{{ value_json.accepted_target }}",
+      "json_attributes_topic": "danfoss/ffd2bb2d/head/15/state",
+      "min_temp": 4,
+      "max_temp": 28,
+      "temp_step": 0.5,
+      "precision": 0.5,
+      "temperature_unit": "C",
+      "qos": 0,
+      "retain": false
+    }
+  },
+  {
+    "time": "2026-10-21T17:22:57.106543+02:00",
+    "topic": "danfoss/ffd2bb2d/head/15/command_result",
+    "retained": false,
+    "payload": {
+      "id": 4,
+      "target": 1750,
+      "result": "queued"
+    }
+  },
+  {
+    "time": "2026-10-21T17:22:58.029531+02:00",
+    "topic": "danfoss/ffd2bb2d/head/15/availability",
+    "retained": false,
+    "payload": "online"
+  },
+  {
+    "time": "2026-10-21T17:22:59.014587+02:00",
+    "topic": "danfoss/ffd2bb2d/head/15/state",
+    "retained": false,
+    "payload": {
+      "accepted_target": 18.0,
+      "requested_target": 17.5,
+      "pending": true,
+      "pending_age_s": 1,
+      "last_seen_age_s": 240,
+      "control_enabled": true,
+      "reply_acks": 0,
+      "hvac_mode": "heat"
+    }
+  },
+  {
+    "time": "2026-10-21T17:23:00.014516+02:00",
+    "topic": "danfoss/ffd2bb2d/availability",
+    "retained": false,
+    "payload": "online"
+  }
+]

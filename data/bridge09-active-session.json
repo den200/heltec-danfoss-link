@@ -1,0 +1,10 @@
+{
+  "node": 16,
+  "start": "2026-10-21T19:54:49.409876+02:00",
+  "firmware": "bridge-0.9",
+  "cc_off_confirmed_by_user": true,
+  "purpose": "Bounded primary-target/config preservation and local-limit check",
+  "maximum_control_minutes": 12,
+  "end": "2026-10-21T19:58:56.243+02:00",
+  "end_reason": "0.9 received but display unchanged; temporary SHADOW for targeted 0.10 fix"
+}

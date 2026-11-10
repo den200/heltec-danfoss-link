@@ -1,0 +1,143 @@
+{
+  "boot": [
+    "2026-10-21T15:22:07.972+02:00",
+    {
+      "t": "boot",
+      "fw": "bridge-0.5",
+      "radio": true,
+      "freq": 868.4,
+      "shadow": true,
+      "recovered": true,
+      "autostart": false
+    }
+  ],
+  "status": [
+    "2026-10-21T15:22:12.295+02:00",
+    {
+      "t": "status",
+      "ms": 4461,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1850,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 15,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 10,
+        "autostart": false,
+        "dirty": false
+      }
+    }
+  ],
+  "durable_shadow_reboot_passed": true,
+  "no_bridge_transmissions_after_passive_boot": true
+}

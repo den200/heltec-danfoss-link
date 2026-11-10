@@ -1,0 +1,41 @@
+{
+  "version": "bridge-0.14.0",
+  "status": "Active controller, CC OFF; flashed 22 Oct 2026 17:41 via Pi, recovered V3 state (generation 76, autostart) and resumed control",
+  "sha256": "7dd03f818f487a9b80be24cdf76f0de1b10b186bc125052394c05b4edd5718ae",
+  "binary": "rpi5:~/listening-post/fw/bridge-0.14.0.bin (private, embeds key and credentials)",
+  "nvs_backup_before_flash": "rpi5:~/listening-post/fw/nvs-before-0.14.0-20261022-174108.bin sha256 ca48311c2c15b5a586ab33ce9ac776aa3ea40de2d86d9f80d5e0be8871b3443e",
+  "rollback": "rpi5:~/listening-post/fw/bridge-0.13.1.bin sha256 c599f0289617ccbcedeacb2333522806bd195e1fe7208de2216b8c8943b54e53 (same storage V3; app-only write at 0x10000)",
+  "storage_version": 3,
+  "flash_method": "esptool write_flash 0x10000 (application only) under the exclusive maintenance procedure",
+  "changes": [
+    "0.13.2: learnFromCc rejects out-of-range setpoints; registry rejects non-addressable nodes; battery band; HA entity names without device-name repetition; discovery for heads first heard after resync",
+    "No ticking age fields in state JSON; ISO UTC timestamps from one NTP base; recorder writes one row per head report instead of per 15 s",
+    "Per-head diagnostics: last report, signal strength, setpoint updates left",
+    "Bridge device entities: started, reset reason, WiFi signal, lowest free memory, checkpoint generation/failures, dropped events, autostart, last error, last event, restart button",
+    "Event lines mirrored to danfoss/ffd2bb2d/bridge/event; radio frames to danfoss/ffd2bb2d/debug/frame (noise dropped, op-80 hex withheld)",
+    "Only climate entities carry JSON attributes"
+  ],
+  "tests": [
+    "Five host suites with ASan/UBSan",
+    "Telemetry: stable republish, timestamps, all 60 discovery payloads parsed as JSON",
+    "PlatformIO build",
+    "On hardware: boot event bridge-0.14.0 recovered:true shadow:false, entities live in HA, climate history rows 182/42 min -> 1 per report"
+  ],
+  "open_gates": [
+    "Node5 coverage and inferred Small bedroom identity",
+    "ID255 overflow still fail-closed; wrap semantics unaccepted",
+    "V3 physical power-cut/interrupted-save behavior",
+    "Bridge WiFi RSSI -83 dBm at install position"
+  ],
+  "source_sha256": {
+    "firmware-bridge/src/danfoss_protocol.h": "0407a5c74aa57f206d6cd1f3ff2d746af5f470b72d3fbdfe1dd3c21e0ade26d3",
+    "firmware-bridge/src/main.cpp": "deed88e29c62aafb1c503347dcb85390f71af6abc85aff598d1e77d1a074482e",
+    "firmware-bridge/src/mqtt_entities.h": "3345ef0c2dff316d872c969a7f7d0457a08832ede41c8ff9690d5b3d6cfbf5a5",
+    "firmware-bridge/src/mqtt_protocol.h": "b9a67b598e9fcd6f144137b10b89cddcdc8f1d489c830fab5a2728fc649ae3e9",
+    "firmware-bridge/src/network.h": "8da0cb4bda7b555ebc5e1465b76b2e57bcabcfb0f97188467dc5cece282f2274",
+    "firmware-bridge/src/nvs_bench.cpp": "d0fcf473bc714947ee298605d517db77dc58931daf7f89f015e26d0268c0ada8",
+    "firmware-bridge/src/nvs_store.h": "ad0299f7da6067fbd8f5cb8b1911579d90b10fccbb8984ae56c7c031eef7f808",
+    "firmware-bridge/src/persistent_state.h": "3eceb2cd19b75fc689eea662a8e34cf063ea839f9e9564b89513ae7015a11d8c",
+    "firmware-bridge/src/registry.h": "9e992269900ba54060b3b6053911279e39465f6e1a6d560e10e0c3c87d5f4343"
+  }
+}

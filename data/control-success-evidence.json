@@ -1,0 +1,13 @@
+{
+  "response_records": [
+    {
+      "rowid": 238371,
+      "ts": 1792534753.2310512,
+      "line": "{\"t\":\"danfoss_response\",\"ack_status\":0,\"response_status\":0,\"processing_us\":933,\"hex\":\"ffd2bb2d01410a251091000210140b0d000000030af00af002580af000000af06062887f06\"}"
+    }
+  ],
+  "user_observation": "After waking head, icons stopped flashing and display showed 28 C without user changing 21 to 22. Later icons flashed again; 28 C persisted. User then changed to 27 C.",
+  "conclusion": "One successful authenticated local setpoint command; persistent controller not implemented.",
+  "independent_head_ack": "not recovered in inspected decode",
+  "response_tag_verified": true
+}

@@ -1,0 +1,1334 @@
+{
+  "authenticated": true,
+  "events": [
+    {
+      "time": "2026-10-22T09:22:50.753355+02:00",
+      "topic": "danfoss/ffd2bb2d/availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753410+02:00",
+      "topic": "danfoss/ffd2bb2d/head/15/state",
+      "retained": true,
+      "payload": {
+        "accepted_target": 23.0,
+        "requested_target": 23.0,
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 956,
+        "control_enabled": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753431+02:00",
+      "topic": "danfoss/ffd2bb2d/head/15/availability",
+      "retained": true,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753446+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753470+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/state",
+      "retained": true,
+      "payload": {
+        "node": 2,
+        "room": "Living room",
+        "room_mapping": "matched",
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 19.21,
+        "room_temperature_estimated": true,
+        "room_age_s": 92,
+        "low_battery": null,
+        "status_raw": "4400",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 92,
+        "control_enabled": true,
+        "configuration_known": false,
+        "reply_acks": 1,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753483+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753496+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability",
+      "retained": true,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753512+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/state",
+      "retained": true,
+      "payload": {
+        "node": 5,
+        "room": "Small bedroom",
+        "room_mapping": "inferred",
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": true,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753525+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/availability",
+      "retained": true,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753536+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753552+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/state",
+      "retained": true,
+      "payload": {
+        "node": 6,
+        "room": "Living room",
+        "room_mapping": "matched",
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 18.89,
+        "room_temperature_estimated": true,
+        "room_age_s": 59,
+        "low_battery": false,
+        "status_raw": "4500",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 59,
+        "control_enabled": true,
+        "configuration_known": false,
+        "reply_acks": 1,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753564+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753577+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753591+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/state",
+      "retained": true,
+      "payload": {
+        "node": 8,
+        "room": "Bedroom 3",
+        "room_mapping": "matched",
+        "accepted_target": 18.5,
+        "requested_target": 18.5,
+        "room_temperature": 16.75,
+        "room_temperature_estimated": true,
+        "room_age_s": 100,
+        "low_battery": false,
+        "status_raw": "3c00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 100,
+        "control_enabled": true,
+        "configuration_known": false,
+        "reply_acks": 1,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753603+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753615+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753631+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/state",
+      "retained": true,
+      "payload": {
+        "node": 12,
+        "room": "Master bedroom",
+        "room_mapping": "matched",
+        "accepted_target": 18.0,
+        "requested_target": 18.0,
+        "room_temperature": 18.13,
+        "room_temperature_estimated": true,
+        "room_age_s": 112,
+        "low_battery": false,
+        "status_raw": "3400",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 112,
+        "control_enabled": true,
+        "configuration_known": false,
+        "reply_acks": 1,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753644+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753655+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753665+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753679+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/state",
+      "retained": true,
+      "payload": {
+        "node": 16,
+        "room": "A",
+        "room_mapping": "matched",
+        "accepted_target": 17.0,
+        "requested_target": 17.0,
+        "room_temperature": 19.59,
+        "room_temperature_estimated": true,
+        "room_age_s": 230,
+        "low_battery": false,
+        "status_raw": "4a00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 230,
+        "control_enabled": true,
+        "configuration_known": false,
+        "reply_acks": 1,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753690+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753704+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/state",
+      "retained": true,
+      "payload": {
+        "node": 13,
+        "room": "Guest room",
+        "room_mapping": "matched",
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 16.96,
+        "room_temperature_estimated": true,
+        "room_age_s": 51,
+        "low_battery": false,
+        "status_raw": "4100",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 51,
+        "control_enabled": true,
+        "configuration_known": false,
+        "reply_acks": 1,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753714+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-22T09:22:50.753739+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/2_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Living room (node 2) room temperature estimate",
+        "unique_id": "danfoss_ffd2bb2d_2_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_2"
+          ],
+          "name": "Living room (node 2)",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Living room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/2/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/2/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753759+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/2_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Living room (node 2) setpoint",
+        "unique_id": "danfoss_ffd2bb2d_2_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_2"
+          ],
+          "name": "Living room (node 2)",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Living room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/2/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/2/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753776+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/5_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Small bedroom room temperature estimate",
+        "unique_id": "danfoss_ffd2bb2d_5_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_5"
+          ],
+          "name": "Small bedroom",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Small bedroom",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/5/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/5/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753795+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/5_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Small bedroom setpoint",
+        "unique_id": "danfoss_ffd2bb2d_5_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_5"
+          ],
+          "name": "Small bedroom",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Small bedroom",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/5/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/5/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753813+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/6_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Living room (node 6) room temperature estimate",
+        "unique_id": "danfoss_ffd2bb2d_6_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_6"
+          ],
+          "name": "Living room (node 6)",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Living room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/6/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/6/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753828+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/6_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Living room (node 6) setpoint",
+        "unique_id": "danfoss_ffd2bb2d_6_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_6"
+          ],
+          "name": "Living room (node 6)",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Living room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/6/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/6/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753844+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/8_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Bedroom 3 room temperature estimate",
+        "unique_id": "danfoss_ffd2bb2d_8_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_8"
+          ],
+          "name": "Bedroom 3",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Bedroom 3",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/8/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/8/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753861+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/8_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Bedroom 3 setpoint",
+        "unique_id": "danfoss_ffd2bb2d_8_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_8"
+          ],
+          "name": "Bedroom 3",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Bedroom 3",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/8/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/8/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753877+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/12_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Master bedroom room temperature estimate",
+        "unique_id": "danfoss_ffd2bb2d_12_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_12"
+          ],
+          "name": "Master bedroom",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Master bedroom",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/12/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/12/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753901+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/12_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Master bedroom setpoint",
+        "unique_id": "danfoss_ffd2bb2d_12_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_12"
+          ],
+          "name": "Master bedroom",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Master bedroom",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/12/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/12/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753918+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/16_room/config",
+      "retained": true,
+      "payload": {
+        "name": "A room temperature estimate",
+        "unique_id": "danfoss_ffd2bb2d_16_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_16"
+          ],
+          "name": "A",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "A",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/16/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.753938+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/16_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "A setpoint",
+        "unique_id": "danfoss_ffd2bb2d_16_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_16"
+          ],
+          "name": "A",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "A",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/16/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.767901+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/13_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Guest room room temperature estimate",
+        "unique_id": "danfoss_ffd2bb2d_13_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_13"
+          ],
+          "name": "Guest room",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Guest room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/13/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/13/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.767960+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/13_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Guest room setpoint",
+        "unique_id": "danfoss_ffd2bb2d_13_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_13"
+          ],
+          "name": "Guest room",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Guest room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/13/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/13/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772744+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/2_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Living room (node 2) low battery",
+        "unique_id": "danfoss_ffd2bb2d_2_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_2"
+          ],
+          "name": "Living room (node 2)",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Living room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/2/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/2/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772770+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/5_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Small bedroom low battery",
+        "unique_id": "danfoss_ffd2bb2d_5_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_5"
+          ],
+          "name": "Small bedroom",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Small bedroom",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/5/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/5/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772789+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/6_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Living room (node 6) low battery",
+        "unique_id": "danfoss_ffd2bb2d_6_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_6"
+          ],
+          "name": "Living room (node 6)",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Living room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/6/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/6/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772809+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/8_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Bedroom 3 low battery",
+        "unique_id": "danfoss_ffd2bb2d_8_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_8"
+          ],
+          "name": "Bedroom 3",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Bedroom 3",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/8/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/8/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772833+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/12_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Master bedroom low battery",
+        "unique_id": "danfoss_ffd2bb2d_12_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_12"
+          ],
+          "name": "Master bedroom",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Master bedroom",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/12/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/12/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772857+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/16_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "A low battery",
+        "unique_id": "danfoss_ffd2bb2d_16_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_16"
+          ],
+          "name": "A",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "A",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/16/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772883+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/13_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Guest room low battery",
+        "unique_id": "danfoss_ffd2bb2d_13_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_13"
+          ],
+          "name": "Guest room",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Guest room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/13/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/13/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772911+02:00",
+      "topic": "homeassistant/climate/danfoss_ffd2bb2d/16/config",
+      "retained": true,
+      "payload": {
+        "name": "A",
+        "unique_id": "danfoss_ffd2bb2d_16_climate",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_16"
+          ],
+          "name": "A",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "A",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/16/availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/16/state",
+        "modes": [
+          "heat"
+        ],
+        "mode_state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "mode_state_template": "{{ value_json.hvac_mode }}",
+        "temperature_command_topic": "danfoss/ffd2bb2d/head/16/set",
+        "temperature_state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "temperature_state_template": "{{ value_json.accepted_target }}",
+        "current_temperature_topic": "danfoss/ffd2bb2d/head/16/state",
+        "current_temperature_template": "{{ value_json.room_temperature }}",
+        "min_temp": 4,
+        "max_temp": 28,
+        "temp_step": 0.5,
+        "precision": 0.1,
+        "temperature_unit": "C",
+        "retain": false
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772937+02:00",
+      "topic": "homeassistant/climate/danfoss_ffd2bb2d/2/config",
+      "retained": true,
+      "payload": {
+        "name": "Living room (node 2)",
+        "unique_id": "danfoss_ffd2bb2d_2_climate",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_2"
+          ],
+          "name": "Living room (node 2)",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Living room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/2/availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/2/state",
+        "modes": [
+          "heat"
+        ],
+        "mode_state_topic": "danfoss/ffd2bb2d/head/2/state",
+        "mode_state_template": "{{ value_json.hvac_mode }}",
+        "temperature_command_topic": "danfoss/ffd2bb2d/head/2/set",
+        "temperature_state_topic": "danfoss/ffd2bb2d/head/2/state",
+        "temperature_state_template": "{{ value_json.accepted_target }}",
+        "current_temperature_topic": "danfoss/ffd2bb2d/head/2/state",
+        "current_temperature_template": "{{ value_json.room_temperature }}",
+        "min_temp": 4,
+        "max_temp": 28,
+        "temp_step": 0.5,
+        "precision": 0.1,
+        "temperature_unit": "C",
+        "retain": false
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772957+02:00",
+      "topic": "homeassistant/climate/danfoss_ffd2bb2d/5/config",
+      "retained": true,
+      "payload": {
+        "name": "Small bedroom",
+        "unique_id": "danfoss_ffd2bb2d_5_climate",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_5"
+          ],
+          "name": "Small bedroom",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Small bedroom",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/5/availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/5/state",
+        "modes": [
+          "heat"
+        ],
+        "mode_state_topic": "danfoss/ffd2bb2d/head/5/state",
+        "mode_state_template": "{{ value_json.hvac_mode }}",
+        "temperature_command_topic": "danfoss/ffd2bb2d/head/5/set",
+        "temperature_state_topic": "danfoss/ffd2bb2d/head/5/state",
+        "temperature_state_template": "{{ value_json.accepted_target }}",
+        "current_temperature_topic": "danfoss/ffd2bb2d/head/5/state",
+        "current_temperature_template": "{{ value_json.room_temperature }}",
+        "min_temp": 4,
+        "max_temp": 28,
+        "temp_step": 0.5,
+        "precision": 0.1,
+        "temperature_unit": "C",
+        "retain": false
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772976+02:00",
+      "topic": "homeassistant/climate/danfoss_ffd2bb2d/6/config",
+      "retained": true,
+      "payload": {
+        "name": "Living room (node 6)",
+        "unique_id": "danfoss_ffd2bb2d_6_climate",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_6"
+          ],
+          "name": "Living room (node 6)",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Living room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/6/availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/6/state",
+        "modes": [
+          "heat"
+        ],
+        "mode_state_topic": "danfoss/ffd2bb2d/head/6/state",
+        "mode_state_template": "{{ value_json.hvac_mode }}",
+        "temperature_command_topic": "danfoss/ffd2bb2d/head/6/set",
+        "temperature_state_topic": "danfoss/ffd2bb2d/head/6/state",
+        "temperature_state_template": "{{ value_json.accepted_target }}",
+        "current_temperature_topic": "danfoss/ffd2bb2d/head/6/state",
+        "current_temperature_template": "{{ value_json.room_temperature }}",
+        "min_temp": 4,
+        "max_temp": 28,
+        "temp_step": 0.5,
+        "precision": 0.1,
+        "temperature_unit": "C",
+        "retain": false
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.772997+02:00",
+      "topic": "homeassistant/climate/danfoss_ffd2bb2d/8/config",
+      "retained": true,
+      "payload": {
+        "name": "Bedroom 3",
+        "unique_id": "danfoss_ffd2bb2d_8_climate",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_8"
+          ],
+          "name": "Bedroom 3",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Bedroom 3",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/8/availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/8/state",
+        "modes": [
+          "heat"
+        ],
+        "mode_state_topic": "danfoss/ffd2bb2d/head/8/state",
+        "mode_state_template": "{{ value_json.hvac_mode }}",
+        "temperature_command_topic": "danfoss/ffd2bb2d/head/8/set",
+        "temperature_state_topic": "danfoss/ffd2bb2d/head/8/state",
+        "temperature_state_template": "{{ value_json.accepted_target }}",
+        "current_temperature_topic": "danfoss/ffd2bb2d/head/8/state",
+        "current_temperature_template": "{{ value_json.room_temperature }}",
+        "min_temp": 4,
+        "max_temp": 28,
+        "temp_step": 0.5,
+        "precision": 0.1,
+        "temperature_unit": "C",
+        "retain": false
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.773019+02:00",
+      "topic": "homeassistant/climate/danfoss_ffd2bb2d/12/config",
+      "retained": true,
+      "payload": {
+        "name": "Master bedroom",
+        "unique_id": "danfoss_ffd2bb2d_12_climate",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_12"
+          ],
+          "name": "Master bedroom",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Master bedroom",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/12/availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/12/state",
+        "modes": [
+          "heat"
+        ],
+        "mode_state_topic": "danfoss/ffd2bb2d/head/12/state",
+        "mode_state_template": "{{ value_json.hvac_mode }}",
+        "temperature_command_topic": "danfoss/ffd2bb2d/head/12/set",
+        "temperature_state_topic": "danfoss/ffd2bb2d/head/12/state",
+        "temperature_state_template": "{{ value_json.accepted_target }}",
+        "current_temperature_topic": "danfoss/ffd2bb2d/head/12/state",
+        "current_temperature_template": "{{ value_json.room_temperature }}",
+        "min_temp": 4,
+        "max_temp": 28,
+        "temp_step": 0.5,
+        "precision": 0.1,
+        "temperature_unit": "C",
+        "retain": false
+      }
+    },
+    {
+      "time": "2026-10-22T09:22:50.773059+02:00",
+      "topic": "homeassistant/climate/danfoss_ffd2bb2d/13/config",
+      "retained": true,
+      "payload": {
+        "name": "Guest room",
+        "unique_id": "danfoss_ffd2bb2d_13_climate",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d_head_13"
+          ],
+          "name": "Guest room",
+          "manufacturer": "Danfoss",
+          "model": "Link radiator head",
+          "suggested_area": "Guest room",
+          "via_device": "danfoss_ffd2bb2d"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/13/availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/13/state",
+        "modes": [
+          "heat"
+        ],
+        "mode_state_topic": "danfoss/ffd2bb2d/head/13/state",
+        "mode_state_template": "{{ value_json.hvac_mode }}",
+        "temperature_command_topic": "danfoss/ffd2bb2d/head/13/set",
+        "temperature_state_topic": "danfoss/ffd2bb2d/head/13/state",
+        "temperature_state_template": "{{ value_json.accepted_target }}",
+        "current_temperature_topic": "danfoss/ffd2bb2d/head/13/state",
+        "current_temperature_template": "{{ value_json.room_temperature }}",
+        "min_temp": 4,
+        "max_temp": 28,
+        "temp_step": 0.5,
+        "precision": 0.1,
+        "temperature_unit": "C",
+        "retain": false
+      }
+    }
+  ]
+}

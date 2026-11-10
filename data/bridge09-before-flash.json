@@ -1,0 +1,139 @@
+{
+  "ts": "2026-10-21T19:45:44.912+02:00",
+  "status": {
+    "t": "status",
+    "ms": 7384053,
+    "heads": [
+      {
+        "node": 2,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 2100,
+        "mode": 1,
+        "reports": 27,
+        "dup": 2,
+        "replies": 0,
+        "cc": 25,
+        "reply_acks": 0,
+        "last_seen": 7248810
+      },
+      {
+        "node": 5,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1600,
+        "mode": 1,
+        "reports": 0,
+        "dup": 0,
+        "replies": 0,
+        "cc": 29,
+        "reply_acks": 0,
+        "last_seen": 0
+      },
+      {
+        "node": 6,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 2100,
+        "mode": 1,
+        "reports": 27,
+        "dup": 2,
+        "replies": 0,
+        "cc": 27,
+        "reply_acks": 0,
+        "last_seen": 7330726
+      },
+      {
+        "node": 8,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1850,
+        "mode": 1,
+        "reports": 31,
+        "dup": 5,
+        "replies": 0,
+        "cc": 25,
+        "reply_acks": 0,
+        "last_seen": 7313432
+      },
+      {
+        "node": 12,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1800,
+        "mode": 5,
+        "reports": 24,
+        "dup": 3,
+        "replies": 0,
+        "cc": 24,
+        "reply_acks": 0,
+        "last_seen": 7194148
+      },
+      {
+        "node": 16,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1950,
+        "mode": 5,
+        "reports": 10,
+        "dup": 0,
+        "replies": 0,
+        "cc": 17,
+        "reply_acks": 0,
+        "last_seen": 7333726
+      },
+      {
+        "node": 15,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 2300,
+        "mode": 3,
+        "reports": 64,
+        "dup": 16,
+        "replies": 0,
+        "cc": 40,
+        "reply_acks": 0,
+        "last_seen": 6461380
+      },
+      {
+        "node": 13,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1800,
+        "mode": 1,
+        "reports": 27,
+        "dup": 2,
+        "replies": 0,
+        "cc": 25,
+        "reply_acks": 0,
+        "last_seen": 7245917
+      }
+    ],
+    "storage": {
+      "ready": true,
+      "generation": 26,
+      "autostart": false,
+      "dirty": false,
+      "last_save_us": 7388,
+      "max_save_us": 72616,
+      "save_failures": 0
+    },
+    "event_queue_drops": 0,
+    "rx_irq_to_task_max_us": 21,
+    "network": {
+      "configured": true,
+      "started": true,
+      "wifi": true,
+      "mqtt": true,
+      "command_queue_drops": 0
+    }
+  }
+}

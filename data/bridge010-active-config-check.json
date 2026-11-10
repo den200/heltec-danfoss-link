@@ -1,0 +1,11 @@
+{
+  "events": [
+    {
+      "ts": "2026-10-21T20:01:35.679+02:00",
+      "hex": "ffd2bb2d014100251091000210140f0d00000006076c076c02580af000000af0b3872ef614",
+      "authenticated": true,
+      "tail_preserved": true
+    }
+  ],
+  "physical_display_checks": "pending"
+}

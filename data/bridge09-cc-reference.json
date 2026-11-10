@@ -1,0 +1,187 @@
+{
+  "user_cc_room_temperature_c": 21.1,
+  "user_cc_target_c": 20,
+  "events": [
+    {
+      "ts": "2026-10-21T19:48:50.001+02:00",
+      "room_estimate_c": 21.09,
+      "hex": "ffd2bb2d10410139019100021028140c0d4720202021030020102011030f031703280318032f0330082d08a5083d006300004a00d6db8f1fe8"
+    },
+    {
+      "ts": "2026-10-21T19:48:50.076+02:00",
+      "len": 27,
+      "target": 1950,
+      "hex": "ffd2bb2d01410b1b10910002100a0c0d00000005079eca0bb7e781"
+    },
+    {
+      "ts": "2026-10-21T19:50:39.792+02:00",
+      "len": 37,
+      "target": 1950,
+      "hex": "ffd2bb2d01410f251091000210140d0d00000005079e079e02580af000000af0099705573a"
+    },
+    {
+      "ts": "2026-10-21T19:51:10.523+02:00",
+      "len": 37,
+      "target": 2000,
+      "hex": "ffd2bb2d014101251091000210140e0d0000000607d007d002580af000000af06631c73c54"
+    },
+    {
+      "ts": "2026-10-21T19:51:46.668+02:00",
+      "room_estimate_c": 21.34,
+      "hex": "ffd2bb2d10410139019100021028170c0d4720202021030020102011030f031703280318032f0330084708910856006300004a00a0818ba148"
+    },
+    {
+      "ts": "2026-10-21T19:51:46.743+02:00",
+      "len": 27,
+      "target": 2000,
+      "hex": "ffd2bb2d0141021b10910002100a0f0d0000000607d0420ba0c977"
+    }
+  ],
+  "latest_status": {
+    "ts": "2026-10-21T19:51:28.597+02:00",
+    "event": {
+      "t": "status",
+      "ms": 270972,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 1,
+          "dup": 0,
+          "replies": 0,
+          "cc": 1,
+          "reply_acks": 0,
+          "last_seen": 24764
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 1,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 1,
+          "dup": 0,
+          "replies": 0,
+          "cc": 1,
+          "reply_acks": 0,
+          "last_seen": 171096
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1850,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 1,
+          "dup": 0,
+          "replies": 0,
+          "cc": 1,
+          "reply_acks": 0,
+          "last_seen": 148640
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "configuration_known": false,
+          "reports": 1,
+          "dup": 0,
+          "replies": 0,
+          "cc": 1,
+          "reply_acks": 0,
+          "last_seen": 35037
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2000,
+          "mode": 6,
+          "configuration_known": true,
+          "reports": 3,
+          "dup": 0,
+          "replies": 0,
+          "cc": 3,
+          "reply_acks": 0,
+          "last_seen": 252955
+        },
+        {
+          "node": 15,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2300,
+          "mode": 3,
+          "configuration_known": false,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 1,
+          "dup": 0,
+          "replies": 0,
+          "cc": 1,
+          "reply_acks": 0,
+          "last_seen": 83671
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 27,
+        "autostart": false,
+        "dirty": false,
+        "last_save_us": 7395,
+        "max_save_us": 7395,
+        "save_failures": 0
+      },
+      "event_queue_drops": 0,
+      "rx_irq_to_task_max_us": 14,
+      "network": {
+        "configured": true,
+        "started": true,
+        "wifi": true,
+        "mqtt": true,
+        "command_queue_drops": 0
+      }
+    }
+  }
+}

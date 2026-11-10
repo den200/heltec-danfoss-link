@@ -1,0 +1,8 @@
+{
+  "node": 16,
+  "firmware": "bridge-0.12",
+  "start": "2026-10-21T22:36:00.027+02:00",
+  "purpose": "Passive deployment and EN reset check only; no active control or visual application claim",
+  "cc": "ON",
+  "expected_mode": "SHADOW, all disabled, autoOFF"
+}

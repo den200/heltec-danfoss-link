@@ -1,0 +1,58 @@
+{
+  "version": "bridge-0.13.1",
+  "status": "Active controller, CC OFF; six-head takeover/reset recovery verified; node5 coverage deferred by user",
+  "sha256": "c599f0289617ccbcedeacb2333522806bd195e1fe7208de2216b8c8943b54e53",
+  "binary": "data/bridge-0.13.1-verified.bin",
+  "storage_version": 3,
+  "paired_control_nodes": [
+    2,
+    5,
+    6,
+    8,
+    12,
+    13,
+    16
+  ],
+  "excluded_deleted_node": 15,
+  "changes": [
+    "Checkpoint issued ID and its bound target before application TX",
+    "V3 exact intent recovery; V1/V2 migrate passive",
+    "Early remote preparation and deferred local replies after checkpoint",
+    "Per-head MQTT routing/climate discovery",
+    "Authenticated22-byte poll reception; independent status freshness",
+    "Named per-head HA devices and suggested room areas; stable entity IDs retained"
+  ],
+  "tests": [
+    "ASan/UBSan durable intent/lost-ACK/replacement/local-race tests",
+    "All manual-ID scenarios and interleavings",
+    "V1 migration and storage corruption/fallback",
+    "Multi-head MQTT parser and telemetry/discovery JSON",
+    "415 captured CC frame reproductions;416 MAC frames",
+    "PlatformIO build"
+  ],
+  "open_gates": [
+    "Node5 coverage and inferred Small bedroom identity (user deferred batteries/placement)",
+    "ID255 overflow still fail-closed; wrap semantics unaccepted",
+    "V3 physical power-cut/interrupted-save behavior"
+  ],
+  "source_sha256": {
+    "firmware-bridge/src/main.cpp": "fd2450f85658fbdb28f0f51daa7f442ed28f396932467c4322d2f69cd0bdc2db",
+    "firmware-bridge/src/registry.h": "7dc3821faec399e542ce1630926d6cef230af68fb52deff97943e16b0f64021e",
+    "firmware-bridge/src/persistent_state.h": "3eceb2cd19b75fc689eea662a8e34cf063ea839f9e9564b89513ae7015a11d8c",
+    "firmware-bridge/src/network.h": "26c0a89bca9f0903a0d297c72d813f58b1bded0093efea35cd63e274519e831d",
+    "firmware-bridge/src/mqtt_protocol.h": "b9a67b598e9fcd6f144137b10b89cddcdc8f1d489c830fab5a2728fc649ae3e9",
+    "firmware-bridge/src/mqtt_entities.h": "6c52a2e75022b76dadc52d72086adce9bf34dd15bf444e76f0b27ca7c5836f6d",
+    "firmware-bridge/src/danfoss_protocol.h": "3623a57ba0a0e40956dbc5aa4e3fa05dbeaac92c56a0e60fd8f8ce36a52a6e0a"
+  },
+  "boot": "2026-10-22T09:06:12.744+02:00",
+  "rollback": "rpi5:~/listening-post/fw/bridge-0.12.bin",
+  "nvs_backup": "rpi5:~/listening-post/fw/nvs-before-0.13.1-20261022.bin",
+  "verified": [
+    "Saved active node16 state recovered after firmware restart; matching ACK at17C",
+    "All28 retained discovery configurations round-trip",
+    "Seven named devices and assigned HA areas verified visually",
+    "Six paired heads ACKed takeover replies; deleted15 disabled",
+    "Saved seven-head EN reset09:17:05 restored ownership/targets; six matching post-reset ACKs by09:22:06",
+    "Temporary shutdown guard stopped after six-head check; AUTOSTART ON generation76"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "boot": {
+    "time": "2026-10-21T16:04:24.757+02:00",
+    "t": "boot",
+    "fw": "bridge-0.6",
+    "radio": true,
+    "freq": 868.4,
+    "shadow": true,
+    "recovered": true,
+    "autostart": false
+  },
+  "latest_status_time": "2026-10-21T16:05:02.873+02:00",
+  "storage": {
+    "ready": true,
+    "generation": 10,
+    "autostart": false,
+    "dirty": false,
+    "last_save_us": 0,
+    "max_save_us": 0,
+    "save_failures": 0
+  },
+  "event_queue_drops": 0,
+  "rx_irq_to_task_max_us": 0,
+  "max_logged_queue_delay_ms": 0,
+  "max_reply_processing_us": null,
+  "reply_count": 0,
+  "checkpoint_writes": [],
+  "storage_errors": [],
+  "limitations": "Latest boot only. ISR-to-task excludes hardware interrupt latency. Queued-event time follows radio handling, not packet arrival. No proof of missed-packet absence, physical write interruption, or simultaneous RF/write acceptance."
+}

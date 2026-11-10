@@ -1,0 +1,36 @@
+{
+  "version": "bridge-0.11",
+  "status": "PREPARED ONLY; NOT FLASHED",
+  "runtime_unchanged": "bridge-0.10 saved SHADOW; CC on; all heads disabled/no pending",
+  "binary": "data/bridge-0.11-prepared.bin",
+  "sha256": "4706556662c127d4e1ba4a2f4c4d05fe292b1d41635e15ee35fe9b96304d5fb7",
+  "fixes": [
+    "Preserve complete opaque context16..19; no guessed counter advancement",
+    "Persist context and authenticated configuration in V2 A/B records",
+    "V1 migration forces passive/no autostart until context/config relearned"
+  ],
+  "storage_format": 2,
+  "max_record_bytes": 312,
+  "tests": [
+    "408 unique authenticated genuine CC target replies:408 byte-for-byte codec reproductions, including5 with nonzero upper context bytes, unequal temperature words and operations10/50",
+    "original113-frame MAC fixtures and context0101 golden frame",
+    "ASan/UBSan persistence V2 roundtrip, every-byte corruption, truncation, torn migration, legacy fallback",
+    "actual pre0.10 NVS generation30 extracted: passive V1 to V2 migration/roundtrip host test",
+    "MQTT and telemetry sanitizer regressions",
+    "PlatformIO heltec_v3 build"
+  ],
+  "still_unproved": [
+    "Manual override/revision semantics",
+    "Applied target change on correct spare",
+    "Actual V2 NVS write/power-cycle on hardware",
+    "Household replacement acceptance"
+  ],
+  "source_sha256": {
+    "firmware-bridge/src/main.cpp": "9d044a578ef92858588ab5c3cb89820d31c658126903ec251f3ae6f7d7a3f195",
+    "firmware-bridge/src/registry.h": "e78916109cc92f3d405d08f4909d2f64c3e43e8b92232ea0040a951779efec50",
+    "firmware-bridge/src/danfoss_protocol.h": "438ba30a2ee4de90fce2dc24d355735f845622df23c29bba6126c1331b521db0",
+    "firmware-bridge/src/persistent_state.h": "e586a1ce8bf2c263f76367c42a2210d98fa537dc36cb2d55fb08670536228919",
+    "firmware-bridge/src/network.h": "67ed64531e6b55ce027dadd36962f5bcc72076734d142726a4b134b3c5dccc85"
+  },
+  "manual_policy": "No context advancement implemented;0.10 two-word policy retained explicitly in caller, separate from lossless codec"
+}

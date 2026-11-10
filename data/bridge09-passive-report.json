@@ -1,0 +1,46 @@
+{
+  "node": 16,
+  "trial_start": "2026-10-21T19:46:57.816+02:00",
+  "trial_end": null,
+  "latest_record": "2026-10-21T19:51:46.743000+02:00",
+  "first_reply": null,
+  "observed_minutes_since_first_reply": 0.0,
+  "uninterrupted_reply_span_minutes": null,
+  "interruption_between_replies": false,
+  "local_event_counts": {
+    "non_json_console_records": 3,
+    "mqtt_command": 1,
+    "report": 4
+  },
+  "replies_with_matching_ack": 0,
+  "transmit_api_failures": 0,
+  "distinct_report_events": 4,
+  "largest_report_gap_minutes": 1.83,
+  "target_commands": [],
+  "boot_events": [
+    {
+      "time": "2026-10-21T19:46:57.816+02:00",
+      "firmware": "bridge-0.9"
+    }
+  ],
+  "latest_head_status": {
+    "time": "2026-10-21T19:51:28.597+02:00",
+    "report_age_seconds": 18.02,
+    "node": 16,
+    "enabled": false,
+    "known": true,
+    "pending": false,
+    "target": 2000,
+    "mode": 6,
+    "configuration_known": true,
+    "reports": 3,
+    "dup": 0,
+    "replies": 0,
+    "cc": 3,
+    "reply_acks": 0,
+    "last_seen": 252955
+  },
+  "latest_mode_event": null,
+  "one_hour_elapsed": false,
+  "acceptance": "NOT AUTOMATICALLY PASSED: combine radio evidence with labelled physical checks and trial-specific requirements."
+}

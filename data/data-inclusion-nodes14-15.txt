@@ -1,0 +1,37 @@
+23:27:53  -56.5dBm zw40t inv+0@45 home=ffd2bb2d  14->  1 ack seq=3 ffd2bb2d0e03030a0141
+23:27:53  -56.5dBm zw40t inv+2@41 home=ffd2bb2d  14->  1 ack seq=1 ffd2bb2d0e03010a0143
+23:27:53  -57.0dBm zw40t inv+1@46 home=ffd2bb2d  14->  1 ack seq=5 ffd2bb2d0e03050a0147
+23:27:53  -57.0dBm zw40t inv+5@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=4 CC=MANUFACTURER_SPECIFIC cmd=04 data= ffd2bb2d0141040c0e720474
+23:27:53  -57.0dBm zw40t inv+5@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=7 PROPRIETARY mfr=0002 op=50 len=1b data=09070500010000000300200130302004010402000386e7040244f43b00 ffd2bb2d0141072c0e910002501b09070500010000000300200130302004010402000386e7040244f43b001d
+23:27:53  -57.0dBm zw40t inv+7@1 home=ffd2bb2d   1-> 14 ack seq=4 ffd2bb2d0103040a0e46
+23:27:53  -57.0dBm zw40t inv+7@8 home=ffd2bb2d   1-> 14 ack seq=3 ffd2bb2d0103030a0e41
+23:27:53  -57.0dBm zw40t inv+7@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=6 PROPRIETARY mfr=0002 op=80 len=04 data=<network-key> ffd2bb2d0141061f0e9100028004<network-key>bb
+23:27:53  -71.0dBm zw40t inv+5@50 home=ffd2bb2d   1-> 14 ack seq=7 ffd2bb2d0103070a0e45
+23:27:53  -71.0dBm zw40t inv+7@8 home=ffd2bb2d  14->  1 singlecast/ackreq seq=6 PROPRIETARY mfr=0002 op=10 len=16 data=110600050000013030200100040200000000ffff5bf8467c ffd2bb2d0e410627019100021016110600050000013030200100040200000000ffff5bf8467c13
+23:27:53  -73.0dBm zw40t inv+5@8 home=ffd2bb2d  14->  1 ack seq=2 ffd2bb2d0e03020a0140
+23:27:53  -74.5dBm zw40t inv+1@43 home=ffd2bb2d   1-> 14 ack seq=1 ffd2bb2d0103010a0e43
+23:27:54  -57.0dBm zw40t inv+1@18 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=9 CC=NO_OPERATION cmd= data= ffd2bb2d0141090b0e0008
+23:27:54  -57.5dBm zw40t inv+1@6 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=9 CC=NO_OPERATION cmd= data= ffd2bb2d0141090b0e0008
+23:27:54  -57.5dBm zw40t inv+3@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=8 PROPRIETARY mfr=0002 op=90 len=04 data=2100c7d6338e ffd2bb2d014108150e91000290042100c7d6338e9d
+23:27:54  -57.5dBm zw40t inv+7@18 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=9 CC=NO_OPERATION cmd= data= ffd2bb2d0141090b0e0008
+23:28:22  -59.5dBm zw40t inv+1@45 home=ffd2bb2d  15->  1 ack seq=3 ffd2bb2d0f03030a0140
+23:28:22  -59.5dBm zw40t inv+1@8 home=ffd2bb2d   1-> 15 ack seq=4 ffd2bb2d0103040a0f47
+23:28:22  -59.5dBm zw40t inv+3@6 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=1 CC=ZWAVE_PROTOCOL cmd=04 data=0101 ffd2bb2d0141010e0f0104010101
+23:28:22  -59.5dBm zw40t inv+5@8 home=ffd2bb2d   1-> 15 ack seq=3 ffd2bb2d0103030a0f40
+23:28:22  -59.5dBm zw40t inv+7@7 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=4 CC=MANUFACTURER_SPECIFIC cmd=04 data= ffd2bb2d0141040c0f720475
+23:28:22  -59.5dBm zw40t inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=5 PROPRIETARY mfr=0002 op=80 len=02 data=10 ffd2bb2d014105100f9100028002101f
+23:28:22  -74.5dBm zw40t inv+2@34 home=ffd2bb2d  15->  1 singlecast/ackreq seq=2 CC=ZWAVE_PROTOCOL cmd=06 data=0101 ffd2bb2d0f41020e010106010100
+23:28:22  -74.5dBm zw40t inv+3@8 home=ffd2bb2d  15->  1 singlecast/ackreq seq=1 CC=ZWAVE_PROTOCOL cmd=07 data=00 ffd2bb2d0f41010d0101070001
+23:28:23  -59.5dBm zw40t inv+1@44 home=ffd2bb2d  15->  1 ack seq=8 ffd2bb2d0f03080a014b
+23:28:23  -59.5dBm zw40t inv+7@7 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=7 PROPRIETARY mfr=0002 op=50 len=1b data=0a070000010c00000300200130302004010402000386e70402bbd89b18 ffd2bb2d0141072c0f910002501b0a070000010c00000300200130302004010402000386e70402bbd89b187d
+23:28:23  -59.5dBm zw40t inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=6 PROPRIETARY mfr=0002 op=80 len=04 data=<network-key> ffd2bb2d0141061f0f9100028004<network-key>ba
+23:28:23  -60.0dBm zw40t inv+5@7 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=9 CC=ZWAVE_PROTOCOL cmd=0c data=001008 ffd2bb2d0141090f0f010c00100818
+23:28:23  -71.5dBm zw40t inv+7@8 home=ffd2bb2d  15->  1 singlecast/ackreq seq=7 PROPRIETARY mfr=0002 op=10 len=0e data=130c0c400130030a03200322717a9faa ffd2bb2d0f41071f01910002100e130c0c400130030a03200322717a9faac9
+23:28:23  -76.0dBm zw40t inv+1@6 home=ffd2bb2d  15->  1 singlecast/ackreq seq=5 PROPRIETARY mfr=0002 op=80 len=05 data=00 ffd2bb2d0f4105100191000280050008
+23:28:23  -76.5dBm zw40t inv+7@8 home=ffd2bb2d  15->  1 singlecast/ackreq seq=6 PROPRIETARY mfr=0002 op=10 len=16 data=120600050000013030200100040200000000ffffa4047d3e ffd2bb2d0f410627019100021016120600050000013030200100040200000000ffffa4047d3e6b
+23:28:23  -78.5dBm zw40t inv+0@48 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=11 CC=ZWAVE_PROTOCOL cmd=0c data=003008 ffd2bb2d01410b0f0f010c0030083a
+23:28:24  -58.0dBm zw40t inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=13 PROPRIETARY mfr=0002 op=50 len=14 data=0c0d00000002083406a402580af000000af0b59e405f ffd2bb2d01410d250f91000250140c0d00000002083406a402580af000000af0b59e405f07
+23:28:24  -58.5dBm zw40t inv+7@2 home=ffd2bb2d   1-> 15 ack seq=8 ffd2bb2d0103080a0f4b
+23:28:24  -58.5dBm zw40t inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=12 PROPRIETARY mfr=0002 op=50 len=10 data=0b0d001a3317540a1a0004b001f435050cef ffd2bb2d01410c210f91000250100b0d001a3317540a1a0004b001f435050cef1b
+23:28:25  -58.0dBm zw40t inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=14 PROPRIETARY mfr=0002 op=10 len=1a data=110c000603200322030a20402048204104b001f4000028009fcca694 ffd2bb2d01410e2b0f910002101a110c000603200322030a20402048204104b001f4000028009fcca694c6
+23:28:25  -71.5dBm zw40t inv+7@8 home=ffd2bb2d  15->  1 singlecast/ackreq seq=9 PROPRIETARY mfr=0002 op=10 len=05 data=090d0030e77645 ffd2bb2d0f410916019100021005090d0030e7764572

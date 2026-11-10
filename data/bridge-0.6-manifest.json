@@ -1,0 +1,25 @@
+{
+  "firmware": "bridge-0.6",
+  "state": "flashed and digest verified; SHADOW, all heads disabled, AUTOSTART OFF",
+  "sha256": "a10c179d75ebc37ce8a42d1fd2e3f774bbb0750f95cd690b9e4779bd68b59929",
+  "changes": [
+    "Measure checkpoint write/readback duration and failures",
+    "Count dropped radio log events and ISR-to-task delay",
+    "Timestamp queued events and expose logging delay",
+    "Allow explicit isolated NVS namespace for storage-only bench; production default unchanged"
+  ],
+  "checks": [
+    "PlatformIO build passes",
+    "113-frame C++ protocol regression passes",
+    "ASan/UBSan persistence suite with namespace-isolation check passes",
+    "Three Python authentication tests pass",
+    "Flashed digest verified; boot recovered generation 10 with all control disabled"
+  ],
+  "limitations": [
+    "No NVS writes observed yet on diagnostic build",
+    "ISR-to-task time excludes hardware interrupt latency",
+    "Electrical power interruption during write and active RF/write stress not accepted"
+  ],
+  "rollback": "rpi5:~/listening-post/fw/bridge-0.5.bin",
+  "evidence": "bridge-0.6-passive.json"
+}

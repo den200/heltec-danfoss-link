@@ -1,0 +1,1544 @@
+{
+  "authenticated": true,
+  "events": [
+    {
+      "time": "2026-10-21T22:40:30.484714+02:00",
+      "topic": "danfoss/ffd2bb2d/availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:30.484773+02:00",
+      "topic": "danfoss/ffd2bb2d/head/15/state",
+      "retained": true,
+      "payload": {
+        "accepted_target": 23.0,
+        "requested_target": 23.0,
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 956,
+        "control_enabled": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.484803+02:00",
+      "topic": "danfoss/ffd2bb2d/head/15/availability",
+      "retained": true,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:30.484826+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability",
+      "retained": true,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:30.484855+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/state",
+      "retained": true,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.484876+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability",
+      "retained": true,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:30.484901+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/state",
+      "retained": true,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.484921+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:30.484945+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/state",
+      "retained": true,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 19.33,
+        "room_temperature_estimated": true,
+        "room_age_s": 134,
+        "low_battery": false,
+        "status_raw": "4500",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 134,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.484963+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:30.484986+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/state",
+      "retained": true,
+      "payload": {
+        "accepted_target": 18.5,
+        "requested_target": 18.5,
+        "room_temperature": 18.79,
+        "room_temperature_estimated": true,
+        "room_age_s": 95,
+        "low_battery": false,
+        "status_raw": "3c00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 95,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485005+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability",
+      "retained": true,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:30.485029+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/state",
+      "retained": true,
+      "payload": {
+        "accepted_target": 18.0,
+        "requested_target": 18.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485047+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:30.485065+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/availability",
+      "retained": true,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:30.485087+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/state",
+      "retained": true,
+      "payload": {
+        "accepted_target": 22.0,
+        "requested_target": 22.0,
+        "room_temperature": 19.89,
+        "room_temperature_estimated": true,
+        "room_age_s": 51,
+        "low_battery": false,
+        "status_raw": "4a00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 51,
+        "control_enabled": false,
+        "configuration_known": true,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485106+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability",
+      "retained": true,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:30.485128+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/state",
+      "retained": true,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 17.6,
+        "room_temperature_estimated": true,
+        "room_age_s": 120,
+        "low_battery": false,
+        "status_raw": "4100",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 120,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485160+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/2_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Room temperature estimate node 2",
+        "unique_id": "danfoss_ffd2bb2d_2_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/2/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/2/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485193+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/2_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Setpoint node 2",
+        "unique_id": "danfoss_ffd2bb2d_2_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/2/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/2/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485217+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/5_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Room temperature estimate node 5",
+        "unique_id": "danfoss_ffd2bb2d_5_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/5/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/5/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485242+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/5_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Setpoint node 5",
+        "unique_id": "danfoss_ffd2bb2d_5_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/5/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/5/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485270+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/6_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Room temperature estimate node 6",
+        "unique_id": "danfoss_ffd2bb2d_6_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/6/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/6/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485294+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/6_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Setpoint node 6",
+        "unique_id": "danfoss_ffd2bb2d_6_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/6/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/6/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485319+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/8_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Room temperature estimate node 8",
+        "unique_id": "danfoss_ffd2bb2d_8_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/8/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/8/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485346+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/8_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Setpoint node 8",
+        "unique_id": "danfoss_ffd2bb2d_8_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/8/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/8/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485372+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/12_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Room temperature estimate node 12",
+        "unique_id": "danfoss_ffd2bb2d_12_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/12/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/12/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485396+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/12_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Setpoint node 12",
+        "unique_id": "danfoss_ffd2bb2d_12_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/12/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/12/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485434+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/16_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Room temperature estimate node 16",
+        "unique_id": "danfoss_ffd2bb2d_16_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/16/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485462+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/16_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Setpoint node 16",
+        "unique_id": "danfoss_ffd2bb2d_16_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/16/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485485+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/13_room/config",
+      "retained": true,
+      "payload": {
+        "name": "Room temperature estimate node 13",
+        "unique_id": "danfoss_ffd2bb2d_13_room",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/13/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/13/state",
+        "value_template": "{{ value_json.room_temperature }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485508+02:00",
+      "topic": "homeassistant/sensor/danfoss_ffd2bb2d/13_setpoint/config",
+      "retained": true,
+      "payload": {
+        "name": "Setpoint node 13",
+        "unique_id": "danfoss_ffd2bb2d_13_setpoint",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/13/state",
+        "device_class": "temperature",
+        "state_class": "measurement",
+        "unit_of_measurement": "\u00b0C",
+        "suggested_display_precision": 1,
+        "state_topic": "danfoss/ffd2bb2d/head/13/state",
+        "value_template": "{{ value_json.accepted_target }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.485536+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/2_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Low battery node 2",
+        "unique_id": "danfoss_ffd2bb2d_2_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/2/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/2/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.491872+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/5_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Low battery node 5",
+        "unique_id": "danfoss_ffd2bb2d_5_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/5/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/5/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.491898+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/6_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Low battery node 6",
+        "unique_id": "danfoss_ffd2bb2d_6_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/6/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/6/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.491919+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/8_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Low battery node 8",
+        "unique_id": "danfoss_ffd2bb2d_8_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/8/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/8/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.491950+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/12_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Low battery node 12",
+        "unique_id": "danfoss_ffd2bb2d_12_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/12/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/12/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.491973+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/16_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Low battery node 16",
+        "unique_id": "danfoss_ffd2bb2d_16_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/16/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.491996+02:00",
+      "topic": "homeassistant/binary_sensor/danfoss_ffd2bb2d/13_battery/config",
+      "retained": true,
+      "payload": {
+        "name": "Low battery node 13",
+        "unique_id": "danfoss_ffd2bb2d_13_battery",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/13/state",
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_topic": "danfoss/ffd2bb2d/head/13/state",
+        "payload_on": "ON",
+        "payload_off": "OFF",
+        "value_template": "{{ 'ON' if value_json.low_battery == true else 'OFF' if value_json.low_battery == false else 'None' }}"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:30.492039+02:00",
+      "topic": "homeassistant/climate/danfoss_ffd2bb2d/16/config",
+      "retained": true,
+      "payload": {
+        "name": "Spare node 16",
+        "unique_id": "danfoss_ffd2bb2d_16_climate",
+        "device": {
+          "identifiers": [
+            "danfoss_ffd2bb2d"
+          ],
+          "name": "Danfoss Heltec",
+          "model": "Heltec V3"
+        },
+        "availability": [
+          {
+            "topic": "danfoss/ffd2bb2d/availability"
+          },
+          {
+            "topic": "danfoss/ffd2bb2d/head/16/availability"
+          }
+        ],
+        "availability_mode": "all",
+        "json_attributes_topic": "danfoss/ffd2bb2d/head/16/state",
+        "modes": [
+          "heat"
+        ],
+        "mode_state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "mode_state_template": "{{ value_json.hvac_mode }}",
+        "temperature_command_topic": "danfoss/ffd2bb2d/head/16/set",
+        "temperature_state_topic": "danfoss/ffd2bb2d/head/16/state",
+        "temperature_state_template": "{{ value_json.accepted_target }}",
+        "current_temperature_topic": "danfoss/ffd2bb2d/head/16/state",
+        "current_temperature_template": "{{ value_json.room_temperature }}",
+        "min_temp": 4,
+        "max_temp": 28,
+        "temp_step": 0.5,
+        "precision": 0.1,
+        "temperature_unit": "C",
+        "retain": false
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:40.381246+02:00",
+      "topic": "danfoss/ffd2bb2d/availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:40.382862+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:40.383012+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:40.383103+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:40.383199+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:40.383311+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:40.383407+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 19.33,
+        "room_temperature_estimated": true,
+        "room_age_s": 149,
+        "low_battery": false,
+        "status_raw": "4500",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 149,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:40.383489+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:40.387325+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 18.5,
+        "requested_target": 18.5,
+        "room_temperature": 18.79,
+        "room_temperature_estimated": true,
+        "room_age_s": 110,
+        "low_battery": false,
+        "status_raw": "3c00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 110,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:40.387417+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:40.387471+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 18.0,
+        "requested_target": 18.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:40.387521+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:40.394672+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:40.406406+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 22.0,
+        "requested_target": 22.0,
+        "room_temperature": 19.89,
+        "room_temperature_estimated": true,
+        "room_age_s": 66,
+        "low_battery": false,
+        "status_raw": "4a00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 66,
+        "control_enabled": false,
+        "configuration_known": true,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:40.413667+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:40.413840+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 17.6,
+        "room_temperature_estimated": true,
+        "room_age_s": 135,
+        "low_battery": false,
+        "status_raw": "4100",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 135,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:55.393048+02:00",
+      "topic": "danfoss/ffd2bb2d/availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:55.397865+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:55.402675+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:55.402759+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:55.402814+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:55.402858+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:55.407862+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 19.33,
+        "room_temperature_estimated": true,
+        "room_age_s": 164,
+        "low_battery": false,
+        "status_raw": "4500",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 164,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:55.407951+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:55.408003+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 18.5,
+        "requested_target": 18.5,
+        "room_temperature": 18.79,
+        "room_temperature_estimated": true,
+        "room_age_s": 125,
+        "low_battery": false,
+        "status_raw": "3c00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 125,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:55.408045+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:55.408089+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 18.0,
+        "requested_target": 18.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:55.408127+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:55.408168+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:40:55.414155+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 22.0,
+        "requested_target": 22.0,
+        "room_temperature": 19.89,
+        "room_temperature_estimated": true,
+        "room_age_s": 81,
+        "low_battery": false,
+        "status_raw": "4a00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 81,
+        "control_enabled": false,
+        "configuration_known": true,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:40:55.414295+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:40:55.414510+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 17.6,
+        "room_temperature_estimated": true,
+        "room_age_s": 150,
+        "low_battery": false,
+        "status_raw": "4100",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 150,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:41:10.417309+02:00",
+      "topic": "danfoss/ffd2bb2d/availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:41:10.426456+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/telemetry_availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:41:10.434544+02:00",
+      "topic": "danfoss/ffd2bb2d/head/2/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:41:10.434610+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/telemetry_availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:41:10.434648+02:00",
+      "topic": "danfoss/ffd2bb2d/head/5/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": null,
+        "room_temperature_estimated": true,
+        "room_age_s": null,
+        "low_battery": null,
+        "status_raw": "0000",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": null,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:41:10.434676+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:41:10.434702+02:00",
+      "topic": "danfoss/ffd2bb2d/head/6/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 19.33,
+        "room_temperature_estimated": true,
+        "room_age_s": 179,
+        "low_battery": false,
+        "status_raw": "4500",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 179,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:41:10.434724+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:41:10.439683+02:00",
+      "topic": "danfoss/ffd2bb2d/head/8/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 18.5,
+        "requested_target": 18.5,
+        "room_temperature": 18.79,
+        "room_temperature_estimated": true,
+        "room_age_s": 140,
+        "low_battery": false,
+        "status_raw": "3c00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 140,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:41:10.439706+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:41:10.444653+02:00",
+      "topic": "danfoss/ffd2bb2d/head/12/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 18.0,
+        "requested_target": 18.0,
+        "room_temperature": 17.99,
+        "room_temperature_estimated": true,
+        "room_age_s": 2,
+        "low_battery": false,
+        "status_raw": "3400",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 2,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:41:10.444679+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:41:10.444702+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/availability",
+      "retained": false,
+      "payload": "offline"
+    },
+    {
+      "time": "2026-10-21T22:41:10.444728+02:00",
+      "topic": "danfoss/ffd2bb2d/head/16/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 22.0,
+        "requested_target": 22.0,
+        "room_temperature": 19.89,
+        "room_temperature_estimated": true,
+        "room_age_s": 96,
+        "low_battery": false,
+        "status_raw": "4a00",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 96,
+        "control_enabled": false,
+        "configuration_known": true,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    },
+    {
+      "time": "2026-10-21T22:41:10.444750+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/telemetry_availability",
+      "retained": false,
+      "payload": "online"
+    },
+    {
+      "time": "2026-10-21T22:41:10.454936+02:00",
+      "topic": "danfoss/ffd2bb2d/head/13/state",
+      "retained": false,
+      "payload": {
+        "accepted_target": 16.0,
+        "requested_target": 16.0,
+        "room_temperature": 17.6,
+        "room_temperature_estimated": true,
+        "room_age_s": 165,
+        "low_battery": false,
+        "status_raw": "4100",
+        "pending": false,
+        "pending_age_s": null,
+        "last_seen_age_s": 165,
+        "control_enabled": false,
+        "configuration_known": false,
+        "reply_acks": 0,
+        "hvac_mode": "heat"
+      }
+    }
+  ]
+}

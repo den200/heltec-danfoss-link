@@ -1,0 +1,127 @@
+{
+  "ts": "2026-10-21T16:00:48.223+02:00",
+  "status": {
+    "t": "status",
+    "ms": 2320397,
+    "heads": [
+      {
+        "node": 2,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 2100,
+        "mode": 1,
+        "reports": 17,
+        "dup": 4,
+        "replies": 0,
+        "cc": 10,
+        "reply_acks": 0,
+        "last_seen": 2305461
+      },
+      {
+        "node": 5,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1600,
+        "mode": 1,
+        "reports": 0,
+        "dup": 0,
+        "replies": 0,
+        "cc": 7,
+        "reply_acks": 0,
+        "last_seen": 0
+      },
+      {
+        "node": 6,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 2100,
+        "mode": 1,
+        "reports": 12,
+        "dup": 4,
+        "replies": 0,
+        "cc": 7,
+        "reply_acks": 0,
+        "last_seen": 2098603
+      },
+      {
+        "node": 8,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1850,
+        "mode": 1,
+        "reports": 10,
+        "dup": 2,
+        "replies": 0,
+        "cc": 7,
+        "reply_acks": 0,
+        "last_seen": 2318112
+      },
+      {
+        "node": 12,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1800,
+        "mode": 5,
+        "reports": 12,
+        "dup": 4,
+        "replies": 0,
+        "cc": 7,
+        "reply_acks": 0,
+        "last_seen": 2232487
+      },
+      {
+        "node": 16,
+        "enabled": false,
+        "known": false,
+        "pending": false,
+        "target": 0,
+        "mode": 3,
+        "reports": 0,
+        "dup": 0,
+        "replies": 0,
+        "cc": 0,
+        "reply_acks": 0,
+        "last_seen": 0
+      },
+      {
+        "node": 15,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1800,
+        "mode": 3,
+        "reports": 10,
+        "dup": 2,
+        "replies": 0,
+        "cc": 6,
+        "reply_acks": 0,
+        "last_seen": 2068672
+      },
+      {
+        "node": 13,
+        "enabled": false,
+        "known": true,
+        "pending": false,
+        "target": 1600,
+        "mode": 1,
+        "reports": 12,
+        "dup": 4,
+        "replies": 0,
+        "cc": 7,
+        "reply_acks": 0,
+        "last_seen": 2133098
+      }
+    ],
+    "storage": {
+      "ready": true,
+      "generation": 10,
+      "autostart": false,
+      "dirty": false
+    }
+  }
+}

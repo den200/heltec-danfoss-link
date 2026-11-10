@@ -1,0 +1,50 @@
+{
+  "node": 16,
+  "trial_start": "2026-10-21T22:36:00.027+02:00",
+  "trial_end": null,
+  "latest_record": "2026-10-21T22:40:05.300000+02:00",
+  "first_reply": null,
+  "observed_minutes_since_first_reply": 0.0,
+  "uninterrupted_reply_span_minutes": null,
+  "interruption_between_replies": false,
+  "local_event_counts": {
+    "non_json_console_records": 16,
+    "report": 1
+  },
+  "replies_with_matching_ack": 0,
+  "transmit_api_failures": 0,
+  "distinct_report_events": 1,
+  "largest_report_gap_minutes": 0.0,
+  "target_commands": [],
+  "boot_events": [
+    {
+      "time": "2026-10-21T22:36:00.027+02:00",
+      "firmware": "bridge-0.12"
+    },
+    {
+      "time": "2026-10-21T22:37:31.784+02:00",
+      "firmware": "bridge-0.12"
+    }
+  ],
+  "latest_head_status": {
+    "time": "2026-10-21T22:40:05.300+02:00",
+    "report_age_seconds": 31.32,
+    "node": 16,
+    "enabled": false,
+    "known": true,
+    "pending": false,
+    "target": 2200,
+    "reply_context_raw": 2,
+    "reply_context_known": true,
+    "configuration_known": true,
+    "reports": 1,
+    "dup": 0,
+    "replies": 0,
+    "cc": 1,
+    "reply_acks": 0,
+    "last_seen": 122359
+  },
+  "latest_mode_event": null,
+  "one_hour_elapsed": false,
+  "acceptance": "NOT AUTOMATICALLY PASSED: combine radio evidence with labelled physical checks and trial-specific requirements."
+}

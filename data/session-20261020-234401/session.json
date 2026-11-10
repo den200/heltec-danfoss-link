@@ -1,0 +1,10 @@
+{
+  "start": 1792532641.299443,
+  "end_planned": 1792536241.299443,
+  "raw_start_rowid": 237545,
+  "purpose": "One physical spare head; record user action times separately",
+  "timers_paused": [
+    "listening-post-wide.timer",
+    "listening-post-mt.timer"
+  ]
+}

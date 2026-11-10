@@ -1,0 +1,50 @@
+{
+  "version": "bridge-0.13",
+  "status": "Flashed/digest verified; SHADOW, all disabled; awaiting active commissioning",
+  "sha256": "61a65fe1ce2fc743883cb05b0f057212fb77f0f93c4b38e854df0d1612544e9c",
+  "binary": "data/bridge-0.13-prepared.bin",
+  "storage_version": 3,
+  "paired_control_nodes": [
+    2,
+    5,
+    6,
+    8,
+    12,
+    13,
+    16
+  ],
+  "excluded_deleted_node": 15,
+  "changes": [
+    "Checkpoint issued ID and its bound target before application TX",
+    "V3 exact intent recovery; V1/V2 migrate passive",
+    "Early remote preparation and deferred local replies after checkpoint",
+    "Per-head MQTT routing/climate discovery",
+    "Authenticated22-byte poll reception; independent status freshness"
+  ],
+  "tests": [
+    "ASan/UBSan durable intent/lost-ACK/replacement/local-race tests",
+    "All manual-ID scenarios and interleavings",
+    "V1 migration and storage corruption/fallback",
+    "Multi-head MQTT parser and telemetry/discovery JSON",
+    "415 captured CC frame reproductions;416 MAC frames",
+    "PlatformIO build"
+  ],
+  "open_gates": [
+    "0.13 physical application/local reply timing with flash writes",
+    "V3 active reboot and saved SHADOW reboot",
+    "Multi-head commissioning and weak node5 RF coverage",
+    "ID255 overflow is still fail-closed; wrap semantics not accepted"
+  ],
+  "source_sha256": {
+    "firmware-bridge/src/main.cpp": "2ab2a65e0faaa58893b991d87727f7add1ff37c45132de79682e5e69e1521eec",
+    "firmware-bridge/src/registry.h": "7dc3821faec399e542ce1630926d6cef230af68fb52deff97943e16b0f64021e",
+    "firmware-bridge/src/persistent_state.h": "3eceb2cd19b75fc689eea662a8e34cf063ea839f9e9564b89513ae7015a11d8c",
+    "firmware-bridge/src/network.h": "26c0a89bca9f0903a0d297c72d813f58b1bded0093efea35cd63e274519e831d",
+    "firmware-bridge/src/mqtt_protocol.h": "b9a67b598e9fcd6f144137b10b89cddcdc8f1d489c830fab5a2728fc649ae3e9",
+    "firmware-bridge/src/mqtt_entities.h": "77010fef8a473773f65a1d2d0191c2ca541cc994c90c8df54759931f5cc62627",
+    "firmware-bridge/src/danfoss_protocol.h": "3623a57ba0a0e40956dbc5aa4e3fa05dbeaac92c56a0e60fd8f8ce36a52a6e0a"
+  },
+  "boot": "2026-10-22T08:52:09.493+02:00",
+  "rollback": "rpi5:~/listening-post/fw/bridge-0.12.bin",
+  "nvs_backup": "rpi5:~/listening-post/fw/nvs-before-0.13-20261022.bin"
+}

@@ -1,0 +1,36 @@
+{
+  "firmware": "bridge-0.8",
+  "state": "flashed and digest verified; passive boot and SHADOW/CONTROL OFF cancellation tested; all control disabled, AUTOSTART OFF",
+  "sha256": "d5bf8c2f06d131a5d4d58c5f0ba6fea602685aab544703fabcf1f618582e1971",
+  "changes": [
+    "SHADOW and CONTROL OFF discard pending remote target and reply/ACK cache",
+    "Desired target reverts to last accepted value on ownership release",
+    "Flush queued MQTT requests when releasing spare control"
+  ],
+  "checks": [
+    "PlatformIO build passes",
+    "ASan/UBSan persistence suite includes stop cancellation and stale ACK rejection",
+    "113-frame protocol regression and 3 Python authentication tests pass",
+    "Flash digest verified; passive reboot restores generation 15, AUTOSTART OFF",
+    "On hardware without enabling: pending 19 C cancelled by SHADOW, accepted 16 C retained",
+    "On hardware without enabling: pending 20 C cancelled by CONTROL OFF",
+    "No bridge transmissions during passive 0.8 tests",
+    "Later authenticated local 15 C report saved passively as generation 16; all heads still disabled and no transmissions"
+  ],
+  "hardware_pending": [
+    "CC restoration confirmation",
+    "Coordinated pending-local button test on 0.8",
+    "Physical whole-degree remote display confirmation",
+    "Actual Wi-Fi outage and simultaneous RF/NVS-write stress",
+    "Electrical power interruption during a write"
+  ],
+  "rollback": "data/bridge-0.7-verified.bin",
+  "evidence": [
+    "bridge08-passive-boot.json",
+    "bridge08-handoff-before.json",
+    "bridge08-handoff-after.json",
+    "bridge08-control-off-before.json",
+    "bridge08-control-off-after.json"
+  ],
+  "latest_passive_checkpoint_generation": 16
+}

@@ -1,0 +1,54 @@
+{
+  "status": "Candidate correlation, NOT receiver/application proof",
+  "candidate_rule": "For a new manual request only, preserve upper3bytes and advance byte19 once; ordinary retries/routine replies do not advance. Refuse unknown overflow rather than guessing.",
+  "checks": [
+    {
+      "source": "authenticated local button/reply pair",
+      "node": 6,
+      "time": "2026-10-21T11:00:54.706+02:00",
+      "before": "00000001",
+      "predicted": "00000002",
+      "observed": "00000002",
+      "matches": true,
+      "target_echo_matches": true
+    },
+    {
+      "source": "authenticated local button/reply pair",
+      "node": 16,
+      "time": "2026-10-21T19:34:24.215+02:00",
+      "before": "00000003",
+      "predicted": "00000004",
+      "observed": "00000004",
+      "matches": true,
+      "target_echo_matches": true
+    },
+    {
+      "source": "user-labelled CC manual setpoint change",
+      "node": 16,
+      "time": "2026-10-21T19:35:05.735+02:00",
+      "before": "00000004",
+      "predicted": "00000005",
+      "observed": "00000005",
+      "matches": true
+    },
+    {
+      "source": "user-labelled CC manual setpoint change",
+      "node": 16,
+      "time": "2026-10-21T19:51:10.523+02:00",
+      "before": "00000005",
+      "predicted": "00000006",
+      "observed": "00000006",
+      "matches": true
+    }
+  ],
+  "passed_observational_checks": 4,
+  "unknowns": [
+    "receiver needs different vs strictly newer vs exact increment",
+    "counter overflow and reset semantics",
+    "relation to duplicate/retry application state",
+    "when an override expires or scheduled target supersedes it",
+    "two leading temperature-word selection semantics",
+    "flag-bit meanings;00000101 must not be flattened"
+  ],
+  "validation_design": "Retrospective fit to four already examined manual changes across two nodes; not a blind holdout test"
+}

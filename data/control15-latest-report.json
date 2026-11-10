@@ -1,0 +1,44 @@
+{
+  "node": 15,
+  "trial_start": "2026-10-21T11:39:46.556+02:00",
+  "trial_end": "2026-10-21T12:56:34.410+02:00",
+  "latest_record": "2026-10-21T12:56:34.410000+02:00",
+  "first_reply": "2026-10-21T11:39:56.285000+02:00",
+  "observed_minutes_since_first_reply": 76.64,
+  "local_event_counts": {
+    "set": 1,
+    "control": 1,
+    "ack": 26,
+    "tx": 26,
+    "report": 26
+  },
+  "replies_with_matching_ack": 26,
+  "transmit_api_failures": 0,
+  "distinct_report_events": 26,
+  "largest_report_gap_minutes": 4.84,
+  "target_commands": [
+    {
+      "time": "2026-10-21T11:39:46.653+02:00",
+      "target_c100": 1800
+    }
+  ],
+  "boot_events": [],
+  "latest_head_status": {
+    "time": "2026-10-21T12:56:34.410+02:00",
+    "report_age_seconds": 6.89,
+    "node": 15,
+    "enabled": false,
+    "known": true,
+    "pending": false,
+    "target": 1700,
+    "mode": 3,
+    "reports": 26,
+    "dup": 0,
+    "replies": 26,
+    "cc": 0,
+    "reply_acks": 26,
+    "last_seen": 4613232
+  },
+  "one_hour_elapsed": true,
+  "acceptance": "NOT AUTOMATICALLY PASSED: requires displayed remote target, local-button precedence, no warning and uninterrupted duration."
+}

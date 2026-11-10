@@ -1,0 +1,5 @@
+{
+  "node": 16,
+  "start": "2026-10-21T19:46:57.816+02:00",
+  "purpose": "Passive CC learning and HA telemetry only; no control trial"
+}

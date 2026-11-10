@@ -1,0 +1,654 @@
+{
+  "firmware": "bridge-0.5",
+  "node": 15,
+  "start": "2026-10-21T15:01:00.359+02:00",
+  "cc_off_confirmed_by_user": true,
+  "state": "normal recovery bench complete; user confirms CC operation normal; bridge SHADOW with all control disabled",
+  "checks": {
+    "hardware_reset_active_recovery": {
+      "boot": [
+        "2026-10-21T15:03:39.486+02:00",
+        {
+          "t": "boot",
+          "fw": "bridge-0.5",
+          "radio": true,
+          "freq": 868.4,
+          "shadow": false,
+          "recovered": true,
+          "autostart": true
+        }
+      ],
+      "status": [
+        "2026-10-21T15:03:45.365+02:00",
+        {
+          "t": "status",
+          "ms": 6018,
+          "heads": [
+            {
+              "node": 2,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 5,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 6,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 8,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1850,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 12,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1800,
+              "mode": 5,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 16,
+              "enabled": false,
+              "known": false,
+              "pending": false,
+              "target": 0,
+              "mode": 3,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 15,
+              "enabled": true,
+              "known": true,
+              "pending": false,
+              "target": 1700,
+              "mode": 3,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 13,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 3,
+              "dup": 2,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 2387
+            }
+          ],
+          "storage": {
+            "ready": true,
+            "generation": 8,
+            "autostart": true,
+            "dirty": false
+          }
+        }
+      ],
+      "active_recovery_passed": true,
+      "pending_18_discarded": true,
+      "saved_target_restored_c100": 1700,
+      "reset_type": "ESP32 hardware reset; USB power remained connected"
+    },
+    "local_18_checkpoint": {
+      "local_report": [
+        "2026-10-21T15:14:38.008+02:00",
+        {
+          "t": "report",
+          "ms": 658753,
+          "node": 15,
+          "op": 16,
+          "len": 53,
+          "rssi": -110.5,
+          "status_raw": "4c00",
+          "hex": "ffd2bb2d0f410135019100021024140c0c46030020102011030f0317030103280318032f033007c4006300c84c00070898656c4106"
+        }
+      ],
+      "ack_event": [
+        "2026-10-21T15:14:53.528+02:00",
+        {
+          "t": "ack",
+          "ms": 674285,
+          "node": 15,
+          "op": 0,
+          "len": 10,
+          "rssi": -79.5,
+          "hex": "ffd2bb2d0f03040a0147"
+        }
+      ],
+      "save_event": [
+        "2026-10-21T15:14:43.041+02:00",
+        {
+          "t": "saved",
+          "generation": 9,
+          "autostart": true,
+          "unchanged": false
+        }
+      ],
+      "status": [
+        "2026-10-21T15:16:42.975+02:00",
+        {
+          "t": "status",
+          "ms": 783626,
+          "heads": [
+            {
+              "node": 2,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 6,
+              "dup": 4,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 564493
+            },
+            {
+              "node": 5,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 6,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 6,
+              "dup": 4,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 592787
+            },
+            {
+              "node": 8,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1850,
+              "mode": 1,
+              "reports": 6,
+              "dup": 4,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 508330
+            },
+            {
+              "node": 12,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1800,
+              "mode": 5,
+              "reports": 9,
+              "dup": 6,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 662357
+            },
+            {
+              "node": 16,
+              "enabled": false,
+              "known": false,
+              "pending": false,
+              "target": 0,
+              "mode": 3,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 15,
+              "enabled": true,
+              "known": true,
+              "pending": false,
+              "target": 1800,
+              "mode": 3,
+              "reports": 6,
+              "dup": 0,
+              "replies": 6,
+              "cc": 0,
+              "reply_acks": 6,
+              "last_seen": 736241
+            },
+            {
+              "node": 13,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 8,
+              "dup": 5,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 591373
+            }
+          ],
+          "storage": {
+            "ready": true,
+            "generation": 9,
+            "autostart": true,
+            "dirty": false
+          }
+        }
+      ],
+      "user_confirmed_18_without_warning": true,
+      "local_checkpoint_passed": true
+    },
+    "physical_power_cycle": {
+      "boot": [
+        "2026-10-21T15:21:02.759+02:00",
+        {
+          "t": "boot",
+          "fw": "bridge-0.5",
+          "radio": true,
+          "freq": 868.4,
+          "shadow": false,
+          "recovered": true,
+          "autostart": true
+        }
+      ],
+      "status": [
+        "2026-10-21T15:21:37.147+02:00",
+        {
+          "t": "status",
+          "ms": 34526,
+          "heads": [
+            {
+              "node": 2,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 5,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 6,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 8,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1850,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 12,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1800,
+              "mode": 5,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 16,
+              "enabled": false,
+              "known": false,
+              "pending": false,
+              "target": 0,
+              "mode": 3,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 15,
+              "enabled": true,
+              "known": true,
+              "pending": false,
+              "target": 1800,
+              "mode": 3,
+              "reports": 1,
+              "dup": 0,
+              "replies": 1,
+              "cc": 0,
+              "reply_acks": 1,
+              "last_seen": 11697
+            },
+            {
+              "node": 13,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            }
+          ],
+          "storage": {
+            "ready": true,
+            "generation": 9,
+            "autostart": true,
+            "dirty": false
+          }
+        }
+      ],
+      "radio_events": [
+        [
+          "2026-10-21T15:21:14.244+02:00",
+          {
+            "t": "ack",
+            "ms": 11726,
+            "node": 15,
+            "op": 0,
+            "len": 10,
+            "rssi": -75.5,
+            "hex": "ffd2bb2d0f03000a0143"
+          }
+        ],
+        [
+          "2026-10-21T15:21:14.259+02:00",
+          {
+            "t": "tx",
+            "ms": 11727,
+            "node": 15,
+            "op": 16,
+            "len": 27,
+            "rssi": 0.0,
+            "ack_status": 0,
+            "response_status": 0,
+            "processing_us": 924,
+            "hex": "ffd2bb2d0141001b0f910002100a080d0000000307087f8322337d"
+          }
+        ],
+        [
+          "2026-10-21T15:21:14.277+02:00",
+          {
+            "t": "report",
+            "ms": 11748,
+            "node": 15,
+            "op": 16,
+            "len": 57,
+            "rssi": -76.0,
+            "status_raw": "4c00",
+            "hex": "ffd2bb2d0f410139019100021028100c0c85030020102011030f031703280318032f0330030103020303032307dc006300004c009f60958f0a"
+          }
+        ]
+      ],
+      "user_confirmed_five_second_power_disconnect": true,
+      "power_cycle_recovery_passed": true
+    },
+    "final_passive_reboot": {
+      "boot": [
+        "2026-10-21T15:22:07.972+02:00",
+        {
+          "t": "boot",
+          "fw": "bridge-0.5",
+          "radio": true,
+          "freq": 868.4,
+          "shadow": true,
+          "recovered": true,
+          "autostart": false
+        }
+      ],
+      "status": [
+        "2026-10-21T15:22:12.295+02:00",
+        {
+          "t": "status",
+          "ms": 4461,
+          "heads": [
+            {
+              "node": 2,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 5,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 6,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 8,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1850,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 12,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1800,
+              "mode": 5,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 16,
+              "enabled": false,
+              "known": false,
+              "pending": false,
+              "target": 0,
+              "mode": 3,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 15,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1800,
+              "mode": 3,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 13,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            }
+          ],
+          "storage": {
+            "ready": true,
+            "generation": 10,
+            "autostart": false,
+            "dirty": false
+          }
+        }
+      ],
+      "durable_shadow_reboot_passed": true,
+      "no_bridge_transmissions_after_passive_boot": true
+    }
+  },
+  "end": "2026-10-21T15:22:12.295+02:00",
+  "cc_power_restored_confirmed_by_user": true,
+  "cc_restoration": {
+    "user_confirmed_household_normal": true,
+    "authenticated_cc_packets_observed": 40,
+    "evidence": "persistence05-cc-restored.json"
+  }
+}

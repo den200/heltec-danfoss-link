@@ -1,0 +1,15 @@
+{
+  "latest_cc": {
+    "time": "2026-10-21T22:34:39.571+02:00",
+    "hex": "ffd2bb2d01410e1b10910002100a0f0d0000000208982244f41399",
+    "target": 2200,
+    "context": "00000002"
+  },
+  "latest_extended": {
+    "time": "2026-10-21T22:28:57.408+02:00",
+    "hex": "ffd2bb2d014105251091000210140d0d000000020898089802580af000000af0ada04af34f",
+    "target": 2200,
+    "context": "00000002"
+  },
+  "matching_context_target": true
+}

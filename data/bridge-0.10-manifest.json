@@ -1,0 +1,20 @@
+{
+  "version": "bridge-0.10",
+  "boot": "2026-10-21T20:00:34.453+02:00",
+  "sha256": "28eb03fffb1592f5679b2a380f4919aa9c8e6d5e9455b2aa96b78cf9719696ab",
+  "status": "saved SHADOW, all control disabled/no pending, auto OFF; CC restoration requested",
+  "deadline": "2026-10-21T20:06:49.409876+02:00",
+  "rollback": "rpi5:~/listening-post/fw/bridge-0.9.bin",
+  "change": "Two leading temperature words set together; opaque tail24..31 preserved",
+  "template_import": "Authenticated last genuine CC20 C extended frame restored while all heads passive; no invented on-air reception",
+  "tests": [
+    "ASan/UBSan 113-frame MAC suite and genuine CC19 C byte-for-byte reproduction, tail preservation",
+    "ASan/UBSan persistence suite",
+    "PlatformIO build and flash digest verification"
+  ],
+  "physical_display_gate": "NOT PASSED: user reports20 C and alarms, observation time unspecified; message received after guard stop",
+  "configuration_persistence": "still RAM only; future firmware gate",
+  "actual_control_end": "2026-10-21T20:06:49.880+02:00",
+  "guard_disabled_verified": "2026-10-21T20:07:05.462+02:00",
+  "latest_shadow_recheck": "2026-10-21T21:07:22.811+02:00"
+}

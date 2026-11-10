@@ -1,0 +1,159 @@
+{
+  "events": [
+    {
+      "ts": "2026-10-21T19:55:42.281+02:00",
+      "length": 37,
+      "primary_target": 1900,
+      "configuration_preserved": true,
+      "hex": "ffd2bb2d01410025109100021014090d00000006076c07d002580af000000af014d28d646d"
+    }
+  ],
+  "latest_status": {
+    "ts": "2026-10-21T19:55:59.230+02:00",
+    "status": {
+      "t": "status",
+      "ms": 541605,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 2,
+          "dup": 0,
+          "replies": 0,
+          "cc": 2,
+          "reply_acks": 0,
+          "last_seen": 315600
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 1,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 4,
+          "dup": 2,
+          "replies": 0,
+          "cc": 1,
+          "reply_acks": 0,
+          "last_seen": 468313
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1850,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 4,
+          "dup": 2,
+          "replies": 0,
+          "cc": 1,
+          "reply_acks": 0,
+          "last_seen": 440722
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "configuration_known": false,
+          "reports": 1,
+          "dup": 0,
+          "replies": 0,
+          "cc": 2,
+          "reply_acks": 0,
+          "last_seen": 35037
+        },
+        {
+          "node": 16,
+          "enabled": true,
+          "known": true,
+          "pending": false,
+          "target": 1900,
+          "mode": 6,
+          "configuration_known": true,
+          "reports": 6,
+          "dup": 0,
+          "replies": 1,
+          "cc": 5,
+          "reply_acks": 1,
+          "last_seen": 524750
+        },
+        {
+          "node": 15,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2300,
+          "mode": 3,
+          "configuration_known": false,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 2,
+          "dup": 0,
+          "replies": 0,
+          "cc": 2,
+          "reply_acks": 0,
+          "last_seen": 378130
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 29,
+        "autostart": false,
+        "dirty": false,
+        "last_save_us": 7574,
+        "max_save_us": 7574,
+        "save_failures": 0
+      },
+      "event_queue_drops": 0,
+      "rx_irq_to_task_max_us": 20,
+      "network": {
+        "configured": true,
+        "started": true,
+        "wifi": true,
+        "mqtt": true,
+        "command_queue_drops": 0
+      }
+    }
+  },
+  "physical_display_checks": "pending user response"
+}

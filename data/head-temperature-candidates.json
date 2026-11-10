@@ -1,0 +1,192 @@
+{
+  "status": "PROVISIONAL: calibrated CC/reference and thermal-response correlation still required",
+  "offsets_zero_based": {
+    "routine": [
+      40,
+      42,
+      44
+    ],
+    "button_single_word": 38,
+    "alternate_single_word": 44
+  },
+  "hypothesis": "Routine words are front sensor, valve sensor, compensated room estimate. Third word often approximates (4*first - second)/3; transient deviations mean this is not a proven exact algorithm.",
+  "counts": {
+    "authenticated_occurrences": 1187
+  },
+  "routine_compensation_check": {
+    "reports": 591,
+    "median_absolute_residual_c": 0.01999999999999602,
+    "p95_absolute_residual_c": 0.17666666666666586,
+    "max_absolute_residual_c": 0.6433333333333344
+  },
+  "heads": {
+    "8": {
+      "routine_reports": 106,
+      "other_layout_reports": 0,
+      "last_report": {
+        "time": "2026-10-21T17:42:56.110+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 16.26,
+        "valve_sensor_candidate_c": 16.43,
+        "room_temperature_candidate_c": 16.21,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2838,
+        "hex": "ffd2bb2d08410139019100021028130c074720202021030020102011030f031703280318032f0330065a066b065500c603e83c00a67b6c6355"
+      },
+      "latest_routine": {
+        "time": "2026-10-21T17:42:56.110+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 16.26,
+        "valve_sensor_candidate_c": 16.43,
+        "room_temperature_candidate_c": 16.21,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2838,
+        "hex": "ffd2bb2d08410139019100021028130c074720202021030020102011030f031703280318032f0330065a066b065500c603e83c00a67b6c6355"
+      }
+    },
+    "2": {
+      "routine_reports": 109,
+      "other_layout_reports": 3,
+      "last_report": {
+        "time": "2026-10-21T17:37:28.815+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 21.01,
+        "valve_sensor_candidate_c": 24.57,
+        "room_temperature_candidate_c": 19.83,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2791,
+        "hex": "ffd2bb2d02410139019100021028110c014720202021030020102011030f031703280318032f03300835099907bf010003124500447d3edf62"
+      },
+      "latest_routine": {
+        "time": "2026-10-21T17:37:28.815+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 21.01,
+        "valve_sensor_candidate_c": 24.57,
+        "room_temperature_candidate_c": 19.83,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2791,
+        "hex": "ffd2bb2d02410139019100021028110c014720202021030020102011030f031703280318032f03300835099907bf010003124500447d3edf62"
+      }
+    },
+    "12": {
+      "routine_reports": 96,
+      "other_layout_reports": 0,
+      "last_report": {
+        "time": "2026-10-21T17:43:30.930+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 19.2,
+        "valve_sensor_candidate_c": 22.9,
+        "room_temperature_candidate_c": 17.93,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2853,
+        "hex": "ffd2bb2d0c410139019100021028130c0a4720202021030020102011030f031703280318032f0330078008f20701015d016e34006d73f56802"
+      },
+      "latest_routine": {
+        "time": "2026-10-21T17:43:30.930+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 19.2,
+        "valve_sensor_candidate_c": 22.9,
+        "room_temperature_candidate_c": 17.93,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2853,
+        "hex": "ffd2bb2d0c410139019100021028130c0a4720202021030020102011030f031703280318032f0330078008f20701015d016e34006d73f56802"
+      }
+    },
+    "6": {
+      "routine_reports": 105,
+      "other_layout_reports": 8,
+      "last_report": {
+        "time": "2026-10-21T17:46:01.804+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 19.31,
+        "valve_sensor_candidate_c": 20.07,
+        "room_temperature_candidate_c": 19.04,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2883,
+        "hex": "ffd2bb2d06410139019100021028170c054720202021030020102011030f031703280318032f0330078b07d7077000b303e84500ca309c208c"
+      },
+      "latest_routine": {
+        "time": "2026-10-21T17:46:01.804+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 19.31,
+        "valve_sensor_candidate_c": 20.07,
+        "room_temperature_candidate_c": 19.04,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2883,
+        "hex": "ffd2bb2d06410139019100021028170c054720202021030020102011030f031703280318032f0330078b07d7077000b303e84500ca309c208c"
+      }
+    },
+    "16": {
+      "routine_reports": 7,
+      "other_layout_reports": 15,
+      "last_report": {
+        "time": "2026-10-21T00:44:00.364+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 21.33,
+        "valve_sensor_candidate_c": 21.37,
+        "room_temperature_candidate_c": 21.41,
+        "source": "data/db-export-20261021-0100.jsonl",
+        "row": 1982,
+        "hex": "ffd2bb2d10410139019100021028130c0d4720202021030020102011030f031703280318032f033008550859085d0063000552000dd0145e1c"
+      },
+      "latest_routine": {
+        "time": "2026-10-21T00:44:00.364+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 21.33,
+        "valve_sensor_candidate_c": 21.37,
+        "room_temperature_candidate_c": 21.41,
+        "source": "data/db-export-20261021-0100.jsonl",
+        "row": 1982,
+        "hex": "ffd2bb2d10410139019100021028130c0d4720202021030020102011030f031703280318032f033008550859085d0063000552000dd0145e1c"
+      }
+    },
+    "13": {
+      "routine_reports": 80,
+      "other_layout_reports": 1,
+      "last_report": {
+        "time": "2026-10-21T17:45:39.400+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 16.26,
+        "valve_sensor_candidate_c": 16.28,
+        "room_temperature_candidate_c": 16.26,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2879,
+        "hex": "ffd2bb2d0d410139019100021028130c0b4720202021030020102011030f031703280318032f0330065a065c065a0094000041000d14c4b01f"
+      },
+      "latest_routine": {
+        "time": "2026-10-21T17:45:39.400+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 16.26,
+        "valve_sensor_candidate_c": 16.28,
+        "room_temperature_candidate_c": 16.26,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2879,
+        "hex": "ffd2bb2d0d410139019100021028130c0b4720202021030020102011030f031703280318032f0330065a065c065a0094000041000d14c4b01f"
+      }
+    },
+    "15": {
+      "routine_reports": 88,
+      "other_layout_reports": 28,
+      "last_report": {
+        "time": "2026-10-21T17:46:04.330+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 21.44,
+        "valve_sensor_candidate_c": 21.04,
+        "room_temperature_candidate_c": 21.67,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2886,
+        "hex": "ffd2bb2d0f410139019100021028170c0c4720202021030020102011030f031703280318032f0330086008380877006300004c009276501858"
+      },
+      "latest_routine": {
+        "time": "2026-10-21T17:46:04.330+02:00",
+        "layout": "routine",
+        "front_sensor_candidate_c": 21.44,
+        "valve_sensor_candidate_c": 21.04,
+        "room_temperature_candidate_c": 21.67,
+        "source": "data/mqtt07-active-raw.jsonl",
+        "row": 2886,
+        "hex": "ffd2bb2d0f410139019100021028170c0c4720202021030020102011030f031703280318032f0330086008380877006300004c009276501858"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "time": "2026-10-21T21:27:56.799+02:00",
+    "hex": "ffd2bb2d0141031b10910002100a0c0d0000000106a4231628e6dc",
+    "context": "00000001",
+    "target_c100": 1700
+  },
+  "prediction_announced_to_user_before_check": true,
+  "predicted_next_manual_context": "00000002",
+  "requested_local_target_c": 22,
+  "status": "matched: new authenticated local action and CC echo after prediction",
+  "caveat": "Supports the low-byte manual update-ID rule; receiver acceptance of bridge commands, wrap and reset semantics remain unproved.",
+  "observed_button_time": "2026-10-21T22:28:29.883+02:00",
+  "observed_cc_time": "2026-10-21T22:28:29.960+02:00",
+  "observed_context": "00000002",
+  "observed_target_c": 22,
+  "cc_echo_latency_ms": 77,
+  "followup_extended_time": "2026-10-21T22:28:57.408+02:00",
+  "followup_primary_secondary_c": [
+    22,
+    22
+  ],
+  "followup_context": "00000002",
+  "followup_tail_24_31": "02580af000000af0",
+  "evidence": "passive22-check.json"
+}

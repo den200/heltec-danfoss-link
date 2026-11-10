@@ -1,0 +1,49 @@
+{
+  "version": "bridge-0.12",
+  "status": "FLASHED; digest verified; saved SHADOW, all control disabled",
+  "binary": "data/bridge-0.12-prepared.bin",
+  "sha256": "b19fb995376c6ad316a96320859854bd6b2e405ca5b26d3443bb57187f2349c9",
+  "scope": "spare node16 only; manual update-ID candidate, not application-validated",
+  "boot_policy": "Always SHADOW, autostart refused, discard recovered CC context/config until fresh authenticated observation",
+  "changes": [
+    "Allocate low-byte manual ID once when a different target is first issued; preserve upper3bytes",
+    "Keep ID on retries; replacing an already-built command gets a new ID even after lost ACK",
+    "Local target cancels queued SET and consumes one ID only if its target differs from current binding",
+    "Reject unknown255 wrap; require fresh context after manual handoff",
+    "Duplicate reply cache requires same request revision; old ACK cannot clear a newer SET",
+    "V2 context/config storage retained; automatic recovery intentionally gated pending durable ID reservation"
+  ],
+  "tests": [
+    "ASan/UBSan manual state transitions, replacement/lost ACK/local precedence/overflow/passive reboot",
+    "415 genuine CC replies reproduced exactly;416 MAC frames validated",
+    "V1 production fixture and V2 persistence sanitizer checks",
+    "MQTT and telemetry regressions; discovery JSON parsed",
+    "PlatformIO heltec_v3 build",
+    "All256 initial ID bytes with deterministic request/local/ACK interleavings; no ID bound to different targets",
+    "Original113-frame MAC/protocol fixtures"
+  ],
+  "remaining": [
+    "Actual node16 target application and local precedence on hardware",
+    "Durable ID reservation before automatic restart recovery",
+    "Wi-Fi outage and storage stress hardware checks"
+  ],
+  "source_sha256": {
+    "firmware-bridge/src/main.cpp": "de15a89fba46caab950deaca61cf955a3d8564514ec254577671a2ad75cdc22b",
+    "firmware-bridge/src/registry.h": "6366d138ee1034ae3301a87c499479ee37266ff4386a57db1c93acf8cc70f3a4",
+    "firmware-bridge/src/persistent_state.h": "7800b07444def4e710696af05b99f642c3dd0ced5f58e5564e15668475387cf8",
+    "firmware-bridge/src/network.h": "c3763f7c20f21223b9ff5be8fc1d4fd1571db2926f7b937bf795cd193ff99c32",
+    "firmware-bridge/src/danfoss_protocol.h": "438ba30a2ee4de90fce2dc24d355735f845622df23c29bba6126c1331b521db0"
+  },
+  "boot": "2026-10-21T22:36:00.027+02:00",
+  "passive_reset_boot": "2026-10-21T22:37:31.784+02:00",
+  "rollback": "rpi5:~/listening-post/fw/bridge-0.10.bin",
+  "nvs_backup": "rpi5:~/listening-post/fw/nvs-before-0.12-20261021.bin",
+  "hardware_verified": [
+    "Flash digest",
+    "SHADOW boot and saved V2 state write/readback",
+    "Passive EN reset: targets recovered, ownership/context invalidated",
+    "Wi-Fi/MQTT reconnect and HA telemetry/discovery entities retained",
+    "Fresh node16 report/CC22C context2, MQTT19.89C room estimate and batteryOK; zero bridge TX"
+  ],
+  "passive_ready_evidence": "data/bridge012-ready.json"
+}

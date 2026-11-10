@@ -1,0 +1,18 @@
+{
+  "firmware": "bridge-0.3",
+  "state": "flashed and digest verified; control enabled only for node 15 after user confirmed CC off",
+  "sha256": "cd29c63fbe259cd5d7d5cf2b37d48d47ed570535b507828e88bc89bc7834fa3c",
+  "change": "25 ms exact-length 6-byte RX window after Home-ID sync to capture 10-byte head ACK; normal report RX restored afterward",
+  "previous_firmware": "rpi5:~/listening-post/fw/bridge-0.2.bin",
+  "checks": [
+    "C++ protocol/state regression passes 113 MAC fixtures",
+    "PlatformIO heltec_v3 build passes",
+    "Flash digest verified"
+  ],
+  "hardware_pending": [
+    "Head ACK reception with corrected receive window",
+    "Remote target change from 17 to 18 C",
+    "Local button precedence after confirmed delivery",
+    "One-hour uninterrupted acceptance run"
+  ]
+}

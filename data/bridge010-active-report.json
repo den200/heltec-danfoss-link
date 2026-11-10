@@ -1,0 +1,54 @@
+{
+  "node": 16,
+  "trial_start": "2026-10-21T20:00:54.667949+02:00",
+  "trial_end": "2026-10-21T20:06:49.880+02:00",
+  "latest_record": "2026-10-21T20:06:49.880000+02:00",
+  "first_reply": "2026-10-21T20:01:35.679000+02:00",
+  "observed_minutes_since_first_reply": 5.24,
+  "uninterrupted_reply_span_minutes": 2.94,
+  "interruption_between_replies": false,
+  "local_event_counts": {
+    "control": 1,
+    "mqtt_command": 1,
+    "ack": 2,
+    "tx": 2,
+    "report": 2
+  },
+  "replies_with_matching_ack": 2,
+  "transmit_api_failures": 0,
+  "distinct_report_events": 2,
+  "largest_report_gap_minutes": 2.94,
+  "target_commands": [
+    {
+      "time": "2026-10-21T20:00:55.265+02:00",
+      "target_c100": 1900,
+      "transport": "mqtt"
+    }
+  ],
+  "boot_events": [],
+  "latest_head_status": {
+    "time": "2026-10-21T20:06:35.454+02:00",
+    "report_age_seconds": 122.99,
+    "node": 16,
+    "enabled": true,
+    "known": true,
+    "pending": false,
+    "target": 1900,
+    "mode": 6,
+    "configuration_known": true,
+    "reports": 2,
+    "dup": 0,
+    "replies": 2,
+    "cc": 0,
+    "reply_acks": 2,
+    "last_seen": 238201
+  },
+  "latest_mode_event": {
+    "time": "2026-10-21T20:06:49.880+02:00",
+    "t": "mode",
+    "shadow": true,
+    "recovery_disabled_saved": true
+  },
+  "one_hour_elapsed": false,
+  "acceptance": "NOT AUTOMATICALLY PASSED: combine radio evidence with labelled physical checks and trial-specific requirements."
+}

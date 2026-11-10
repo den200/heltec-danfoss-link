@@ -1,0 +1,345 @@
+{
+  "firmware": "bridge-0.7",
+  "node": 15,
+  "start": "2026-10-21T17:22:54.573108+02:00",
+  "cc_off_confirmed_by_user": true,
+  "state": "ended in durable SHADOW; MQTT/radio/broker outage passed, physical display and pending-local precedence unresolved",
+  "autostart": false,
+  "checks": {
+    "broker_outage": {
+      "stop_requested_at": "2026-10-21T17:26:11.209626+02:00",
+      "state": "broker stop requested; waiting for offline ACK",
+      "offline_status": [
+        "2026-10-21T17:28:37.772+02:00",
+        {
+          "t": "status",
+          "ms": 1266100,
+          "heads": [
+            {
+              "node": 2,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 9,
+              "dup": 4,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 1215601
+            },
+            {
+              "node": 5,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 6,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 6,
+              "dup": 2,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 1122002
+            },
+            {
+              "node": 8,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1850,
+              "mode": 1,
+              "reports": 9,
+              "dup": 4,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 1248667
+            },
+            {
+              "node": 12,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1800,
+              "mode": 5,
+              "reports": 6,
+              "dup": 2,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 968638
+            },
+            {
+              "node": 16,
+              "enabled": false,
+              "known": false,
+              "pending": false,
+              "target": 0,
+              "mode": 3,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 15,
+              "enabled": true,
+              "known": true,
+              "pending": false,
+              "target": 1750,
+              "mode": 3,
+              "reports": 4,
+              "dup": 0,
+              "replies": 1,
+              "cc": 3,
+              "reply_acks": 1,
+              "last_seen": 975557
+            },
+            {
+              "node": 13,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 6,
+              "dup": 2,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 1109962
+            }
+          ],
+          "storage": {
+            "ready": true,
+            "generation": 12,
+            "autostart": false,
+            "dirty": false,
+            "last_save_us": 7290,
+            "max_save_us": 7520,
+            "save_failures": 0
+          },
+          "event_queue_drops": 0,
+          "rx_irq_to_task_max_us": 14,
+          "network": {
+            "configured": true,
+            "started": true,
+            "wifi": true,
+            "mqtt": false,
+            "command_queue_drops": 0
+          }
+        }
+      ],
+      "reply": [
+        "2026-10-21T17:28:37.799+02:00",
+        {
+          "t": "tx",
+          "ms": 1266199,
+          "queue_delay_ms": 48,
+          "node": 15,
+          "op": 16,
+          "len": 27,
+          "rssi": 0.0,
+          "ack_status": 0,
+          "response_status": 0,
+          "processing_us": 973,
+          "hex": "ffd2bb2d0141011b0f910002100a0b0d0000000306d6dcbc0ad8ff"
+        }
+      ],
+      "head_ack": [
+        "2026-10-21T17:28:37.782+02:00",
+        {
+          "t": "ack",
+          "ms": 1266199,
+          "queue_delay_ms": 36,
+          "node": 15,
+          "op": 0,
+          "len": 10,
+          "rssi": -65.5,
+          "hex": "ffd2bb2d0f03010a0142"
+        }
+      ],
+      "radio_contact_while_broker_off_passed": true,
+      "reconnected_status": [
+        "2026-10-21T17:32:08.783+02:00",
+        {
+          "t": "status",
+          "ms": 1477122,
+          "heads": [
+            {
+              "node": 2,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 9,
+              "dup": 4,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 1215601
+            },
+            {
+              "node": 5,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 6,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 2100,
+              "mode": 1,
+              "reports": 9,
+              "dup": 4,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 1419062
+            },
+            {
+              "node": 8,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1850,
+              "mode": 1,
+              "reports": 9,
+              "dup": 4,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 1248667
+            },
+            {
+              "node": 12,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1800,
+              "mode": 5,
+              "reports": 8,
+              "dup": 3,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 1266322
+            },
+            {
+              "node": 16,
+              "enabled": false,
+              "known": false,
+              "pending": false,
+              "target": 0,
+              "mode": 3,
+              "reports": 0,
+              "dup": 0,
+              "replies": 0,
+              "cc": 0,
+              "reply_acks": 0,
+              "last_seen": 0
+            },
+            {
+              "node": 15,
+              "enabled": true,
+              "known": true,
+              "pending": false,
+              "target": 1750,
+              "mode": 3,
+              "reports": 5,
+              "dup": 0,
+              "replies": 2,
+              "cc": 3,
+              "reply_acks": 2,
+              "last_seen": 1266175
+            },
+            {
+              "node": 13,
+              "enabled": false,
+              "known": true,
+              "pending": false,
+              "target": 1600,
+              "mode": 1,
+              "reports": 9,
+              "dup": 4,
+              "replies": 0,
+              "cc": 3,
+              "reply_acks": 0,
+              "last_seen": 1404389
+            }
+          ],
+          "storage": {
+            "ready": true,
+            "generation": 12,
+            "autostart": false,
+            "dirty": false,
+            "last_save_us": 7290,
+            "max_save_us": 7520,
+            "save_failures": 0
+          },
+          "event_queue_drops": 0,
+          "rx_irq_to_task_max_us": 14,
+          "network": {
+            "configured": true,
+            "started": true,
+            "wifi": true,
+            "mqtt": true,
+            "command_queue_drops": 0
+          }
+        }
+      ],
+      "target_c100_after_reconnect": 1750,
+      "reconnected": true
+    },
+    "final_shadow": [
+      "2026-10-21T17:41:25.123+02:00",
+      {
+        "t": "mode",
+        "shadow": true,
+        "recovery_disabled_saved": true
+      }
+    ],
+    "display_17_5": {
+      "passed": false,
+      "note": "User saw 18 after pressing up; earlier 17.5 display ambiguous."
+    },
+    "pending_local_override": {
+      "passed": false,
+      "note": "No explicit local 19 C report before routine wake consumed pending 16 C request."
+    },
+    "independent_authentication": {
+      "data_frames_verified": 18,
+      "link_ack_checksums_verified": 9
+    }
+  },
+  "end": "2026-10-21T17:41:25.123+02:00"
+}

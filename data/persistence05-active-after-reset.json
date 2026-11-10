@@ -1,0 +1,145 @@
+{
+  "boot": [
+    "2026-10-21T15:03:39.486+02:00",
+    {
+      "t": "boot",
+      "fw": "bridge-0.5",
+      "radio": true,
+      "freq": 868.4,
+      "shadow": false,
+      "recovered": true,
+      "autostart": true
+    }
+  ],
+  "status": [
+    "2026-10-21T15:03:45.365+02:00",
+    {
+      "t": "status",
+      "ms": 6018,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1850,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 15,
+          "enabled": true,
+          "known": true,
+          "pending": false,
+          "target": 1700,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 3,
+          "dup": 2,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 2387
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 8,
+        "autostart": true,
+        "dirty": false
+      }
+    }
+  ],
+  "active_recovery_passed": true,
+  "pending_18_discarded": true,
+  "saved_target_restored_c100": 1700,
+  "reset_type": "ESP32 hardware reset; USB power remained connected"
+}

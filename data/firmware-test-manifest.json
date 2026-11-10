@@ -1,0 +1,18 @@
+{
+  "original_app_sha256": "5cb14861a31adde0946ffe5121a5572f7a9ce38db7d229a0879d7ee0f1e3fe8a",
+  "test_app_sha256": "dc7700c88056d5ad853510efdf85fc8ffc5110b3504f1a6052e9be738d6838fe",
+  "backup_flash_offset": "0x10000",
+  "backup_length": "0x100000",
+  "original_remote": "~/danfoss-captures-tools/heltec-original-app.bin",
+  "test_build": "firmware-test",
+  "restore_pending": true,
+  "restoration": "Original 1 MiB app region written back; esptool hash verification passed; logger restarted.",
+  "timed_responder_sha256": "b66c58889cd258bf7e2a235ba27655ed2123b0c257d1ed99caec70990564b3ec",
+  "current_intended_mode": "timed responder observe only, unarmed",
+  "response_mode_revision": 3,
+  "supported_report_lengths": [
+    53,
+    57
+  ],
+  "arm_duration_seconds": 600
+}

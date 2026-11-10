@@ -1,0 +1,1 @@
+Atomic single-line SHADOW/STATUS, saved-disabled confirmation, and stale evidence rejection passed. No live guard started.

@@ -1,0 +1,3 @@
+bridge MAC verified on 416 frames
+CC builder replay: 415 frames; 5 require context above byte19
+all bridge protocol checks passed

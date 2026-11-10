@@ -1,0 +1,4 @@
+1792533664.917367 {"t":"window","ms":15287,"tag":"zw40verify","mode":"fsk","freq":868.4000,"br":40.0,"len":80,"secs":1800}
+1792533664.9652622 zw40pair home=ffd2bb2d   1-> 16 singlecast/ackreq seq=5 PROPRIETARY mfr=0002 op=10 len=0a data=0f0d000000000af02cbd511d ffd2bb2d0141051b10910002100a0f0d000000000af02cbd511da6
+1792533664.9664292 {"t":"danfoss_tx","attempt":1,"status":0,"hex":"ffd2bb2d0141051b10910002100a0f0d000000000af02cbd511da6"}
+Second attempt queued 1792533728.485567 ffd2bb2d0141041b10910002100a080d000000020af0daa251a4f2; uses application seq 08 and mode 02 from fresh CC reply.

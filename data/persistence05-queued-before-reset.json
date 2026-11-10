@@ -1,0 +1,140 @@
+{
+  "set18_at": "2026-10-21T15:03:08.301+02:00",
+  "status": [
+    "2026-10-21T15:03:13.606+02:00",
+    {
+      "t": "status",
+      "ms": 1054892,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 3,
+          "dup": 0,
+          "replies": 0,
+          "cc": 3,
+          "reply_acks": 0,
+          "last_seen": 772613
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 3,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 3,
+          "dup": 0,
+          "replies": 0,
+          "cc": 3,
+          "reply_acks": 0,
+          "last_seen": 782185
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1850,
+          "mode": 1,
+          "reports": 6,
+          "dup": 2,
+          "replies": 0,
+          "cc": 3,
+          "reply_acks": 0,
+          "last_seen": 1005348
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "reports": 3,
+          "dup": 0,
+          "replies": 0,
+          "cc": 3,
+          "reply_acks": 0,
+          "last_seen": 849857
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 15,
+          "enabled": true,
+          "known": true,
+          "pending": true,
+          "target": 1800,
+          "mode": 3,
+          "reports": 4,
+          "dup": 0,
+          "replies": 1,
+          "cc": 3,
+          "reply_acks": 1,
+          "last_seen": 1003195
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 3,
+          "dup": 0,
+          "replies": 0,
+          "cc": 3,
+          "reply_acks": 0,
+          "last_seen": 788444
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 8,
+        "autostart": true,
+        "dirty": false
+      }
+    }
+  ],
+  "save_event": [
+    "2026-10-21T15:03:08.481+02:00",
+    {
+      "t": "saved",
+      "generation": 8,
+      "autostart": true,
+      "unchanged": true
+    }
+  ],
+  "target18_transmissions": []
+}

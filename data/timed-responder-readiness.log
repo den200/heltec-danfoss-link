@@ -1,0 +1,5 @@
+1792534036.3376627 {"t":"danfoss_observe","status":0,"armed":false}
+1792534252.3976903 {"t":"danfoss_observe","status":0,"armed":false}
+1792534420.1862223 {"t":"danfoss_arm","seconds":120,"bursts":1}
+00:17:44 {"t":"danfoss_observe","status":0,"armed":false}
+00:17:51 {"t":"danfoss_arm","seconds":600,"bursts":1}

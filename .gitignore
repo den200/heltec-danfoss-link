@@ -1,0 +1,20 @@
+# --- Credentials (WiFi/MQTT) ---
+*.private.*
+data/heltec-network.private.json
+firmware-bridge/src/network_config.private.h
+
+# --- Danfoss radio network key: lives in the macOS Keychain only ---
+# (docs/OPERATIONS.md#network-key). Plaintext originals and any generated header.
+private/
+**/danfoss_key.h
+data/network-key.json
+# Firmware images and NVS dumps contain the compiled-in key and WiFi/MQTT passwords
+*.bin
+*.elf
+
+# --- Build / OS noise ---
+.pio/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/

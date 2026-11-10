@@ -1,0 +1,73 @@
+{
+  "state": "SHADOW; no CONTROL or SET commands sent",
+  "user_action": "User powered spare head",
+  "observation": "User confirms possible head mix-up and authorizes using this spare. Labelled local 21-to-17 C button change at 11:29:44.566 identifies node 15; bridge STATUS confirms known target 1700, control disabled.",
+  "frames": [
+    {
+      "time": "2026-10-21T11:28:18.837+02:00",
+      "src": 15,
+      "dst": 1,
+      "hex": "ffd2bb2d0f41011f01910002100e110c0c400130030a03200322425658c679",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:28:18.872+02:00",
+      "src": 1,
+      "dst": 15,
+      "hex": "ffd2bb2d01410e160f9100021005090d014337660684",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:28:18.904+02:00",
+      "src": 15,
+      "dst": 1,
+      "hex": "ffd2bb2d0f410239019100021028120c0c85030020102011030f031703280318032f0330030103020303032307b7006300004e00ab72706749",
+      "fields": {
+        "layout": "alternate",
+        "status_raw": "4e00"
+      }
+    },
+    {
+      "time": "2026-10-21T11:28:18.944+02:00",
+      "src": 1,
+      "dst": 15,
+      "hex": "ffd2bb2d01410f160f91000210050a0d01253d865458",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:28:21.065+02:00",
+      "src": 15,
+      "dst": 1,
+      "hex": "ffd2bb2d0f410139019100021028130c0c85030020102011030f031703280318032f0330030103020303032307b7006300004e008e01d24c94",
+      "fields": {
+        "layout": "alternate",
+        "status_raw": "4e00"
+      }
+    },
+    {
+      "time": "2026-10-21T11:28:21.105+02:00",
+      "src": 1,
+      "dst": 15,
+      "hex": "ffd2bb2d014101160f91000210050b0d01067c722abf",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:29:16.979+02:00",
+      "src": 15,
+      "dst": 1,
+      "hex": "ffd2bb2d0f410139019100021028140c0c4720202021030020102011030f031703280318032f033007ee07a2081a006300004e00ccf10273c0",
+      "fields": {
+        "layout": "routine",
+        "status_raw": "4e00"
+      }
+    },
+    {
+      "time": "2026-10-21T11:29:17.019+02:00",
+      "src": 1,
+      "dst": 15,
+      "hex": "ffd2bb2d014103160f91000210050c0d01407592c2fd",
+      "fields": null
+    }
+  ],
+  "next_action": "Await explicit CC-off confirmation, then enable only node 15 at 17 C."
+}

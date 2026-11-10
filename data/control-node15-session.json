@@ -1,0 +1,34 @@
+{
+  "start": "2026-10-21T11:39:46.556+02:00",
+  "node": 15,
+  "initial_target_c100": 1800,
+  "cc_off_confirmed_by_user": true,
+  "acceptance": "at least 1h continuous control, remote and local target changes, ACKs, no warning",
+  "state": "trial closed; bridge SHADOW; user restored CC power, RF recovery pending",
+  "previous_attempt_start": "2026-10-21T11:31:07.329+02:00",
+  "firmware": "bridge-0.4",
+  "user_observation": "User confirmed no connection warning on test head; other heads warn with CC off.",
+  "prior_v03_start": "2026-10-21T11:34:44.728+02:00",
+  "remote_18_confirmed_by_user_on_v03": true,
+  "local_button_test": {
+    "confirmed_by_user": true,
+    "change_c100": [
+      1800,
+      1700
+    ],
+    "display_stays_at_1700": true,
+    "connection_warning": false,
+    "bridge_target_c100": 1700,
+    "snapshot_replies": 6,
+    "snapshot_matching_head_acks": 6,
+    "snapshot_time": "2026-10-21T11:43:35.336+02:00"
+  },
+  "radio_trial_passed": true,
+  "shadow_verified_at": "2026-10-21T12:56:34.410+02:00",
+  "final_visual_confirmation": "Not observed at shutdown. User returned much later and saw the spare warning while the bridge had been silent since 12:56.",
+  "cc_restored_by_user": false,
+  "end": "2026-10-21T12:56:34.410+02:00",
+  "post_trial_spare_warning_reported": true,
+  "cc_power_restored_by_user": true,
+  "cc_radio_recovery_verified": false
+}

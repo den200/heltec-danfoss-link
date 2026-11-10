@@ -1,0 +1,17 @@
+{
+  "node": 16,
+  "start": "2026-10-21T20:00:54.667949+02:00",
+  "deadline": "2026-10-21T20:06:49.409876+02:00",
+  "firmware": "bridge-0.10",
+  "cc_off_confirmed_by_user": true,
+  "purpose": "Two leading target words, preserve tail; physical check",
+  "end": "2026-10-21T20:06:49.880+02:00",
+  "end_reason": "Original deadline guard saved SHADOW; disabled verified20:07:05",
+  "post_observation_shadow_rechecked": "2026-10-21T21:07:22.811+02:00",
+  "user_observation": {
+    "display_c": 20,
+    "antenna_alarm_flashing": true,
+    "observation_time": "not specified; message handled after deadline",
+    "application_test": "not passed; in-run visual confirmation unavailable"
+  }
+}

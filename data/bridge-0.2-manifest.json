@@ -1,0 +1,22 @@
+{
+  "firmware": "bridge-0.2",
+  "state": "flashed and verified; boot confirmed SHADOW; awaiting on-air acceptance",
+  "sha256": "ab040321e52b6b1e53fe5c08a94bbbeceeb443186a75e74e88cc5f7a629b4e7b",
+  "checks": [
+    "Python authentication suite: 3 tests pass",
+    "C++ bridge protocol/state checks: pass, 113 MAC fixtures",
+    "C++ prototype responder: pass, 113 MAC fixtures",
+    "PlatformIO heltec_v3 build: pass"
+  ],
+  "hardware_pending": [
+    "receive/ACK timing on corrected firmware",
+    "one-hour spare-head control test",
+    "reboot recovery (NVS not implemented)"
+  ],
+  "flashed_at": "2026-10-21T11:23:25+02:00",
+  "backup_path": "rpi5:~/danfoss-captures-tools/bridge-0.1-before-0.2-20261021.bin",
+  "backup_sha256": "710ef923d813b736cbfcdef94fe73420faacdece6ed460868e38b22f514058f5",
+  "capture_service": "danfoss-bridge-capture.service",
+  "command_spool": "~/danfoss-captures/bridge-20261021/commands",
+  "witness": "T-Embed zw40bench receive window started about 11:22, duration 7200 seconds; raw growth verified"
+}

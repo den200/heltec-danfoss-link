@@ -1,0 +1,23 @@
+family (16, 5) distinct messages 4
+family (16, 10) distinct messages 21
+family (16, 14) distinct messages 4
+family (16, 16) distinct messages 3
+family (16, 20) distinct messages 5
+family (80, 27) distinct messages 3
+{
+  "candidate_rules_tested": 48000,
+  "matches": [],
+  "frames": 59,
+  "key_variants": [
+    "raw",
+    "reverse",
+    "swap16",
+    "swap32",
+    "zero",
+    "AES-constant-00",
+    "AES-constant-55",
+    "AES-constant-aa",
+    "AES-constant-ff",
+    "decrypt-under-zero"
+  ]
+}

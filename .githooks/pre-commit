@@ -1,0 +1,19 @@
+#!/bin/bash
+# Block commits that contain the Danfoss network key or the WiFi/MQTT passwords
+# (any encoding; see tools/danfoss_secret.py). Scans the staged content, not the
+# working tree. Enable once per clone: git config core.hooksPath .githooks
+set -e
+root=$(git rev-parse --show-toplevel)
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+git diff --cached --name-only --diff-filter=ACMR -z | while IFS= read -r -d '' f; do
+  mkdir -p "$tmp/$(dirname "$f")"
+  git show ":$f" > "$tmp/$f"
+done
+cd "$tmp"
+files=$(find . -type f)
+[ -z "$files" ] && exit 0
+if ! find . -type f -print0 | xargs -0 python3 "$root/tools/danfoss_secret.py" scan; then
+  echo "pre-commit: secret material staged; redact with tools/danfoss_secret.py redact" >&2
+  exit 1
+fi

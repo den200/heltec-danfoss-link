@@ -1,0 +1,39 @@
+{
+  "verified_at": "2026-10-21T22:40:05.300+02:00",
+  "head16": {
+    "node": 16,
+    "enabled": false,
+    "known": true,
+    "pending": false,
+    "target": 2200,
+    "reply_context_raw": 2,
+    "reply_context_known": true,
+    "configuration_known": true,
+    "reports": 1,
+    "dup": 0,
+    "replies": 0,
+    "cc": 1,
+    "reply_acks": 0,
+    "last_seen": 122359
+  },
+  "telemetry": {
+    "accepted_target": 22.0,
+    "requested_target": 22.0,
+    "room_temperature": 19.89,
+    "room_temperature_estimated": true,
+    "room_age_s": 21,
+    "low_battery": false,
+    "status_raw": "4a00",
+    "pending": false,
+    "pending_age_s": null,
+    "last_seen_age_s": 21,
+    "control_enabled": false,
+    "configuration_known": true,
+    "reply_acks": 0,
+    "hvac_mode": "heat"
+  },
+  "cc": "ON",
+  "control": "all disabled",
+  "transmit_events": 0,
+  "next_gate": "CC-off confirmation before any spare16-only active control"
+}

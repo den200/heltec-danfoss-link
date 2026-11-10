@@ -1,0 +1,236 @@
+{
+  "user_confirmation": "CC on, spare antenna/alarm no longer blinking",
+  "cc_frames": [
+    {
+      "ts": "2026-10-21T21:09:02.414+02:00",
+      "type": "ack",
+      "dst": 6,
+      "hex": "ffd2bb2d0103010a064b"
+    },
+    {
+      "ts": "2026-10-21T21:09:17.868+02:00",
+      "type": "ack",
+      "dst": 16,
+      "hex": "ffd2bb2d0103010a105d"
+    },
+    {
+      "ts": "2026-10-21T21:09:38.642+02:00",
+      "type": "ack",
+      "dst": 16,
+      "hex": "ffd2bb2d0103010a105d"
+    },
+    {
+      "ts": "2026-10-21T21:09:45.876+02:00",
+      "type": "ack",
+      "dst": 2,
+      "hex": "ffd2bb2d0103010a024f"
+    },
+    {
+      "ts": "2026-10-21T21:09:46.621+02:00",
+      "type": "ack",
+      "dst": 16,
+      "hex": "ffd2bb2d0103070a105b"
+    },
+    {
+      "ts": "2026-10-21T21:09:52.417+02:00",
+      "type": "ack",
+      "dst": 13,
+      "hex": "ffd2bb2d0103010a0d40"
+    },
+    {
+      "ts": "2026-10-21T21:09:54.617+02:00",
+      "type": "ack",
+      "dst": 16,
+      "hex": "ffd2bb2d01030d0a1051"
+    },
+    {
+      "ts": "2026-10-21T21:10:10.604+02:00",
+      "type": "ack",
+      "dst": 16,
+      "hex": "ffd2bb2d01030a0a1056"
+    },
+    {
+      "ts": "2026-10-21T21:10:18.610+02:00",
+      "type": "ack",
+      "dst": 16,
+      "hex": "ffd2bb2d0103010a105d"
+    },
+    {
+      "ts": "2026-10-21T21:10:52.345+02:00",
+      "type": "cc",
+      "dst": 16,
+      "hex": "ffd2bb2d01410121109100025010080d00382115750a1a00012c0014f4d53d8e20"
+    },
+    {
+      "ts": "2026-10-21T21:10:52.558+02:00",
+      "type": "cc",
+      "dst": 16,
+      "hex": "ffd2bb2d0141022b10910002101a110c000603200322030a204020482041012c001400002800a39c427ecf"
+    },
+    {
+      "ts": "2026-10-21T21:11:10.854+02:00",
+      "type": "ack",
+      "dst": 8,
+      "hex": "ffd2bb2d0103010a0845"
+    },
+    {
+      "ts": "2026-10-21T21:11:10.960+02:00",
+      "type": "cc",
+      "dst": 8,
+      "hex": "ffd2bb2d0141031b08910002500a0a0d00000001073a3cfc164272"
+    },
+    {
+      "ts": "2026-10-21T21:11:11.015+02:00",
+      "type": "cc",
+      "dst": 8,
+      "hex": "ffd2bb2d0141042b08910002101a110c000603200322030a204020482041012c00140000050047abe935cf"
+    }
+  ],
+  "latest_status": {
+    "ts": "2026-10-21T21:11:16.026+02:00",
+    "status": {
+      "t": "status",
+      "ms": 4241767,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 43,
+          "dup": 28,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 4151738
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 40,
+          "dup": 26,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 4108279
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1850,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 55,
+          "dup": 36,
+          "replies": 0,
+          "cc": 2,
+          "reply_acks": 0,
+          "last_seen": 4236716
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "configuration_known": false,
+          "reports": 22,
+          "dup": 14,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 3980356
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1900,
+          "mode": 6,
+          "configuration_known": true,
+          "reports": 53,
+          "dup": 32,
+          "replies": 2,
+          "cc": 2,
+          "reply_acks": 2,
+          "last_seen": 4184475
+        },
+        {
+          "node": 15,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2300,
+          "mode": 3,
+          "configuration_known": false,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 1,
+          "configuration_known": false,
+          "reports": 43,
+          "dup": 28,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 4158282
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 34,
+        "autostart": false,
+        "dirty": false,
+        "last_save_us": 7165,
+        "max_save_us": 82559,
+        "save_failures": 0
+      },
+      "event_queue_drops": 0,
+      "rx_irq_to_task_max_us": 20,
+      "network": {
+        "configured": true,
+        "started": true,
+        "wifi": true,
+        "mqtt": true,
+        "command_queue_drops": 0
+      }
+    }
+  }
+}

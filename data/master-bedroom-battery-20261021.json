@@ -1,0 +1,115 @@
+{
+  "room": "master bedroom",
+  "node": 13,
+  "mapping": "inferred from newly appearing node immediately following user battery replacement; no labelled button test",
+  "user_observation": "Head appeared completely off before replacement; now powered and CC low-battery warning cleared.",
+  "limitation": "No pre-replacement node-13 head report in the retained export or shadow journal. Cannot establish fe00-to-healthy transition for this head.",
+  "records": [
+    {
+      "time": "2026-10-21T11:12:00.615",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 209,
+      "src": 13,
+      "dst": 1,
+      "op": "10",
+      "hex": "ffd2bb2d0d41011f01910002100e110c0b400130030a032003225dfaf279da",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:12:01.616",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 210,
+      "src": 1,
+      "dst": 13,
+      "op": "50",
+      "hex": "ffd2bb2d014104210d9100025010090d0004230b750a1a00012c001489669653a1",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:12:01.617",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 211,
+      "src": 13,
+      "dst": 1,
+      "op": "10",
+      "hex": "ffd2bb2d0d410239019100021028120c0b85030020102011030f031703280318032f033003010302030303230656009400004100f4a3d31b05",
+      "fields": {
+        "layout": "alternate",
+        "status_raw": "4100"
+      }
+    },
+    {
+      "time": "2026-10-21T11:12:02.254",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 212,
+      "src": 1,
+      "dst": 13,
+      "op": "50",
+      "hex": "ffd2bb2d014105250d91000250140a0d000000010640064002580af000000af0933a39794b",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:12:03.255",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 213,
+      "src": 1,
+      "dst": 13,
+      "op": "10",
+      "hex": "ffd2bb2d0141062b0d910002101a130c000603200322030a204020482041012c001400000500036dc22177",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:12:03.256",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 214,
+      "src": 13,
+      "dst": 1,
+      "op": "10",
+      "hex": "ffd2bb2d0d4103160191000210050b0d004f26dbfdd3",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:12:59.557",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 217,
+      "src": 13,
+      "dst": 1,
+      "op": "10",
+      "hex": "ffd2bb2d0d410139019100021028130c0b4720202021030020102011030f031703280318032f03300672067306800094000041004a6db08ab2",
+      "fields": {
+        "layout": "routine",
+        "status_raw": "4100"
+      }
+    },
+    {
+      "time": "2026-10-21T11:12:59.655",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 218,
+      "src": 1,
+      "dst": 13,
+      "op": "50",
+      "hex": "ffd2bb2d0141081b0d910002500a0b0d000000010640b753ff4dc4",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:12:59.655",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 219,
+      "src": 1,
+      "dst": 13,
+      "op": "10",
+      "hex": "ffd2bb2d0141092b0d910002101a140c000603200322030a204020482041012c00140000050021a6e58d1d",
+      "fields": null
+    },
+    {
+      "time": "2026-10-21T11:13:00.656",
+      "source": "data/bridge-shadow-20261021.jsonl",
+      "row": 220,
+      "src": 13,
+      "dst": 1,
+      "op": "10",
+      "hex": "ffd2bb2d0d4102160191000210050c0d00144cbd007f",
+      "fields": null
+    }
+  ]
+}

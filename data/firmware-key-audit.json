@@ -1,0 +1,80 @@
+{
+  "image_format": "Freescale/NXP SB 1.1",
+  "header_sha1_valid": true,
+  "image_size_matches_header": true,
+  "header_blocks": 6,
+  "section_count": 1,
+  "key_dictionary_offset": 112,
+  "key_count": 1,
+  "cbc_mac_input_bytes": 112,
+  "radio_key_as_aes_wrapping_key_matches": false,
+  "zero_aes_wrapping_key_matches": false,
+  "scope": "Direct radio-key reuse as SB wrapping key tested; no derivation search, no device OTP read, no image decryption claimed.",
+  "manifest_files": [
+    {
+      "file": "ccimage.bin",
+      "size": 48585216,
+      "size_matches": true,
+      "md5_matches": true,
+      "sha256": "1920af8e28fb2e1fd828e27f28b3e4fb72956ec23ff7746612749accd505e089"
+    },
+    {
+      "file": "extern_eep.hex",
+      "size": 27930,
+      "size_matches": true,
+      "md5_matches": true,
+      "sha256": "579b46706ec3a343cb3d17434f5bd48862ed31f01fb4ca25a4d06af3b2ff4119"
+    },
+    {
+      "file": "zensys_firmware.hex",
+      "size": 91967,
+      "size_matches": true,
+      "md5_matches": true,
+      "sha256": "74f269b4fd70df8ea54fbcd39a139b7021ad02a70e07a2e65ce53cf31bd4ead4"
+    }
+  ],
+  "intel_hex": [
+    {
+      "file": "zensys_firmware.hex",
+      "checksum_valid_records": 2047,
+      "populated_bytes": 32678,
+      "address_start": 0,
+      "address_end": 32725,
+      "radio_key_present": false,
+      "strings": [
+        "\"-,+*)(",
+        "wg`F8520$\" ",
+        "6*9=42?",
+        "Z-Wave 3.52",
+        "|n}\"t>",
+        ",1qq'\"",
+        "G`-eJ`)",
+        ", 9*0:",
+        "806<0;",
+        "&lQA}&t&Q.t&QX0",
+        "y#Qtxzt",
+        "Q`QPx{",
+        "pB01?x",
+        "yy|i}_t",
+        "@`'eG`#",
+        "Gegpa0",
+        "*6*9=42?"
+      ]
+    },
+    {
+      "file": "extern_eep.hex",
+      "checksum_valid_records": 630,
+      "populated_bytes": 9841,
+      "address_start": 0,
+      "address_end": 9840,
+      "radio_key_present": false,
+      "strings": [
+        "ZeNsYs"
+      ]
+    }
+  ],
+  "format_sources": [
+    "https://raw.githubusercontent.com/Rockbox/rockbox/master/utils/imxtools/sbtools/sb.h",
+    "https://raw.githubusercontent.com/Rockbox/rockbox/master/utils/imxtools/sbtools/sb.c"
+  ]
+}

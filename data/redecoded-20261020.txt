@@ -1,0 +1,93 @@
+2026-10-20T23:20:44.173+02:00 row=17 zw40t phase=0 inv+5@3 home=ffd2bb2d   1->  2 ack seq=1 ffd2bb2d0103010a024f
+2026-10-20T23:20:44.218+02:00 row=18 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->  2 singlecast/ackreq seq=8 PROPRIETARY mfr=0002 op=10 len=0a data=0b0d0000000706406d5e1533 ffd2bb2d0141081b02910002100a0b0d0000000706406d5e1533ce
+2026-10-20T23:22:20.490+02:00 row=40 zw40t phase=0 inv+3@7 home=ffd2bb2d   1-> 12 singlecast/ackreq seq=9 PROPRIETARY mfr=0002 op=10 len=0a data=0b0d000000050708862dfd92 ffd2bb2d0141091b0c910002100a0b0d000000050708862dfd925b
+2026-10-20T23:22:20.538+02:00 row=41 zw40t phase=0 inv+1@18 home=ffd2bb2d   1-> 12 singlecast/ackreq seq=9 PROPRIETARY mfr=0002 op=10 len=0a data=0b0d000000050708862dfd92 ffd2bb2d0141091b0c910002100a0b0d000000050708862dfd925b
+2026-10-20T23:22:24.276+02:00 row=45 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->  6 singlecast/ackreq seq=10 PROPRIETARY mfr=0002 op=10 len=0a data=0f0d0000000706400b4ca515 ffd2bb2d01410a1b06910002100a0f0d0000000706400b4ca5152e
+2026-10-20T23:23:40.378+02:00 row=61 zw40t phase=0 inv+1@3 home=ffd2bb2d   1->  8 ack seq=1 ffd2bb2d0103010a0845
+2026-10-20T23:23:40.423+02:00 row=62 zw40t phase=0 inv+1@8 home=ffd2bb2d   1->  8 singlecast/ackreq seq=11 PROPRIETARY mfr=0002 op=10 len=0a data=090d00000001073a784067e1 ffd2bb2d01410b1b08910002100a090d00000001073a784067e113
+2026-10-20T23:25:19.027+02:00 row=86 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 12 singlecast/ackreq seq=12 PROPRIETARY mfr=0002 op=10 len=10 data=0c0d00153017540a1a00012c001429071389 ffd2bb2d01410c210c91000210100c0d00153017540a1a00012c0014290713894c
+2026-10-20T23:25:34.774+02:00 row=90 zw40t phase=0 inv+1@7 home=ffd2bb2d   1->  2 singlecast/ackreq seq=13 PROPRIETARY mfr=0002 op=10 len=0a data=0c0d000000070640d9b58a9b ffd2bb2d01410d1b02910002100a0c0d000000070640d9b58a9ba4
+2026-10-20T23:26:22.341+02:00 row=100 zw40t phase=0 inv+7@8 home=ffd2bb2d   6->  1 singlecast/ackreq seq=1 PROPRIETARY mfr=0002 op=10 len=0e data=100c05400130030a0320032256fcd426 ffd2bb2d0641011f01910002100e100c05400130030a0320032256fcd426aa
+2026-10-20T23:26:22.384+02:00 row=101 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->  6 singlecast/ackreq seq=14 PROPRIETARY mfr=0002 op=10 len=10 data=080d00183117540a1a00012c00140e7b2c0a ffd2bb2d01410e21069100021010080d00183117540a1a00012c00140e7b2c0aab
+2026-10-20T23:27:18.224+02:00 row=121 zw40t phase=0 inv+1@8 home=ffd2bb2d   1-> 12 singlecast/ackreq seq=15 PROPRIETARY mfr=0002 op=10 len=0a data=0d0d0000000507087b3a20e4 ffd2bb2d01410f1b0c910002100a0d0d0000000507087b3a20e41a
+2026-10-20T23:27:18.292+02:00 row=122 zw40t phase=0 inv+7@17 home=ffd2bb2d   1-> 12 singlecast/ackreq seq=15 PROPRIETARY mfr=0002 op=10 len=0a data=0d0d0000000507087b3a20e4 ffd2bb2d01410f1b0c910002100a0d0d0000000507087b3a20e41a
+2026-10-20T23:27:21.898+02:00 row=124 zw40t phase=0 inv+1@3 home=ffd2bb2d   1->  6 ack seq=1 ffd2bb2d0103010a064b
+2026-10-20T23:27:21.936+02:00 row=125 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->  6 singlecast/ackreq seq=1 PROPRIETARY mfr=0002 op=10 len=0a data=090d00000007064037adbf95 ffd2bb2d0141011b06910002100a090d00000007064037adbf9564
+2026-10-20T23:27:23.331+02:00 row=126 zw40t phase=0 inv+3@6 home=ffd2bb2d   1->  5 singlecast/ackreq seq=2 PROPRIETARY mfr=0002 op=10 len=0a data=0c0d000000010640146ca4ca ffd2bb2d0141021b05910002100a0c0d000000010640146ca4cac1
+2026-10-20T23:27:44.366+02:00 row=131 zw40t phase=0 inv+5@7 home=ffd2bb2d   1->255 h5 seq=1 CC=BASIC cmd=00 data=fa400000000001220100 ffd2bb2d01050116ff2000fa40000000000122010010
+2026-10-20T23:27:53.158+02:00 row=134 zw40t phase=0 inv+3@6 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=1 CC=ZWAVE_PROTOCOL cmd=04 data=0101 ffd2bb2d0141010e0e0104010100
+2026-10-20T23:27:53.158+02:00 row=134 zw40t phase=0 inv+2@41 home=ffd2bb2d  14->  1 ack seq=1 ffd2bb2d0e03010a0143
+2026-10-20T23:27:53.214+02:00 row=135 zw40t phase=0 inv+7@8 home=ffd2bb2d  14->  1 singlecast/ackreq seq=1 CC=ZWAVE_PROTOCOL cmd=07 data=00 ffd2bb2d0e41010d0101070000
+2026-10-20T23:27:53.214+02:00 row=135 zw40t phase=0 inv+1@43 home=ffd2bb2d   1-> 14 ack seq=1 ffd2bb2d0103010a0e43
+2026-10-20T23:27:53.232+02:00 row=136 zw40t phase=0 inv+5@8 home=ffd2bb2d  14->  1 ack seq=2 ffd2bb2d0e03020a0140
+2026-10-20T23:27:53.232+02:00 row=136 zw40t phase=0 inv+7@32 home=ffd2bb2d  14->  1 singlecast/ackreq seq=2 CC=ZWAVE_PROTOCOL cmd=06 data=0101 ffd2bb2d0e41020e010106010101
+2026-10-20T23:27:53.263+02:00 row=137 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=3 CC=ZWAVE_PROTOCOL cmd=14 data=010010 ffd2bb2d0141030f0e011401001002
+2026-10-20T23:27:53.263+02:00 row=137 zw40t phase=0 inv+0@45 home=ffd2bb2d  14->  1 ack seq=3 ffd2bb2d0e03030a0141
+2026-10-20T23:27:53.657+02:00 row=138 zw40t phase=0 inv+5@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=4 CC=MANUFACTURER_SPECIFIC cmd=04 data= ffd2bb2d0141040c0e720474
+2026-10-20T23:27:53.657+02:00 row=138 zw40t phase=0 inv+6@40 home=ffd2bb2d  14->  1 ack seq=4 ffd2bb2d0e03040a0146
+2026-10-20T23:27:53.676+02:00 row=139 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 14 ack seq=3 ffd2bb2d0103030a0e41
+2026-10-20T23:27:53.722+02:00 row=140 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=5 PROPRIETARY mfr=0002 op=80 field=02 data=10 ffd2bb2d014105100e9100028002101e
+2026-10-20T23:27:53.722+02:00 row=140 zw40t phase=0 inv+1@46 home=ffd2bb2d  14->  1 ack seq=5 ffd2bb2d0e03050a0147
+2026-10-20T23:27:53.743+02:00 row=141 zw40t phase=0 inv+7@1 home=ffd2bb2d   1-> 14 ack seq=4 ffd2bb2d0103040a0e46
+2026-10-20T23:27:53.855+02:00 row=142 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=6 PROPRIETARY mfr=0002 op=80 field=04 data=<network-key> ffd2bb2d0141061f0e9100028004<network-key>bb
+2026-10-20T23:27:53.872+02:00 row=143 zw40t phase=0 inv+1@5 home=ffd2bb2d  14->  1 singlecast/ackreq seq=5 PROPRIETARY mfr=0002 op=80 field=05 data=00 ffd2bb2d0e4105100191000280050009
+2026-10-20T23:27:53.896+02:00 row=144 zw40t phase=0 inv+7@8 home=ffd2bb2d  14->  1 singlecast/ackreq seq=6 PROPRIETARY mfr=0002 op=10 len=16 data=110600050000013030200100040200000000ffff5bf8467c ffd2bb2d0e410627019100021016110600050000013030200100040200000000ffff5bf8467c13
+2026-10-20T23:27:53.949+02:00 row=145 zw40t phase=0 inv+5@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=7 PROPRIETARY mfr=0002 op=50 len=1b data=09070500010000000300200130302004010402000386e7040244f43b00 ffd2bb2d0141072c0e910002501b09070500010000000300200130302004010402000386e7040244f43b001d
+2026-10-20T23:27:53.976+02:00 row=146 zw40t phase=0 inv+7@8 home=ffd2bb2d  14->  1 singlecast/ackreq seq=7 PROPRIETARY mfr=0002 op=90 len=03 data=20720a9b95 ffd2bb2d0e41071401910002900320720a9b954f
+2026-10-20T23:27:53.976+02:00 row=146 zw40t phase=0 inv+5@50 home=ffd2bb2d   1-> 14 ack seq=7 ffd2bb2d0103070a0e45
+2026-10-20T23:27:54.000+02:00 row=147 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->255 h5 seq=2 CC=BASIC cmd=00 data=fa400000000001220100 ffd2bb2d01050216ff2000fa40000000000122010013
+2026-10-20T23:27:54.141+02:00 row=148 zw40t phase=0 inv+3@8 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=8 PROPRIETARY mfr=0002 op=90 len=04 data=2100c7d6338e ffd2bb2d014108150e91000290042100c7d6338e9d
+2026-10-20T23:27:54.141+02:00 row=148 zw40t phase=0 inv+5@50 home=ffd2bb2d  14->  1 ack seq=8 ffd2bb2d0e03080a014a
+2026-10-20T23:27:54.234+02:00 row=149 zw40t phase=0 inv+1@6 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=9 CC=NO_OPERATION cmd= data= ffd2bb2d0141090b0e0008
+2026-10-20T23:27:54.277+02:00 row=150 zw40t phase=0 inv+1@18 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=9 CC=NO_OPERATION cmd= data= ffd2bb2d0141090b0e0008
+2026-10-20T23:27:54.363+02:00 row=151 zw40t phase=0 inv+7@18 home=ffd2bb2d   1-> 14 singlecast/ackreq seq=9 CC=NO_OPERATION cmd= data= ffd2bb2d0141090b0e0008
+2026-10-20T23:28:20.091+02:00 row=156 zw40t phase=0 inv+5@8 home=ffd2bb2d   1->255 h5 seq=1 CC=BASIC cmd=00 data=fa400000000001220100 ffd2bb2d01050116ff2000fa40000000000122010010
+2026-10-20T23:28:22.360+02:00 row=157 zw40t phase=0 inv+3@6 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=1 CC=ZWAVE_PROTOCOL cmd=04 data=0101 ffd2bb2d0141010e0f0104010101
+2026-10-20T23:28:22.360+02:00 row=157 zw40t phase=0 inv+3@40 home=ffd2bb2d  15->  1 ack seq=1 ffd2bb2d0f03010a0142
+2026-10-20T23:28:22.416+02:00 row=158 zw40t phase=0 inv+3@8 home=ffd2bb2d  15->  1 singlecast/ackreq seq=1 CC=ZWAVE_PROTOCOL cmd=07 data=00 ffd2bb2d0f41010d0101070001
+2026-10-20T23:28:22.416+02:00 row=158 zw40t phase=0 inv+1@43 home=ffd2bb2d   1-> 15 ack seq=1 ffd2bb2d0103010a0f42
+2026-10-20T23:28:22.434+02:00 row=159 zw40t phase=0 inv+7@8 home=ffd2bb2d  15->  1 ack seq=2 ffd2bb2d0f03020a0141
+2026-10-20T23:28:22.434+02:00 row=159 zw40t phase=0 inv+2@34 home=ffd2bb2d  15->  1 singlecast/ackreq seq=2 CC=ZWAVE_PROTOCOL cmd=06 data=0101 ffd2bb2d0f41020e010106010100
+2026-10-20T23:28:22.466+02:00 row=160 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=3 CC=ZWAVE_PROTOCOL cmd=14 data=010010 ffd2bb2d0141030f0f011401001003
+2026-10-20T23:28:22.466+02:00 row=160 zw40t phase=0 inv+1@45 home=ffd2bb2d  15->  1 ack seq=3 ffd2bb2d0f03030a0140
+2026-10-20T23:28:22.843+02:00 row=161 zw40t phase=0 inv+7@7 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=4 CC=MANUFACTURER_SPECIFIC cmd=04 data= ffd2bb2d0141040c0f720475
+2026-10-20T23:28:22.843+02:00 row=161 zw40t phase=0 inv+7@39 home=ffd2bb2d  15->  1 ack seq=4 ffd2bb2d0f03040a0147
+2026-10-20T23:28:22.862+02:00 row=162 zw40t phase=0 inv+5@8 home=ffd2bb2d   1-> 15 ack seq=3 ffd2bb2d0103030a0f40
+2026-10-20T23:28:22.894+02:00 row=163 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=5 PROPRIETARY mfr=0002 op=80 field=02 data=10 ffd2bb2d014105100f9100028002101f
+2026-10-20T23:28:22.894+02:00 row=163 zw40t phase=0 inv+4@44 home=ffd2bb2d  15->  1 ack seq=5 ffd2bb2d0f03050a0146
+2026-10-20T23:28:22.914+02:00 row=164 zw40t phase=0 inv+1@8 home=ffd2bb2d   1-> 15 ack seq=4 ffd2bb2d0103040a0f47
+2026-10-20T23:28:23.026+02:00 row=165 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=6 PROPRIETARY mfr=0002 op=80 field=04 data=<network-key> ffd2bb2d0141061f0f9100028004<network-key>ba
+2026-10-20T23:28:23.043+02:00 row=166 zw40t phase=0 inv+1@6 home=ffd2bb2d  15->  1 singlecast/ackreq seq=5 PROPRIETARY mfr=0002 op=80 field=05 data=00 ffd2bb2d0f4105100191000280050008
+2026-10-20T23:28:23.043+02:00 row=166 zw40t phase=0 inv+7@43 home=ffd2bb2d   1-> 15 ack seq=5 ffd2bb2d0103050a0f46
+2026-10-20T23:28:23.067+02:00 row=167 zw40t phase=0 inv+7@8 home=ffd2bb2d  15->  1 singlecast/ackreq seq=6 PROPRIETARY mfr=0002 op=10 len=16 data=120600050000013030200100040200000000ffffa4047d3e ffd2bb2d0f410627019100021016120600050000013030200100040200000000ffffa4047d3e6b
+2026-10-20T23:28:23.130+02:00 row=168 zw40t phase=0 inv+7@7 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=7 PROPRIETARY mfr=0002 op=50 len=1b data=0a070000010c00000300200130302004010402000386e70402bbd89b18 ffd2bb2d0141072c0f910002501b0a070000010c00000300200130302004010402000386e70402bbd89b187d
+2026-10-20T23:28:23.188+02:00 row=169 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=8 CC=ZWAVE_PROTOCOL cmd=0c data=010010 ffd2bb2d0141080f0f010c01001010
+2026-10-20T23:28:23.188+02:00 row=169 zw40t phase=0 inv+1@44 home=ffd2bb2d  15->  1 ack seq=8 ffd2bb2d0f03080a014b
+2026-10-20T23:28:23.221+02:00 row=170 zw40t phase=0 inv+5@7 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=9 CC=ZWAVE_PROTOCOL cmd=0c data=001008 ffd2bb2d0141090f0f010c00100818
+2026-10-20T23:28:23.221+02:00 row=170 zw40t phase=0 inv+6@43 home=ffd2bb2d  15->  1 ack seq=9 ffd2bb2d0f03090a014a
+2026-10-20T23:28:23.243+02:00 row=171 zw40t phase=0 inv+7@8 home=ffd2bb2d  15->  1 ack seq=10 ffd2bb2d0f030a0a0149
+2026-10-20T23:28:23.243+02:00 row=171 zw40t phase=0 inv+0@48 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=11 CC=ZWAVE_PROTOCOL cmd=0c data=003008 ffd2bb2d01410b0f0f010c0030083a
+2026-10-20T23:28:23.958+02:00 row=172 zw40t phase=0 inv+7@8 home=ffd2bb2d  15->  1 singlecast/ackreq seq=7 PROPRIETARY mfr=0002 op=10 len=0e data=130c0c400130030a03200322717a9faa ffd2bb2d0f41071f01910002100e130c0c400130030a03200322717a9faac9
+2026-10-20T23:28:24.003+02:00 row=173 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=12 PROPRIETARY mfr=0002 op=50 len=10 data=0b0d001a3317540a1a0004b001f435050cef ffd2bb2d01410c210f91000250100b0d001a3317540a1a0004b001f435050cef1b
+2026-10-20T23:28:24.050+02:00 row=175 zw40t phase=0 inv+7@2 home=ffd2bb2d   1-> 15 ack seq=8 ffd2bb2d0103080a0f4b
+2026-10-20T23:28:24.096+02:00 row=176 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=13 PROPRIETARY mfr=0002 op=50 len=14 data=0c0d00000002083406a402580af000000af0b59e405f ffd2bb2d01410d250f91000250140c0d00000002083406a402580af000000af0b59e405f07
+2026-10-20T23:28:25.224+02:00 row=177 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 15 singlecast/ackreq seq=14 PROPRIETARY mfr=0002 op=10 len=1a data=110c000603200322030a20402048204104b001f4000028009fcca694 ffd2bb2d01410e2b0f910002101a110c000603200322030a20402048204104b001f4000028009fcca694c6
+2026-10-20T23:28:25.275+02:00 row=178 zw40t phase=0 inv+7@8 home=ffd2bb2d  15->  1 singlecast/ackreq seq=9 PROPRIETARY mfr=0002 op=10 len=05 data=090d0030e77645 ffd2bb2d0f410916019100021005090d0030e7764572
+2026-10-20T23:28:25.275+02:00 row=178 zw40t phase=0 inv+2@53 home=ffd2bb2d   1-> 15 ack seq=9 ffd2bb2d0103090a0f4a
+2026-10-20T23:28:32.307+02:00 row=182 zw40t phase=0 inv+5@3 home=ffd2bb2d   1->  8 ack seq=1 ffd2bb2d0103010a0845
+2026-10-20T23:28:32.351+02:00 row=183 zw40t phase=0 inv+7@7 home=ffd2bb2d   1->  8 singlecast/ackreq seq=15 PROPRIETARY mfr=0002 op=10 len=0a data=0a0d00000001073a19cd21f9 ffd2bb2d01410f1b08910002100a0a0d00000001073a19cd21f9a6
+2026-10-20T23:29:18.001+02:00 row=197 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->255 h5 seq=2 CC=BASIC cmd=00 data=fa400000000001220100 ffd2bb2d01050216ff2000fa40000000000122010013
+2026-10-20T23:29:18.127+02:00 row=198 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->  3 singlecast/ackreq seq=1 PROPRIETARY mfr=0002 op=90 len=03 data=22c9dd0983 ffd2bb2d0141011403910002900322c9dd0983ae
+2026-10-20T23:29:18.262+02:00 row=200 zw40t phase=0 inv+7@18 home=ffd2bb2d   1->  3 singlecast/ackreq seq=1 PROPRIETARY mfr=0002 op=90 len=03 data=22c9dd0983 ffd2bb2d0141011403910002900322c9dd0983ae
+2026-10-20T23:29:23.412+02:00 row=202 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->  3 singlecast/ackreq seq=2 CC=NO_OPERATION cmd= data= ffd2bb2d0141020b03000e
+2026-10-20T23:29:23.436+02:00 row=203 zw40t phase=0 inv+7@17 home=ffd2bb2d   1->  3 singlecast/ackreq seq=2 CC=NO_OPERATION cmd= data= ffd2bb2d0141020b03000e
+2026-10-20T23:29:23.502+02:00 row=204 zw40t phase=0 inv+7@17 home=ffd2bb2d   1->  3 singlecast/ackreq seq=2 CC=NO_OPERATION cmd= data= ffd2bb2d0141020b03000e
+2026-10-20T23:29:23.541+02:00 row=205 zw40t phase=0 inv+1@8 home=ffd2bb2d   1->  3 singlecast/ackreq seq=3 CC=NO_OPERATION cmd= data= ffd2bb2d0141030b03000f
+2026-10-20T23:29:23.626+02:00 row=206 zw40t phase=0 inv+7@18 home=ffd2bb2d   1->  3 singlecast/ackreq seq=3 CC=NO_OPERATION cmd= data= ffd2bb2d0141030b03000f
+2026-10-20T23:29:23.652+02:00 row=207 zw40t phase=0 inv+5@18 home=ffd2bb2d   1->  3 singlecast/ackreq seq=3 CC=NO_OPERATION cmd= data= ffd2bb2d0141030b03000f
+2026-10-20T23:30:25.252+02:00 row=224 zw40t phase=0 inv+1@3 home=ffd2bb2d   1->  2 ack seq=1 ffd2bb2d0103010a024f
+2026-10-20T23:30:25.290+02:00 row=225 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->  2 singlecast/ackreq seq=4 PROPRIETARY mfr=0002 op=10 len=0a data=0d0d000000070640d7961dcf ffd2bb2d0141041b02910002100a0d0d000000070640d7961dcf42
+2026-10-20T23:32:15.470+02:00 row=248 zw40t phase=0 inv+1@5 home=ffd2bb2d   1->  5 singlecast/ackreq seq=5 PROPRIETARY mfr=0002 op=10 len=0a data=0d0d0000000106402ea78d71 ffd2bb2d0141051b05910002100a0d0d0000000106402ea78d71a4
+2026-10-20T23:32:15.667+02:00 row=250 zw40t phase=0 inv+1@1 home=ffd2bb2d   1-> 12 ack seq=1 ffd2bb2d0103010a0c41
+2026-10-20T23:32:15.704+02:00 row=251 zw40t phase=0 inv+7@8 home=ffd2bb2d   1-> 12 singlecast/ackreq seq=6 PROPRIETARY mfr=0002 op=10 len=0a data=0e0d0000000507085c70524e ffd2bb2d0141061b0c910002100a0e0d0000000507085c70524ea5
+2026-10-20T23:32:19.638+02:00 row=255 zw40t phase=0 inv+7@8 home=ffd2bb2d   1->  6 singlecast/ackreq seq=7 PROPRIETARY mfr=0002 op=10 len=0a data=0a0d00000007064092009e87 ffd2bb2d0141071b06910002100a0a0d00000007064092009e875a

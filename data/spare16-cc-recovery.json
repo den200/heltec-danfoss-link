@@ -1,0 +1,284 @@
+{
+  "user_confirmation": "Swapped batteries from deleted spare to usable spare; CC and head now synchronize both ways, actual temperature shown.",
+  "node": 16,
+  "authenticated_events": [
+    {
+      "ts": "2026-10-21T19:34:06.781+02:00",
+      "kind": "other",
+      "hex": "ffd2bb2d1041011f01910002100e110c0d400130030a032003224f3292a6a4"
+    },
+    {
+      "ts": "2026-10-21T19:34:06.833+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d01410721109100025010090d000a3913750a1a00012c00147c5feb87d6"
+    },
+    {
+      "ts": "2026-10-21T19:34:06.866+02:00",
+      "kind": "report",
+      "hex": "ffd2bb2d10410239019100021028120c0d85030020102011030f031703280318032f0330030103020303032307cc006300004d00cbb895bfb8"
+    },
+    {
+      "ts": "2026-10-21T19:34:08.443+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d014108251091000250140a0d000000030834083402580af000000af00df238196e",
+      "primary_target_c100": 2100,
+      "configuration_22_to_31": "083402580af000000af0"
+    },
+    {
+      "ts": "2026-10-21T19:34:08.492+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d0141092b10910002101a130c000603200322030a204020482041012c001400002800523ecc7a1f"
+    },
+    {
+      "ts": "2026-10-21T19:34:08.537+02:00",
+      "kind": "other",
+      "hex": "ffd2bb2d104103160191000210050b0d004f26dbfdce"
+    },
+    {
+      "ts": "2026-10-21T19:34:24.215+02:00",
+      "kind": "report",
+      "hex": "ffd2bb2d10410135019100021024130c0d46030020102011030f0317030103280318032f033007cc006300004d0008024d0d4fc7c3"
+    },
+    {
+      "ts": "2026-10-21T19:34:24.297+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d01410a1b10910002500a0b0d0000000408024216525193",
+      "primary_target_c100": 2050
+    },
+    {
+      "ts": "2026-10-21T19:34:24.419+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d01410b2b10910002101a140c000603200322030a204020482041012c001400002800971f00f2ba"
+    },
+    {
+      "ts": "2026-10-21T19:34:24.468+02:00",
+      "kind": "other",
+      "hex": "ffd2bb2d104102160191000210050c0d00144cbd0062"
+    },
+    {
+      "ts": "2026-10-21T19:34:49.742+02:00",
+      "kind": "report",
+      "hex": "ffd2bb2d10410139019100021028140c0d85030020102011030f031703280318032f033003010302030303230869006300004d0025a4d30e12"
+    },
+    {
+      "ts": "2026-10-21T19:34:49.825+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d01410c251091000250140c0d000000040802080202580af000000af0859129ac24",
+      "primary_target_c100": 2050,
+      "configuration_22_to_31": "080202580af000000af0"
+    },
+    {
+      "ts": "2026-10-21T19:34:49.913+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d01410d2b10910002101a150c000603200322030a204020482041012c0014000028000f055029b4"
+    },
+    {
+      "ts": "2026-10-21T19:34:49.959+02:00",
+      "kind": "other",
+      "hex": "ffd2bb2d104102160191000210050d0d00af3e4efea7"
+    },
+    {
+      "ts": "2026-10-21T19:35:05.652+02:00",
+      "kind": "report",
+      "hex": "ffd2bb2d10410139019100021028150c0d4720202021030020102011030f031703280318032f0330083307d5087e006300004d0017fbe93763"
+    },
+    {
+      "ts": "2026-10-21T19:35:05.735+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d0141011b10910002500a0d0d00000005079ebcaaab789e",
+      "primary_target_c100": 1950
+    },
+    {
+      "ts": "2026-10-21T19:35:05.924+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d0141022b10910002101a160c000603200322030a204020482041012c0014000028006afecfe070"
+    },
+    {
+      "ts": "2026-10-21T19:35:05.967+02:00",
+      "kind": "other",
+      "hex": "ffd2bb2d104102160191000210050e0d002041a08cc8"
+    },
+    {
+      "ts": "2026-10-21T19:35:26.369+02:00",
+      "kind": "report",
+      "hex": "ffd2bb2d10410139019100021028160c0d85030020102011030f031703280318032f03300301030203030323087e006300004b0079dfada8fe"
+    },
+    {
+      "ts": "2026-10-21T19:35:26.438+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d014103251091000250140e0d00000005079e079e02580af000000af020f5fd5ecf",
+      "primary_target_c100": 1950,
+      "configuration_22_to_31": "079e02580af000000af0"
+    },
+    {
+      "ts": "2026-10-21T19:35:26.488+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d0141042b10910002101a170c000603200322030a204020482041012c00140000280084e4071eb5"
+    },
+    {
+      "ts": "2026-10-21T19:35:26.536+02:00",
+      "kind": "other",
+      "hex": "ffd2bb2d104102160191000210050f0d008dbd9d6b42"
+    },
+    {
+      "ts": "2026-10-21T19:36:04.497+02:00",
+      "kind": "report",
+      "hex": "ffd2bb2d10410139019100021028170c0d4720202021030020102011030f031703280318032f0330086507d508bf006300004a00414af93100"
+    },
+    {
+      "ts": "2026-10-21T19:36:04.573+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d0141051b10910002500a0f0d00000005079e9e12a4aadf",
+      "primary_target_c100": 1950
+    },
+    {
+      "ts": "2026-10-21T19:36:04.628+02:00",
+      "kind": "cc",
+      "hex": "ffd2bb2d0141062b10910002101a100c000603200322030a204020482041012c001400002800bc478767d2"
+    },
+    {
+      "ts": "2026-10-21T19:36:04.671+02:00",
+      "kind": "other",
+      "hex": "ffd2bb2d10410216019100021005080d00e342595b20"
+    }
+  ],
+  "latest_status": {
+    "ts": "2026-10-21T19:37:12.810+02:00",
+    "status": {
+      "t": "status",
+      "ms": 6871947,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 25,
+          "dup": 2,
+          "replies": 0,
+          "cc": 23,
+          "reply_acks": 0,
+          "last_seen": 6667135
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 27,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 25,
+          "dup": 2,
+          "replies": 0,
+          "cc": 25,
+          "reply_acks": 0,
+          "last_seen": 6736511
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1850,
+          "mode": 1,
+          "reports": 29,
+          "dup": 5,
+          "replies": 0,
+          "cc": 23,
+          "reply_acks": 0,
+          "last_seen": 6729522
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "reports": 22,
+          "dup": 3,
+          "replies": 0,
+          "cc": 22,
+          "reply_acks": 0,
+          "last_seen": 6598830
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1950,
+          "mode": 5,
+          "reports": 6,
+          "dup": 0,
+          "replies": 0,
+          "cc": 13,
+          "reply_acks": 0,
+          "last_seen": 6803745
+        },
+        {
+          "node": 15,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2300,
+          "mode": 3,
+          "reports": 64,
+          "dup": 16,
+          "replies": 0,
+          "cc": 40,
+          "reply_acks": 0,
+          "last_seen": 6461380
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 25,
+          "dup": 2,
+          "replies": 0,
+          "cc": 23,
+          "reply_acks": 0,
+          "last_seen": 6656981
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 25,
+        "autostart": false,
+        "dirty": false,
+        "last_save_us": 7543,
+        "max_save_us": 72616,
+        "save_failures": 0
+      },
+      "event_queue_drops": 0,
+      "rx_irq_to_task_max_us": 21,
+      "network": {
+        "configured": true,
+        "started": true,
+        "wifi": true,
+        "mqtt": true,
+        "command_queue_drops": 0
+      }
+    }
+  }
+}

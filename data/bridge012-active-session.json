@@ -1,0 +1,16 @@
+{
+  "node": 16,
+  "firmware": "bridge-0.12",
+  "cc_confirmed_off": true,
+  "start": "2026-10-22T08:38:16.621372+02:00",
+  "deadline": "2026-10-22T08:44:16.621372+02:00",
+  "purpose": "remote19C and local22C application test; all other heads disabled",
+  "physical_remote_target_c": 19,
+  "physical_remote_confirmed": true,
+  "physical_local_target_c": 22,
+  "physical_local_stable": true,
+  "physical_no_alarms": true,
+  "end": "2026-10-22T08:42:36.693+02:00",
+  "end_reason": "remote and local physical checks passed; saved SHADOW verified",
+  "control_disabled_verified": true
+}

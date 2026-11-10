@@ -1,0 +1,17 @@
+{
+  "firmware": "bridge-0.4",
+  "state": "flashed and digest verified; only node 15 enabled at 18 C with CC off",
+  "sha256": "6022f76de958a46dacb1ac485786196ca50d29bec6e05368422f640e592c9172",
+  "change": "Keep XOSC running during standby to reduce TX-to-RX turnaround; retain 25 ms exact-length head ACK receive window.",
+  "previous_firmware": "rpi5:~/listening-post/fw/bridge-0.3.bin",
+  "checks": [
+    "PlatformIO build passes",
+    "Flash digest verified",
+    "First node 15 reply matched head ACK at 11:39:56; reply_acks=1, pending=false",
+    "Local 18-to-17 C change adopted and confirmed on display without warning; STATUS target=1700, 6 replies and 6 matching ACKs"
+  ],
+  "hardware_pending": [
+    "One-hour uninterrupted run and final display/warning check"
+  ],
+  "automatic_followup": "danfoss-spare-bench-check; five-minute heartbeat, bounded to 15 runs"
+}

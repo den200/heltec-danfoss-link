@@ -1,0 +1,18 @@
+{
+  "version": "bridge-0.14.1",
+  "status": "Active controller; flashed 22 Oct 2026 21:44 via Pi (app-only), boot recovered:true shadow:false",
+  "sha256": "bc47a6505bd5ea1e6c5621fc2951de5c8c8f8bec5aad248e1c23fa4cea395fc6",
+  "binary": "rpi5:~/listening-post/fw/bridge-0.14.1.bin (private)",
+  "nvs_backup_before_flash": "rpi5:~/listening-post/fw/nvs-before-0.14.1-20261022-214446.bin sha256 045f9bb93543609b3ac53d83667b49c02a5c2e457c004493f723cf822f877c4a",
+  "rollback": "rpi5:~/listening-post/fw/bridge-0.14.0.bin sha256 7dd03f818f487a9b80be24cdf76f0de1b10b186bc125052394c05b4edd5718ae",
+  "storage_version": 3,
+  "changes": [
+    "Front/valve-side temperatures, valve opening and battery level (hypothesis) per head, with HA sensors"
+  ],
+  "open_gates": [
+    "Battery level as percent unconfirmed (fresh batteries in node 5 should read ~100)",
+    "ID255 wrap test on node 16",
+    "V3 power-cut",
+    "Node 5 uplink at -102..-110 dBm"
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "ts": "2026-10-21T16:01:45.508+02:00",
+    "event": {
+      "t": "boot",
+      "fw": "nvs-bench-1",
+      "radio": false
+    }
+  },
+  {
+    "ts": "2026-10-21T16:01:48.576+02:00",
+    "event": {
+      "t": "bench_result",
+      "passed": true,
+      "fault_cases": 241,
+      "record_bytes": 120,
+      "namespace": "dfbench",
+      "power_interruption_tested": false
+    }
+  },
+  {
+    "ts": "2026-10-21T16:01:48.578+02:00",
+    "event": {
+      "t": "bench_done"
+    }
+  }
+]

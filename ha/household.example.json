@@ -1,0 +1,33 @@
+{
+  "_comment": "Copy to household.private.json and edit. rooms: key -> name, climate entities of its heads, the entity whose temperature the dashboard shows, default comfort/eco C and schedule ('Always comfort', 'Own schedule' or a group name). link_nodes: Danfoss node -> room key. test_nodes: spare heads shown in diagnostics only.",
+  "ha": "homeassistant.local:8123",
+  "rooms": {
+    "living_room": {
+      "name": "Living room",
+      "heads": [
+        "climate.danfoss_heltec_radiator_node_2",
+        "climate.danfoss_heltec_radiator_node_3"
+      ],
+      "temperature": "sensor.heating_living_room_temperature",
+      "comfort": 20,
+      "eco": 17,
+      "schedule": "Always comfort"
+    },
+    "bedroom": {
+      "name": "Bedroom",
+      "heads": [
+        "climate.danfoss_heltec_radiator_node_4"
+      ],
+      "temperature": "sensor.danfoss_heltec_room_temperature_estimate_node_4",
+      "comfort": 18,
+      "eco": 16,
+      "schedule": "Own schedule"
+    }
+  },
+  "link_nodes": {
+    "2": "living_room",
+    "3": "living_room",
+    "4": "bedroom"
+  },
+  "test_nodes": {}
+}

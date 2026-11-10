@@ -1,0 +1,2 @@
+persistence: recovery, pending-command exclusion, network binding and torn-write fallback passed
+Production V1 generation 30, 8 heads: passive V2 migration/roundtrip passed

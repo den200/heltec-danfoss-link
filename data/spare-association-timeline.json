@@ -1,0 +1,157 @@
+{
+  "first_cc_reply_to_15_in_day_capture": {
+    "ts": "2026-10-21T11:28:18.872+02:00",
+    "type": "cc",
+    "hex": "ffd2bb2d01410e160f9100021005090d014337660684"
+  },
+  "first_bridge_application_tx_to_15": {
+    "ts": "2026-10-21T11:31:19.697+02:00",
+    "type": "tx",
+    "hex": "ffd2bb2d014100250f9100021014080d0000000306a406a4025806a4000006a48c983de32f"
+  },
+  "latest_authenticated_local_23": {
+    "ts": "2026-10-21T18:29:10.577+02:00",
+    "type": "report",
+    "hex": "ffd2bb2d0f410135019100021024100c0c46030020102011030f0317030103280318032f033008650063003c4d0008fc389246d54b"
+  },
+  "latest_status": {
+    "ts": "2026-10-21T18:34:54.538+02:00",
+    "status": {
+      "t": "status",
+      "ms": 3133672,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 12,
+          "dup": 2,
+          "replies": 0,
+          "cc": 9,
+          "reply_acks": 0,
+          "last_seen": 2886869
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1700,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 14,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 12,
+          "dup": 2,
+          "replies": 0,
+          "cc": 9,
+          "reply_acks": 0,
+          "last_seen": 2874227
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1900,
+          "mode": 1,
+          "reports": 16,
+          "dup": 5,
+          "replies": 0,
+          "cc": 9,
+          "reply_acks": 0,
+          "last_seen": 2934604
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "reports": 13,
+          "dup": 3,
+          "replies": 0,
+          "cc": 9,
+          "reply_acks": 0,
+          "last_seen": 3026887
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 15,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2300,
+          "mode": 3,
+          "reports": 51,
+          "dup": 16,
+          "replies": 0,
+          "cc": 27,
+          "reply_acks": 0,
+          "last_seen": 3102114
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 13,
+          "dup": 2,
+          "replies": 0,
+          "cc": 11,
+          "reply_acks": 0,
+          "last_seen": 3123132
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 20,
+        "autostart": false,
+        "dirty": false,
+        "last_save_us": 7557,
+        "max_save_us": 72616,
+        "save_failures": 0
+      },
+      "event_queue_drops": 0,
+      "rx_irq_to_task_max_us": 21,
+      "network": {
+        "configured": true,
+        "started": true,
+        "wifi": true,
+        "mqtt": true,
+        "command_queue_drops": 0
+      }
+    }
+  },
+  "historical_room_A_mapping_source": "data/TRANSMISSION-TEST.md: room A / lc-013 / radio node16; present physical spare is node15, confirmed by button reports. Current CC association unresolved."
+}

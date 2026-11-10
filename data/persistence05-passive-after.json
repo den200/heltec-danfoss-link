@@ -1,0 +1,130 @@
+{
+  "boot": [
+    "2026-10-21T14:45:38.849+02:00",
+    {
+      "t": "boot",
+      "fw": "bridge-0.5",
+      "radio": true,
+      "freq": 868.4,
+      "shadow": true,
+      "recovered": true,
+      "autostart": false
+    }
+  ],
+  "status": [
+    "2026-10-21T14:46:08.873+02:00",
+    {
+      "t": "status",
+      "ms": 30187,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 2,
+        "autostart": false,
+        "dirty": false
+      }
+    }
+  ],
+  "restored_head": {
+    "node": 12,
+    "enabled": false,
+    "known": true,
+    "pending": false,
+    "target": 1800,
+    "mode": 5,
+    "reports": 0,
+    "dup": 0,
+    "replies": 0,
+    "cc": 0,
+    "reply_acks": 0,
+    "last_seen": 0
+  },
+  "head12_cc_replies_since_boot": [],
+  "passive_recovery_passed": true,
+  "reset_type": "ESP32 hardware reset through esptool; USB power remained connected"
+}

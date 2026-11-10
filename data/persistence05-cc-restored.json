@@ -1,0 +1,217 @@
+{
+  "checked_at": "2026-10-21T15:53:34.336434+02:00",
+  "status": [
+    "2026-10-21T15:53:16.219+02:00",
+    {
+      "t": "status",
+      "ms": 1868393,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 15,
+          "dup": 4,
+          "replies": 0,
+          "cc": 8,
+          "reply_acks": 0,
+          "last_seen": 1723945
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 5,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 11,
+          "dup": 4,
+          "replies": 0,
+          "cc": 6,
+          "reply_acks": 0,
+          "last_seen": 1801526
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1850,
+          "mode": 1,
+          "reports": 8,
+          "dup": 2,
+          "replies": 0,
+          "cc": 5,
+          "reply_acks": 0,
+          "last_seen": 1734427
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "reports": 10,
+          "dup": 4,
+          "replies": 0,
+          "cc": 5,
+          "reply_acks": 0,
+          "last_seen": 1637237
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 15,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 3,
+          "reports": 9,
+          "dup": 2,
+          "replies": 0,
+          "cc": 5,
+          "reply_acks": 0,
+          "last_seen": 1778109
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 11,
+          "dup": 4,
+          "replies": 0,
+          "cc": 6,
+          "reply_acks": 0,
+          "last_seen": 1838665
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 10,
+        "autostart": false,
+        "dirty": false
+      }
+    }
+  ],
+  "cc_events": [
+    [
+      "2026-10-21T15:50:46.178+02:00",
+      {
+        "t": "cc",
+        "ms": 1718454,
+        "node": 1,
+        "op": 16,
+        "len": 27,
+        "rssi": -78.5,
+        "hex": "ffd2bb2d0141051b05910002100a0e0d000000010640724e3f9e4f"
+      }
+    ],
+    [
+      "2026-10-21T15:50:51.733+02:00",
+      {
+        "t": "cc",
+        "ms": 1724009,
+        "node": 1,
+        "op": 16,
+        "len": 27,
+        "rssi": -73.5,
+        "hex": "ffd2bb2d0141061b02910002100a0b0d000000010834fa2b44fbc7"
+      }
+    ],
+    [
+      "2026-10-21T15:51:02.214+02:00",
+      {
+        "t": "cc",
+        "ms": 1734491,
+        "node": 1,
+        "op": 16,
+        "len": 27,
+        "rssi": -74.5,
+        "hex": "ffd2bb2d0141071b08910002100a0c0d00000001073a9e120d1e3b"
+      }
+    ],
+    [
+      "2026-10-21T15:51:45.959+02:00",
+      {
+        "t": "cc",
+        "ms": 1778232,
+        "node": 1,
+        "op": 16,
+        "len": 22,
+        "rssi": -84.5,
+        "hex": "ffd2bb2d014108160f91000210050f0d0188c710418e"
+      }
+    ],
+    [
+      "2026-10-21T15:52:09.314+02:00",
+      {
+        "t": "cc",
+        "ms": 1801590,
+        "node": 1,
+        "op": 16,
+        "len": 27,
+        "rssi": -75.0,
+        "hex": "ffd2bb2d0141091b06910002100a080d000000010834248626a481"
+      }
+    ],
+    [
+      "2026-10-21T15:52:46.453+02:00",
+      {
+        "t": "cc",
+        "ms": 1838729,
+        "node": 1,
+        "op": 16,
+        "len": 27,
+        "rssi": -76.0,
+        "hex": "ffd2bb2d01410a1b0d910002100a0c0d000000010640146ca4cac1"
+      }
+    ]
+  ],
+  "cc_event_count": 40,
+  "event_kinds": [
+    "ack",
+    "boot",
+    "cc",
+    "dup",
+    "host_command",
+    "other",
+    "report",
+    "status"
+  ],
+  "user_confirmed_household_normal": true,
+  "bridge_passive": true
+}

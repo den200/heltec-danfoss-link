@@ -1,0 +1,115 @@
+{
+  "note": "Raw status only: node 6 changed fe00 to 4f00 after fresh batteries; see data/BATTERY-STATUS.md for labelled evidence.",
+  "counts": {
+    "rows": 22778,
+    "authenticated_occurrences": 865,
+    "malformed_rows": 2
+  },
+  "heads": {
+    "2": {
+      "occurrences": 65,
+      "layouts": {
+        "routine": 41,
+        "alternate": 3
+      },
+      "status_raw": {
+        "4000": 39,
+        "4600": 5
+      },
+      "button_events": [],
+      "distinct_frames": 44
+    },
+    "6": {
+      "occurrences": 80,
+      "layouts": {
+        "routine": 70,
+        "alternate": 6,
+        "button": 1
+      },
+      "status_raw": {
+        "fe00": 70,
+        "4f00": 4,
+        "4e00": 3
+      },
+      "button_events": [
+        {
+          "time": "2026-10-21T11:00:54.706",
+          "source": "data/bridge-shadow-20261021.jsonl",
+          "row": 166,
+          "layout": "button",
+          "status_raw": "fe00",
+          "local_target_c100": 1700,
+          "hex": "ffd2bb2d06410135019100021024170c0546030020102011030f0317030103280318032f0330075d00b302a0fe0006a4e6aa923e09"
+        }
+      ],
+      "distinct_frames": 77
+    },
+    "8": {
+      "occurrences": 66,
+      "layouts": {
+        "routine": 58
+      },
+      "status_raw": {
+        "3c00": 58
+      },
+      "button_events": [],
+      "distinct_frames": 58
+    },
+    "12": {
+      "occurrences": 23,
+      "layouts": {
+        "routine": 23
+      },
+      "status_raw": {
+        "3400": 23
+      },
+      "button_events": [],
+      "distinct_frames": 23
+    },
+    "13": {
+      "occurrences": 2,
+      "layouts": {
+        "alternate": 1,
+        "routine": 1
+      },
+      "status_raw": {
+        "4100": 2
+      },
+      "button_events": [],
+      "distinct_frames": 2
+    },
+    "16": {
+      "occurrences": 9,
+      "layouts": {
+        "alternate": 6,
+        "button": 2,
+        "routine": 1
+      },
+      "status_raw": {
+        "5300": 3,
+        "5200": 6
+      },
+      "button_events": [
+        {
+          "time": "2026-10-21T00:09:39.617+02:00",
+          "source": "data/battery-capture-20261021.jsonl",
+          "row": 1173,
+          "layout": "button",
+          "status_raw": "5200",
+          "local_target_c100": 2000,
+          "hex": "ffd2bb2d10410135019100021024160c0d46030020102011030f0317030103280318032f033007a300630048520007d034e292ae01"
+        },
+        {
+          "time": "2026-10-21T00:16:16.937+02:00",
+          "source": "data/battery-capture-20261021.jsonl",
+          "row": 1283,
+          "layout": "button",
+          "status_raw": "5200",
+          "local_target_c100": 2100,
+          "hex": "ffd2bb2d10410235019100021024110c0d46030020102011030f0317030103280318032f033007a1006300b7520008344d389ad4c2"
+        }
+      ],
+      "distinct_frames": 9
+    }
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "status": "Physical restart outcome and CC room mapping pending",
+  "counts_cc_to_node_by_length": [
+    {
+      "node": 2,
+      "length": 27,
+      "count": 4
+    },
+    {
+      "node": 5,
+      "length": 27,
+      "count": 10
+    },
+    {
+      "node": 6,
+      "length": 27,
+      "count": 4
+    },
+    {
+      "node": 8,
+      "length": 27,
+      "count": 4
+    },
+    {
+      "node": 12,
+      "length": 27,
+      "count": 4
+    },
+    {
+      "node": 13,
+      "length": 27,
+      "count": 4
+    },
+    {
+      "node": 15,
+      "length": 22,
+      "count": 9
+    }
+  ],
+  "spare_events": [
+    {
+      "ts": "2026-10-21T18:04:29.078+02:00",
+      "src": 15,
+      "dst": 1,
+      "length": 57,
+      "hex": "ffd2bb2d0f410139019100021028100c0c4720202021030020102011030f031703280318032f03300837086b082b006300004c004197382267",
+      "authenticated": true,
+      "room_candidate_c": 20.91
+    },
+    {
+      "ts": "2026-10-21T18:04:29.118+02:00",
+      "src": 1,
+      "dst": 15,
+      "length": 22,
+      "hex": "ffd2bb2d01410d160f9100021005080d016b12aa90d1",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:09:19.841+02:00",
+      "src": 15,
+      "dst": 1,
+      "length": 57,
+      "hex": "ffd2bb2d0f410139019100021028110c0c4720202021030020102011030f031703280318032f0330082808680816006300004c00013bfccc81",
+      "authenticated": true,
+      "room_candidate_c": 20.7
+    },
+    {
+      "ts": "2026-10-21T18:09:19.882+02:00",
+      "src": 1,
+      "dst": 15,
+      "length": 22,
+      "hex": "ffd2bb2d014106160f9100021005090d01433766068c",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:14:10.600+02:00",
+      "src": 15,
+      "dst": 1,
+      "length": 57,
+      "hex": "ffd2bb2d0f410139019100021028120c0c4720202021030020102011030f031703280318032f033008210865080b006300004c00fe40cf19f9",
+      "authenticated": true,
+      "room_candidate_c": 20.59
+    },
+    {
+      "ts": "2026-10-21T18:14:10.639+02:00",
+      "src": 1,
+      "dst": 15,
+      "length": 22,
+      "hex": "ffd2bb2d01410d160f91000210050a0d01253d86545a",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:19:01.370+02:00",
+      "src": 15,
+      "dst": 1,
+      "length": 57,
+      "hex": "ffd2bb2d0f410139019100021028130c0c4720202021030020102011030f031703280318032f03300810086007f4006300004c0034cdd586fe",
+      "authenticated": true,
+      "room_candidate_c": 20.36
+    },
+    {
+      "ts": "2026-10-21T18:19:01.410+02:00",
+      "src": 1,
+      "dst": 15,
+      "length": 22,
+      "hex": "ffd2bb2d014105160f91000210050b0d01067c722abb",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:20:32.962+02:00",
+      "src": 15,
+      "dst": 1,
+      "length": 57,
+      "hex": "ffd2bb2d0f410139019100021028140c0c85030020102011030f031703280318032f0330030103020303032307f7006300004c00393c63de78",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:20:33.001+02:00",
+      "src": 1,
+      "dst": 15,
+      "length": 22,
+      "hex": "ffd2bb2d014107160f91000210050c0d01407592c2f9",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:20:56.236+02:00",
+      "src": 15,
+      "dst": 1,
+      "length": 57,
+      "hex": "ffd2bb2d0f410139019100021028150c0c85030020102011030f031703280318032f0330030103020303032307f7006300004c007abfc79655",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:20:56.274+02:00",
+      "src": 1,
+      "dst": 15,
+      "length": 22,
+      "hex": "ffd2bb2d014109160f91000210050d0d013c08741dce",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:21:55.848+02:00",
+      "src": 15,
+      "dst": 1,
+      "length": 57,
+      "hex": "ffd2bb2d0f410139019100021028160c0c4720202021030020102011030f031703280318032f03300834086b0825006300004c008919e3e635",
+      "authenticated": true,
+      "room_candidate_c": 20.85
+    },
+    {
+      "ts": "2026-10-21T18:21:55.888+02:00",
+      "src": 1,
+      "dst": 15,
+      "length": 22,
+      "hex": "ffd2bb2d01410e160f91000210050e0d0177323543a4",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:22:05.038+02:00",
+      "src": 15,
+      "dst": 1,
+      "length": 57,
+      "hex": "ffd2bb2d0f410139019100021028170c0c85030020102011030f031703280318032f033003010302030303230825006300004c00ad37372596",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:22:05.077+02:00",
+      "src": 1,
+      "dst": 15,
+      "length": 22,
+      "hex": "ffd2bb2d01410f160f91000210050f0d0188c7104189",
+      "authenticated": true
+    },
+    {
+      "ts": "2026-10-21T18:22:53.984+02:00",
+      "src": 15,
+      "dst": 1,
+      "length": 57,
+      "hex": "ffd2bb2d0f410139019100021028100c0c4720202021030020102011030f031703280318032f0330084b086b0844006300004c004f365f0698",
+      "authenticated": true,
+      "room_candidate_c": 21.16
+    },
+    {
+      "ts": "2026-10-21T18:22:54.024+02:00",
+      "src": 1,
+      "dst": 15,
+      "length": 22,
+      "hex": "ffd2bb2d014101160f9100021005080d016b12aa90dd",
+      "authenticated": true
+    }
+  ],
+  "latest_status": {
+    "ts": "2026-10-21T18:23:51.612+02:00",
+    "status": {
+      "t": "status",
+      "ms": 2470750,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 10,
+          "dup": 2,
+          "replies": 0,
+          "cc": 7,
+          "reply_acks": 0,
+          "last_seen": 2305239
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1700,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 14,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 10,
+          "dup": 2,
+          "replies": 0,
+          "cc": 7,
+          "reply_acks": 0,
+          "last_seen": 2280165
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1900,
+          "mode": 1,
+          "reports": 13,
+          "dup": 4,
+          "replies": 0,
+          "cc": 8,
+          "reply_acks": 0,
+          "last_seen": 2350738
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "reports": 11,
+          "dup": 3,
+          "replies": 0,
+          "cc": 8,
+          "reply_acks": 0,
+          "last_seen": 2431457
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 15,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 3,
+          "reports": 34,
+          "dup": 12,
+          "replies": 0,
+          "cc": 15,
+          "reply_acks": 0,
+          "last_seen": 2413234
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 10,
+          "dup": 2,
+          "replies": 0,
+          "cc": 7,
+          "reply_acks": 0,
+          "last_seen": 2239781
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 19,
+        "autostart": false,
+        "dirty": false,
+        "last_save_us": 7530,
+        "max_save_us": 72616,
+        "save_failures": 0
+      },
+      "event_queue_drops": 0,
+      "rx_irq_to_task_max_us": 19,
+      "network": {
+        "configured": true,
+        "started": true,
+        "wifi": true,
+        "mqtt": true,
+        "command_queue_drops": 0
+      }
+    }
+  }
+}

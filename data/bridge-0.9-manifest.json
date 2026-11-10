@@ -1,0 +1,53 @@
+{
+  "version": "bridge-0.9",
+  "status": "deployed SHADOW; real HA/MQTT telemetry verified; configuration learning and RF control pending",
+  "sha256": "aae3b62d516526cb9e8052170374596f9168cf38e3b55b629de7adeb7fd98b48",
+  "binary": "data/bridge-0.9-verified.bin",
+  "rollback": "rpi5:~/listening-post/fw/bridge-0.8.bin",
+  "nvs_backup": "data/before-0.9-nvs-20261021.bin",
+  "boot": "2026-10-21T19:46:57.816+02:00",
+  "bench_node": 16,
+  "telemetry_nodes": [
+    2,
+    5,
+    6,
+    8,
+    12,
+    13,
+    16
+  ],
+  "excluded_deleted_node": 15,
+  "tests": [
+    "protocol113 MAC fixtures and configuration-preservation tests ASan/UBSan",
+    "persistence ASan/UBSan",
+    "MQTT parsing, old15 rejection, local precedence ASan/UBSan",
+    "telemetry replay fresh/stale room, battery low/normal/unknown and HA JSON parsing ASan/UBSan",
+    "PlatformIO heltec_v3 build",
+    "esptool flash digest verified"
+  ],
+  "remaining": [
+    "passive CC configuration learning and room comparison",
+    "primary-target-only extended control behavior on correct spare",
+    "configuration persistence after reboot: currently RAM-only",
+    "local-pending physical precedence, Wi-Fi outage and RF-write stress",
+    "node5 reception"
+  ],
+  "telemetry_live_nodes": [
+    2,
+    6,
+    8,
+    12,
+    13,
+    16
+  ],
+  "telemetry_unheard_node": 5,
+  "shadow_mqtt_request_rejected": true,
+  "source_sha256": {
+    "firmware-bridge/src/main.cpp": "f25d98f8099bff1683c46a7b9ceaae175aab11d55e52f5b43db1b7e313d5656d",
+    "firmware-bridge/src/danfoss_protocol.h": "629e5d35d26397678bc5193497681f8e87e6c89254dfe524c03108852b8c7020",
+    "firmware-bridge/src/registry.h": "7d627fdeb2f90b818d42d5c3399e9f092e73aff9c7ef3bdc883b8deed0723e5e",
+    "firmware-bridge/src/network.h": "f2d65ce0ba135ef60f25d22dc702986e53d48f514a32aec7fca405e9077c1a28",
+    "firmware-bridge/src/mqtt_entities.h": "ae78aa303d4b9f1078386e70b5b1d06382bb588a26792ed887477ba409de5565",
+    "firmware-bridge/src/mqtt_protocol.h": "c6fa146e1e7051bbb5079c821ec5d5a3af1d1e58e1ca0e906a46594b79a1d3b7"
+  }
+}

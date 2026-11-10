@@ -1,0 +1,204 @@
+{
+  "latest_status": {
+    "ts": "2026-10-21T17:52:13.148+02:00",
+    "status": {
+      "t": "status",
+      "ms": 572291,
+      "heads": [
+        {
+          "node": 2,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 4,
+          "dup": 2,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 560433
+        },
+        {
+          "node": 5,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 6,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 2100,
+          "mode": 1,
+          "reports": 4,
+          "dup": 2,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 497982
+        },
+        {
+          "node": 8,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1850,
+          "mode": 1,
+          "reports": 6,
+          "dup": 4,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 307332
+        },
+        {
+          "node": 12,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1800,
+          "mode": 5,
+          "reports": 5,
+          "dup": 3,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 347849
+        },
+        {
+          "node": 16,
+          "enabled": false,
+          "known": false,
+          "pending": false,
+          "target": 0,
+          "mode": 3,
+          "reports": 0,
+          "dup": 0,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 0
+        },
+        {
+          "node": 15,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1500,
+          "mode": 3,
+          "reports": 19,
+          "dup": 12,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 494226
+        },
+        {
+          "node": 13,
+          "enabled": false,
+          "known": true,
+          "pending": false,
+          "target": 1600,
+          "mode": 1,
+          "reports": 4,
+          "dup": 2,
+          "replies": 0,
+          "cc": 0,
+          "reply_acks": 0,
+          "last_seen": 472951
+        }
+      ],
+      "storage": {
+        "ready": true,
+        "generation": 16,
+        "autostart": false,
+        "dirty": false,
+        "last_save_us": 8576,
+        "max_save_us": 8576,
+        "save_failures": 0
+      },
+      "event_queue_drops": 0,
+      "rx_irq_to_task_max_us": 19,
+      "network": {
+        "configured": true,
+        "started": true,
+        "wifi": true,
+        "mqtt": true,
+        "command_queue_drops": 0
+      }
+    }
+  },
+  "cc_frames_after_restore": [
+    {
+      "ts": "2026-10-21T17:50:33.708+02:00",
+      "type": "ack",
+      "hex": "ffd2bb2d0103010a0d40"
+    },
+    {
+      "ts": "2026-10-21T17:50:54.984+02:00",
+      "type": "ack",
+      "hex": "ffd2bb2d0103010a0f42"
+    },
+    {
+      "ts": "2026-10-21T17:50:58.738+02:00",
+      "type": "ack",
+      "hex": "ffd2bb2d0103010a064b"
+    },
+    {
+      "ts": "2026-10-21T17:52:01.191+02:00",
+      "type": "ack",
+      "hex": "ffd2bb2d0103010a024f"
+    }
+  ],
+  "active_extended_node15": [
+    {
+      "ts": "2026-10-21T17:23:47.144+02:00",
+      "type": "tx",
+      "fields_c100": [
+        1750,
+        1750,
+        600,
+        1750,
+        0,
+        1750
+      ],
+      "hex": "ffd2bb2d014100250f91000210140a0d0000000306d606d6025806d6000006d663c637ff8a"
+    },
+    {
+      "ts": "2026-10-21T17:34:26.516+02:00",
+      "type": "tx",
+      "fields_c100": [
+        1700,
+        1700,
+        600,
+        1700,
+        0,
+        1700
+      ],
+      "hex": "ffd2bb2d014106250f9100021014080d0000000306a406a4025806a4000006a48c983de329"
+    },
+    {
+      "ts": "2026-10-21T17:39:17.216+02:00",
+      "type": "tx",
+      "fields_c100": [
+        1600,
+        1600,
+        600,
+        1600,
+        0,
+        1600
+      ],
+      "hex": "ffd2bb2d014108250f91000210140a0d00000003064006400258064000000640c751c3b208"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "unique_frames": 113,
+  "occurrences": 123,
+  "held_out_unique_frames": 54,
+  "held_out_unique_application_messages": 38,
+  "verified": 113,
+  "failures": [],
+  "nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    12,
+    14,
+    15,
+    16
+  ],
+  "opcodes": {
+    "10": 101,
+    "50": 7,
+    "90": 5
+  }
+}
