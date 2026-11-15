@@ -426,6 +426,20 @@ last target while MQTT is down. Restore broker connectivity, use a distinct prob
 client ID, and inspect retained/discovery/state on reconnection. Reconcile any HA
 schedule missed during the outage according to an intentional override policy.
 
+### Wi-Fi outage (0.15.7 and later)
+
+On 15 Nov 2026 a whole-house Wi-Fi outage of about 4 minutes at 00:20 left the
+bridge offline for 14 h. Every other device rejoined by itself. Arduino's
+auto-reconnect stops for good after some disconnect reasons, and nothing in
+0.15.6 retried. Since 0.15.7 the network task (`src/wifi_supervisor.h`) calls
+`WiFi.begin()` again after 30 s without Wi-Fi, backing off to every 5 minutes. It
+restarts the board after 15 minutes without Wi-Fi, or after 60 minutes with Wi-Fi
+but no broker (so a long HA update does not cause restarts every few minutes). The
+restart uses the same path as the HA button: never with an unsaved checkpoint, and
+asked for again every minute until it can happen. Events: `wifi_retry` (serial
+only), `wifi_recovered` (with the last disconnect `reason`, `down_s`, `retries`)
+and `restart` with `source` `wifi` or `broker`.
+
 ### Lost logger / Pi reboot
 
 Check user service, adapter path, power and `.sending` files. Logging failure is

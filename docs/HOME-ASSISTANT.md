@@ -211,7 +211,7 @@ Replace `N` below with the decimal node ID; permitted control IDs are
 | `danfoss/ffd2bb2d/head/N/set` | HA → bridge | Plain Celsius | **Non-retained**, discovery uses default QoS 0 |
 | `danfoss/ffd2bb2d/head/N/command_result` | Bridge → observer | Receipt JSON | Non-retained, QoS 0 |
 | `danfoss/ffd2bb2d/bridge/state` | Bridge → HA | Bridge health JSON | Retained, QoS 0 |
-| `danfoss/ffd2bb2d/bridge/event` | Bridge → HA | One event JSON line (same as serial: `saved`, `err`, `mqtt_command`, `control`, `restart`, …) | Non-retained, QoS 0 |
+| `danfoss/ffd2bb2d/bridge/event` | Bridge → HA | One event JSON line (same as serial: `saved`, `err`, `mqtt_command`, `control`, `restart`, `wifi_recovered`, …) | Non-retained, QoS 0 |
 | `danfoss/ffd2bb2d/bridge/command` | HA → bridge | `RESTART` | Non-retained only; retained messages are ignored |
 | `danfoss/ffd2bb2d/debug/frame` | Bridge → observer | Every radio frame line as on serial, without noise and without the hex of op-80 inclusion frames | Non-retained, QoS 0; no HA entity |
 | `homeassistant/status` | HA → bridge | `online` requests resync | Subscription QoS 0; bridge checks payload, not retain flag here |

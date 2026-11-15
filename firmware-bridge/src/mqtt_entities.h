@@ -6,7 +6,7 @@
 #include "registry.h"
 #include "household.h"
 namespace BridgeEntities {
-static constexpr const char *FIRMWARE = "bridge-0.15.6";
+static constexpr const char *FIRMWARE = "bridge-0.15.7";
 static constexpr uint32_t FRESH_MS = 900000;
 #define HOUSEHOLD_ROOM_CASE_(n, room) case n: return room;
 inline const char *roomName(uint8_t node) {

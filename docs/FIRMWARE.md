@@ -743,6 +743,7 @@ exercise real-record migration.
 | `test_persistence` | Codec validation, migration, corruption/truncation, slot fallback/torn/failed writes |
 | `test_mqtt_protocol` | Seven-node topic/temperature rules and invalid/retained/DUP/fragment rejection |
 | `test_bridge_telemetry` | Battery unknown/low/normal, stable republish and timestamps, head and bridge discovery JSON |
+| `test_wifi_supervisor` | Wi-Fi retry backoff, restart after 15 min without Wi-Fi or 60 min without broker, refused-restart repeat, millis() wrap |
 
 Existing 0.13 sanitizer results and 0.13.1 build/flash logs are in `data/` and
 indexed in [INDEX.md](INDEX.md). New room discovery JSON was parsed/checked for

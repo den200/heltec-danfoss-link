@@ -11,6 +11,7 @@
 #include "household.h"
 #include "mqtt_entities.h"
 #include "ota.h"
+#include "wifi_supervisor.h"
 
 #if __has_include("network_config.private.h")
 #include "network_config.private.h"
@@ -36,6 +37,10 @@ static std::atomic<bool> connected{false}, refresh{false}, started{false}, resta
 static std::atomic<uint32_t> epoch{0}, dropped{0};
 // Snapshot that must be published at once (a queued command), not at the next 15 s round.
 static std::atomic<uint32_t> urgentSeq{0};
+// Why the next restart happens ("mqtt" = HA button, "wifi"/"broker" = supervisor).
+static std::atomic<const char *> restartSource{"mqtt"};
+static std::atomic<uint8_t> wifiReason{0};      // last STA disconnect reason (Wi-Fi task)
+static std::atomic<uint32_t> wifiDrops{0};      // STA disconnects since boot
 static std::atomic<bool> radioReady{false};   // set by setup() when the SX1262 initialised
 static std::atomic<int16_t> noiseFloor10{0}; // radio task: median idle RSSI, dBm*10; 0 = not yet measured
 static uint32_t nextId = 0;
@@ -157,6 +162,10 @@ static void task(void *) {
   WiFi.persistent(false); // credentials are provisioned in the private build file
   WiFi.mode(WIFI_STA);
   WiFi.setAutoReconnect(true);
+  WiFi.onEvent([](arduino_event_id_t, arduino_event_info_t info) {
+    wifiReason = info.wifi_sta_disconnected.reason;
+    wifiDrops.fetch_add(1);
+  }, ARDUINO_EVENT_WIFI_STA_DISCONNECTED);
   WiFi.begin(NET_SSID, NET_PASSWORD);
   configTime(0, 0, "pool.ntp.org", "time.cloudflare.com"); // timestamps for HA only
   esp_mqtt_client_config_t config = {};
@@ -176,7 +185,41 @@ static void task(void *) {
   started = true;
   Snapshot s;
   uint32_t lastPublish = 0;
+  BridgeWifi::Supervisor supervisor;
+  uint32_t outageStart = 0, outageBegins = 0;
+  bool outage = false, outageReport = false;
   for (;;) {
+    // Recover Wi-Fi ourselves: Arduino's auto-reconnect can stop for good.
+    bool wifiUp = WiFi.status() == WL_CONNECTED;
+    if (!wifiUp && !outage) { outage = true; outageStart = millis(); outageBegins = 0; }
+    if (wifiUp && outage) { outage = false; outageReport = true; }
+    switch (supervisor.tick(wifiUp, connected.load(), millis())) {
+      case BridgeWifi::REBEGIN: {
+        char line[128];
+        snprintf(line, sizeof line, "{\"t\":\"wifi_retry\",\"reason\":%u,\"down_s\":%lu}",
+                 wifiReason.load(), (unsigned long)((millis() - outageStart) / 1000));
+        Serial.println(line);
+        ++outageBegins;
+        WiFi.disconnect();
+        WiFi.begin(NET_SSID, NET_PASSWORD);
+        break;
+      }
+      case BridgeWifi::RESTART:
+        restartSource = wifiUp ? "broker" : "wifi";
+        Serial.printf("{\"t\":\"wifi_restart\",\"wifi\":%s,\"reason\":%u}\n", wifiUp ? "true" : "false", wifiReason.load());
+        restartRequested = true; // main loop restarts once the checkpoint is saved
+        break;
+      default: break;
+    }
+    // Report a finished Wi-Fi outage once the broker is reachable again.
+    if (outageReport && connected.load()) {
+      char line[160];
+      snprintf(line, sizeof line, "{\"t\":\"wifi_recovered\",\"reason\":%u,\"down_s\":%lu,\"retries\":%lu,\"drops\":%lu}",
+               wifiReason.load(), (unsigned long)((millis() - outageStart) / 1000),
+               (unsigned long)outageBegins, (unsigned long)wifiDrops.load());
+      Serial.println(line);
+      if (publish(BridgeEntities::BRIDGE_EVENT, line, false)) outageReport = false;
+    }
     if (WiFi.status() == WL_CONNECTED) BridgeOta::begin(NET_OTA_PASSWORD);
     if (BridgeOta::tick(connected.load() && radioReady.load())) {
       Serial.println("{\"t\":\"ota_confirmed\"}");

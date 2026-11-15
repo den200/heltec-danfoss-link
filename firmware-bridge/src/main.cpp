@@ -727,7 +727,7 @@ void loop() {
     if (persistenceDirty) {
       emit("{\"t\":\"err\",\"where\":\"restart\",\"why\":\"checkpoint not saved; restart refused\"}");
     } else {
-      emit("{\"t\":\"restart\",\"source\":\"mqtt\"}");
+      emit("{\"t\":\"restart\",\"source\":\"%s\"}", BridgeNet::restartSource.load());
       delay(500); // let the event leave before the broker sees the LWT
       ESP.restart();
     }
